@@ -1,0 +1,12 @@
+{
+    "Espada Curta":{
+        "Alcance": "Melee",
+        "Dano": "1d6",
+        "Tipo": "Cortante"
+    },
+    "Espada Longa":{
+        "Alcance": "Melee",
+        "Dano": "1d8",
+        "Tipo": "Cortante"
+    }
+}

@@ -1,0 +1,36 @@
+const Discord = require('discord.js');
+const { prefix, token } = require('./auth.json');
+const bot = new Discord.Client();
+bot.commands = new Discord.Collection();
+const functions = require('./modules/functions.js');
+const variables = require('./modules/variables.js');
+
+variables.fileSave.readdir("./commands/", (err, file) => {
+	if (err) {
+		console.log(err);
+	}
+
+	let jsfile = file.filter(f => f.split(".").pop() === "js")
+	jsfile.forEach((f, i) => {
+		let props = require(`./commands/${f}`);
+		console.log(`${f} carregou`);
+		bot.commands.set(props.help.code, props);
+		variables.ajuda[props.help.name] = `!${props.help.code}: ${props.help.description}`;
+	});
+});
+
+bot.login(token);
+
+bot.on('message', async message => {
+	var comando = (message.content.slice(1)).split(" ");
+	var personagemDoJogador = variables.chars[message.author.id];
+	let commandFile = bot.commands.get(comando[0].toLowerCase());
+	if (message.content.substring(0, 1) == prefix) {
+		if (commandFile) {
+			commandFile.run(bot, message, comando, personagemDoJogador);
+		}
+	}
+
+
+
+});

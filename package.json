@@ -1,0 +1,13 @@
+{
+  "name": "D&D Sheets",
+  "version": "1.0.0",
+  "description": "Teste de Fichas",
+  "main": "bot.js",
+  "author": "Naphion",
+  "dependencies": {
+    "discord.io": "https://github.com/woor/discord.io/tarball/gateway_v6",
+    "discord.js": "^12.2.0",
+    "nodemon": "^2.0.4",
+    "winston": "^3.2.1"
+  }
+}
