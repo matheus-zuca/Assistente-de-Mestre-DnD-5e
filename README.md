@@ -25,7 +25,7 @@ O Assistente de Mestre é um projeto repleto de funcionalidades voltadas a atend
 ## 🛠 Tecnologias
 
 ---
-Este projeto foi realizado com as tecnologias Node.js além da biblioteca própria do Discord, a Discord.js
+Este projeto foi realizado em Node.js com a biblioteca própria do Discord, a Discord.js
 
 ## Autor
 ---

@@ -4,12 +4,12 @@ const variables = require("../modules/variables.js");
 
 module.exports.run = async (bot, message, comando, personagemDoJogador) => {
     if (!personagemDoJogador) {
-        result = "Sua ficha está sendo criada. Digite seu nome: ";
+        result = "Sua ficha está sendo criada. Digite o nome de seu personagem: ";
         var filter = m => m.author.id === message.author.id;
 
         message.channel.send(result);
         var temp = await message.channel.awaitMessages(filter, { max: 1 });
-        name = temp.first().content;
+        nomePersonagem = temp.first().content;
 
         message.channel.send("Agora diga sua raça:");
         temp = await message.channel.awaitMessages(filter, { max: 1 });
@@ -24,15 +24,18 @@ module.exports.run = async (bot, message, comando, personagemDoJogador) => {
 
         dadodevida = variables.rel_dv_class().getKeyByValue(classe);
 
+        dadoRolagem = variables.rel_class_bal().getKeyByValue(classe);
+        moedasInicio = functions.Rolagem(dadoRolagem[0], dadoRolagem[2]).reduce((a, b) => a + b, 0);
+        if (classe != "Monge") {
+            moedasInicio *= 10;
+        }
 
-        message.channel.send("Ok, " + name + ". \n Vamos aos atributos");
+        message.channel.send("Ok, " + nomePersonagem + ". \n Vamos aos atributos");
 
         var profEsc = [];
         var atribs = [];
         var atribOrdem = [];
         var modOrdem = [];
-
-
 
         for (var i = 0; i < 6; i++) {
             atribs[i] = functions.RolagemAtributos(4, 6);
@@ -58,7 +61,7 @@ module.exports.run = async (bot, message, comando, personagemDoJogador) => {
         }
 
         personagemDoJogador = {
-            Personagem: name,
+            Personagem: nomePersonagem,
             Raça: raca,
             Classe: classe,
             Level: 1,
@@ -84,7 +87,7 @@ module.exports.run = async (bot, message, comando, personagemDoJogador) => {
             ValorProficiencia: 2,
             Moedas: {
                 "Pl": 0,
-                "Po": 0,
+                "Po": moedasInicio,
                 "Pe": 0,
                 "Pp": 0,
                 "Pc": 0
@@ -110,7 +113,7 @@ module.exports.run = async (bot, message, comando, personagemDoJogador) => {
 
     }
 
-    if(result){
+    if (result) {
         message.channel.send(result);
     }
 }
@@ -122,9 +125,9 @@ module.exports.help = {
 }
 
 Object.prototype.getKeyByValue = function (value) {
-	for (var key in this) {
-		if (this[key].includes(value)) {
-			return key;
-		}
-	}
+    for (var key in this) {
+        if (this[key].includes(value)) {
+            return key;
+        }
+    }
 }

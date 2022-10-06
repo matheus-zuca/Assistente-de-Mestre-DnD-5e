@@ -46,6 +46,10 @@ module.exports = {
         return this.sheetsinfo.ClasseDadoVida;
     },
 
+    rel_class_bal: function(){
+        return this.sheetsinfo.Relacao_Classe_Riqueza;
+    },
+
     classes: function () {
         var arrP = Object.values(this.rel_dv_class());
         var arrFP = [];
