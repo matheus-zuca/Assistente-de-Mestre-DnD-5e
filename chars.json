@@ -94,7 +94,7 @@
         ],
         "Moedas": {
             "Pl": 0,
-            "Po": 0,
+            "Po": 380,
             "Pe": 0,
             "Pp": 0,
             "Pc": 0
@@ -102,6 +102,7 @@
         "ArmaSelecionada": "Espada Curta",
         "Armas": [
             "Espada Longa",
+            "Espada Curta",
             "Espada Curta",
             "Espada Curta"
         ],

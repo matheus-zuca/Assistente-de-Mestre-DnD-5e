@@ -5,7 +5,7 @@ const variables = require("../modules/variables.js");
 module.exports.run = async (bot, message, comando, personagemDoJogador) => {
     var arma = personagemDoJogador.ArmaSelecionada;
 
-    if(arma.Alcance == "Melee"){
+    if(arma.Alcance == "Corpo-a-Corpo"){
         var rollAtaque = functions.Rolagem(1, 20)[0] + personagemDoJogador.Força;
     }else{
         var rollAtaque = functions.Rolagem(1, 20)[0] + personagemDoJogador.Destreza;
@@ -26,7 +26,7 @@ module.exports.run = async (bot, message, comando, personagemDoJogador) => {
             var dadodano = variables.weapons[arma].Dano.split("d");
             var rolldano = functions.Rolagem(dadodano[0], dadodano[1]).reduce((a, b) => { return a + b; });
 
-            if(variables.weapons[arma].Alcance == "Melee"){
+            if(variables.weapons[arma].Alcance == "Corpo-a-Corpo"){
                 rolldano += personagemDoJogador.Força;
             }
 
@@ -40,5 +40,5 @@ module.exports.run = async (bot, message, comando, personagemDoJogador) => {
 module.exports.help = {
     name: "Rolagem de ataque",
     code: "attack",
-    description: "Uma rolagem de ataque. FUNCIONALIDADE NÃO CONCLUIDA"
+    description: "Uma rolagem de ataque"
 } 

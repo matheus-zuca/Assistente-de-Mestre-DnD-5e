@@ -26,13 +26,13 @@ module.exports.run = async (bot, message, comando, personagemDoJogador) => {
                     personagemDoJogador.HP += vida[0];
                 }
 
-                mensagem = "Você gastou um dado de vida. Ainda tem " + personagemDoJogador.Dados + " e tirou " + vida[0] + ". Hp atualizado para: "
+                mensagem = "Você gastou um dado de vida. Ainda tem " + personagemDoJogador.Dados + " e tirou " + vida[0] + ". Hp atualizado para: " + personagemDoJogador.HP
             } else {
-                mensagem = "Você não tem mais dados de descanso. Seu HP atual é: "
+                mensagem = "Você não tem mais dados de descanso. Seu HP atual é: " + personagemDoJogador.HP
             }
         } else {
             if (isNaN(parseInt(comando[1]))) {
-                mensagem = "Rolagem não encotrada. HP atual é: "
+                mensagem = "Rolagem não encotrada. HP atual é: " + personagemDoJogador.HP
             }
             else {
                 if ((personagemDoJogador.HP + parseInt(comando[1]) > personagemDoJogador.HPMax)) {

@@ -36,6 +36,8 @@ module.exports = {
 
     fileSave: require('fs'),
 
+    spells: require('../spellsinfo.json'),
+
     sheetsinfo: require('../sheetsinfo.json'),
 
     rel_prof_nivel: function () {

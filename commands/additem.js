@@ -28,6 +28,9 @@ module.exports.run = async (bot, message, comando, personagemDoJogador) => {
     console.log(typeof alvo);
     alvo.push(note);
 
+    if(alvo = personagemDoJogador.Armas && personagemDoJogador.ArmaSelecionada == ""){
+        personagemDoJogador.ArmaSelecionada = note;
+    }
 
     functions.SaveJson(variables.chars, variables.fileSave);
     message.channel.send(comando[1].charAt(0).toUpperCase() + comando[1].slice(1) + " salv" + artigo + " com sucesso!");
