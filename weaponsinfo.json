@@ -8,5 +8,10 @@
         "Alcance": "Corpo-a-Corpo",
         "Dano": "1d8",
         "Tipo": "Cortante"
+    },
+    "Adaga":{
+    "Alcance":"Corpo-a-Corpo",
+    "Dano": "1d4",
+    "Tipo": "Perfurante"
     }
 }
