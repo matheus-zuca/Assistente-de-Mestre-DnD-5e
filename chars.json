@@ -6,7 +6,7 @@
         "Level": {
             "Barbaro": 1,
             "Bardo": 1,
-            "Clerigo": 0,
+            "Clerigo": 1,
             "Druida": 0,
             "Guerreiro": 1,
             "Monge": 0,
@@ -18,7 +18,7 @@
             "Mago": 0,
             "Dono da Porra Toda": 5
         },
-        "HP": -4,
+        "HP": 24,
         "CA": 20,
         "HPMax": 24,
         "DadoVida": "d10",

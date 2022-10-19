@@ -1758,12 +1758,41 @@
             }
         }
     },
-    "Relacao_Classe_Riqueza":{
-        "2d4":[
-            "Bárbaro", "Druida"
+    "Relacao_Classe_Riqueza": {
+        "2d4": [
+            "Bárbaro",
+            "Druida"
         ],
-        "3d4":["Feiticeiro"],
-        "4d4":["Warlock", "Ladino", "Mago"],
-        "5d4":["Bardo", "Clérigo", "Guerreiro", "Paladino", "Ranger", "Monge"]
+        "3d4": [
+            "Feiticeiro"
+        ],
+        "4d4": [
+            "Warlock",
+            "Ladino",
+            "Mago"
+        ],
+        "5d4": [
+            "Bardo",
+            "Clérigo",
+            "Guerreiro",
+            "Paladino",
+            "Ranger",
+            "Monge"
+        ]
+    },
+    "Relacao_Classe_HabilidadeConjuradora": {
+        "Carisma": [
+            "Bardo",
+            "Paladino",
+            "Warlock",
+            "Feiticeiro"
+        ],
+        "Sabedoria": [
+            "Druida",
+            "Ranger"
+        ],
+        "Inteligencia": [
+            "Mago"
+        ]
     }
 }

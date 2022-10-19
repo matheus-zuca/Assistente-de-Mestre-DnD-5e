@@ -40,6 +40,14 @@ module.exports = {
 
     sheetsinfo: require('../sheetsinfo.json'),
 
+    qtde_magias_preparadas: function (habilidade, nivel){
+        return habilidade + nivel;
+    },
+
+    rel_class_habconju: function(){
+        return this.sheetsinfo.Relacao_Classe_HabilidadeConjuradora;
+    },
+
     rel_prof_nivel: function () {
         return this.sheetsinfo.LevelProficiencia;
     },
