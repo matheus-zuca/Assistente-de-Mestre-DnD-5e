@@ -1,26 +1,92 @@
 # Assistente de Mestre para D&D 5ª Edição
 
-![Modelo](https://img.shields.io/badge/Assistente-RPG-%23ff0000?style=for-the-badge)
+![Modelo](https://img.shields.io/badge/Assistente-RPG-%23ff0000?style=for-the-badge) 
+
+[![CodeFactor](https://www.codefactor.io/repository/github/matheus-zuca/assistente-de-mestre-dnd-5e/badge)](https://www.codefactor.io/repository/github/matheus-zuca/assistente-de-mestre-dnd-5e)
 
 ---
 
 ## Descrição do Projeto
-O Assistente de Mestre é um projeto repleto de funcionalidades voltadas a atender especificamente as necessidades de um mestre de Dungeons & Dragons 5ª Edição. Novas funções serão adicionadas gradativamente.
+O Assistente de Mestre é um projeto voltado a atender especificamente as necessidades de um mestre de Dungeons & Dragons 5ª Edição. Novas funções serão adicionadas gradativamente.
 
 ---
 
 ## ⚙️ Funcionalidades do Projeto
-[x] Adicionar anotação
-[ ] Rolagem de ataque 
-[ ] Atualizar ficha 
-[x] Consultar Ficha
-[x] Chegagem de HP
-[ ] Criar Ficha 
-[x] Controle de Inventário
-[x] Subir de Nível
-[x] Controle Financeiro
-[x] Rolagem
-[x] Rolagem de Salvamento de Morte
+
+### `/r - Rolagens de Dados`
+~~~javascript
+//Rolagem de Dados Padrão
+!r 1d10
+
+//Rolagem de Dados com Vantagem ou Desvantagem
+/r 1d20 v
+/r 1d20 d
+
+//Rolagem baseada no Atributo do Jogador, já adicionando a Proficiência descrita na ficha, caso tenha
+/r Furtividade
+
+//Rolagem baseada na Habilidade do Jogador, já adicionando a Proficiência descrita na ficha, caso tenha
+/r Inteligência
+~~~
+
+### `/ds - Rolagem de Salvamento de Morte`
+
+~~~javascript
+//Rolagem de Salvamento de Morte (Death Saving Throw)
+/ds
+~~~
+
+### `/hp - Verificação de HP`
+~~~javascript
+//Verificar quanto de vida o personagem tem
+/hp
+
+//Modificar a quantidade de vida do personagem
+/hp+5 //O bot não ultrapassa o máximo descrito na ficha
+/hp-10 //O bot não ultrapassa zero.
+~~~
+
+### `/addnote e !notes - Anotações `
+
+~~~javascript
+//Adicionar alguma anotação para o banco de informações registradas de um jogador
+/addnote O reino tem um traidor //Assim que adiciona, o bot apaga a mensagem do jogador, prezando pela privacidade
+
+//Verificar as anotações já registradas
+/notes //o bot manda a resposta no privado, prezando pela privacidade
+~~~
+
+### `/c - Consulta da Ficha`
+~~~javascript
+//Consultar a Ficha de Jogador
+/c //A ficha é mostrada como um item MessageEmbed do Discord
+~~~
+
+### `/m - Criação de Ficha do Jogador`
+~~~javascript
+//Criar a Ficha de Jogador
+/m
+
+/*O bot começará a perguntar as informações e anota-las, além de automatizar questões como a rolagem de Atributos.
+Informações como quantas magias cada classe tem, seu dado de vida, bônus de proficiência, quantidade de pericias
+que a classe é proficiente e outras questões semelhantes também são automatizadas.*/
+~~~
+
+### `/bal - Controle Financeiro`
+~~~javascript
+//Verificar quanto dinheiro o Jogador tem
+/bal //O Bot responderá quanto o jogador tem em todas as moedas do jogo
+
+//Adicionar ou remover dinheiro da carteira
+/bal + 10PO
+/bal - 10PO //Caso o Jogador não tenha essa quantidade, o Bot o avisará
+~~~
+
+## ⚙️ Implementações Futuras
+
+[ ] Rolagem de ataque \
+[ ] Atualizar ficha \
+[ ] Subir de Nível
 
 ## 🛠 Tecnologias
 
