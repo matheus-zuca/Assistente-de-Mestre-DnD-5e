@@ -34,5 +34,5 @@ module.exports.run = async (bot, message, comando, personagemDoJogador) => {
 module.exports.help = {
     name: "Consultar Ficha",
     code: "c",
-    description: "Caso queira consultar sua ficha, digite !c"
+    description: "[FEITO]Caso queira consultar sua ficha, digite !c"
 }

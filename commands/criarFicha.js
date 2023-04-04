@@ -121,7 +121,7 @@ module.exports.run = async (bot, message, comando, personagemDoJogador) => {
 module.exports.help = {
     name: "Criar Ficha",
     code: "m",
-    description: "Para criar a sua ficha. FUNCIONALIDADE SENDO TESTADA"
+    description: "[EM TESTES] Para criar a sua ficha."
 }
 
 Object.prototype.getKeyByValue = function (value) {

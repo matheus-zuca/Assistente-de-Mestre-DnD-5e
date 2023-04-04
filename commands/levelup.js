@@ -22,7 +22,7 @@ module.exports.run = async (bot, message, comando, personagemDoJogador) => {
 module.exports.help = {
     name: "Level Up",
     code: "levelup",
-    description: "Subiu de nivel? Digita !levelup e ele vai fazer a conta automaticamente pra você sobre sua proficiencia. Em breve, rolagem de vida também. FUNCIONALIDADE NÃO CONCLUIDA"
+    description: "[A PROGRAMAR] Subiu de nivel? Digita !levelup e ele vai fazer a conta automaticamente pra você sobre sua proficiencia. Em breve, rolagem de vida também."
 }
 
 Object.prototype.getKeyByValue = function (value) {

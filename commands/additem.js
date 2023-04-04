@@ -39,5 +39,5 @@ module.exports.run = async (bot, message, comando, personagemDoJogador) => {
 module.exports.help = {
     name: "Adicionar item",
     code: "add",
-    description: "Adicione algum item a seu inventário"
+    description: "[FEITO]Adicione algum item a seu inventário. Especifique se é "
 } 

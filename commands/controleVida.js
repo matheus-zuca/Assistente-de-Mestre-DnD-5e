@@ -53,5 +53,5 @@ module.exports.run = async (bot, message, comando, personagemDoJogador) => {
 module.exports.help = {
     name: "HP",
     code: "hp",
-    description: "Consulta sua vida e você ainda pode somar ou subtrair um valor dela. Só lembra de colocar um espaço depois do código. Válido também pra dado de vida em um descanso curto (digita !hp dc) ou recuperar vida completa em um descanso longo (digita !hp dl)"
+    description: "[FEITO]Consulta sua vida e você ainda pode somar ou subtrair um valor dela. Só lembra de colocar um espaço depois do código. Válido também pra dado de vida em um descanso curto (digita !hp dc) ou recuperar vida completa em um descanso longo (digita !hp dl)"
 }

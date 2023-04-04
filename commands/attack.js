@@ -40,5 +40,5 @@ module.exports.run = async (bot, message, comando, personagemDoJogador) => {
 module.exports.help = {
     name: "Rolagem de ataque",
     code: "attack",
-    description: "Uma rolagem de ataque"
+    description: "[A PROGRAMAR]Uma rolagem de ataque"
 } 

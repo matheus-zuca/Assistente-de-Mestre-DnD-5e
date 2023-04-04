@@ -147,5 +147,5 @@ module.exports.run = async (bot, message, comando, personagemDoJogador) => {
 module.exports.help = {
     name: "Informação de Magias",
     code: "spellinfo",
-    description: "Caso queira consultar uma magia, digite spellinfo e o nome da magia"
+    description: "[FEITO] Caso queira consultar uma magia, digite spellinfo e o nome da magia"
 } 
