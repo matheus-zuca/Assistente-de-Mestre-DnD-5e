@@ -30,7 +30,7 @@ module.exports.run = async (bot, message, comando, personagemDoJogador) => {
 module.exports.help = {
     name: "Separar Magias Preparadas",
     code: "prep",
-    description: "[INCONCLUIDO] Escolher as Magias que serão preparadas no dia"
+    description: "[INCONCLUIDO] Separa as magias que serão preparadas no dia"
 }
 
 Object.prototype.getKeyByValue = function (value) {

@@ -15,5 +15,5 @@ module.exports.run = async (bot, message, comando, personagemDoJogador) => {
 module.exports.help = {
     name: "Ajuda",
     code: "help",
-    description: "[FEITO]para verificar os comandos disponíveis"
+    description: "[FEITO] Abre a opção de Ajuda com todas as opções de códigos feitas e a fazer."
 }

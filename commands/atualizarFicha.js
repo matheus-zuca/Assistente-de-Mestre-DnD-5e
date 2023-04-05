@@ -9,5 +9,5 @@ module.exports.run = async (bot, message, comando, personagemDoJogador) => {
 module.exports.help = {
     name: "Atualizar ficha",
     code: "a",
-    description: "[EM TESTES] Para alterar uma parte da sua ficha, digite !a. No momento, não está funcionando, mas já estamos preparando o código pra isso."
+    description: "[EM TESTES] Atualiza partes da sua ficha."
 } 

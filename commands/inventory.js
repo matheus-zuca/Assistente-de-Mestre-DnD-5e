@@ -90,5 +90,5 @@ function createCollectorMessage(message) {
 module.exports.help = {
     name: "Inventário",
     code: "itens",
-    description: "[FEITO] Verifica os itens do seu personagem"
+    description: "[FEITO] Verifica os itens do seu personagem."
 } 

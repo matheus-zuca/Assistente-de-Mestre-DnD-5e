@@ -19,5 +19,5 @@ module.exports.run = async (bot, message, comando, personagemDoJogador) => {
 module.exports.help = {
     name: "Adicionar anotação",
     code: "addnote",
-    description: "[FEITO] Caso tenha alguma anotação que queira fazer"
+    description: "[FEITO] Adiciona anotações a uma lista privada sua."
 } 
