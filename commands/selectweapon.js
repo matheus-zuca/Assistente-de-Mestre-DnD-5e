@@ -4,7 +4,7 @@ const variables = require("../modules/variables.js");
 
 module.exports.run = async (bot, message, comando, personagemDoJogador) => {
     if (isNaN(comando[1])) {
-        message.channel.send("Escolha pelos números");
+        message.channel.send(`Código não encontrado. Você tem ${personagemDoJogador.Armas.length} armas no seu inventário. Escolha-as pelo número. Ex: "Select 2"`);
     } else {
         selecionada = personagemDoJogador.Armas[comando[1] - 1];
 
@@ -21,5 +21,5 @@ module.exports.run = async (bot, message, comando, personagemDoJogador) => {
 module.exports.help = {
     name: "Escolher Arma",
     code: "select",
-    description: "[INCONCLUIDO] Seleciona a arma para poder atacar."
+    description: "[FEITO] Seleciona a arma para poder atacar."
 } 
