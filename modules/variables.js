@@ -40,6 +40,10 @@ module.exports = {
 
     sheetsinfo: require('../sheetsinfo.json'),
 
+    racas: function(){
+        return this.sheetsinfo.Raças;
+    },
+
     qtde_magias_preparadas: function (habilidade, nivel){
         return habilidade + nivel;
     },
