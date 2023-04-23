@@ -41,7 +41,7 @@ module.exports = {
     sheetsinfo: require('../sheetsinfo.json'),
 
     racas: function(){
-        return this.sheetsinfo.Raças;
+        return Object.keys(this.sheetsinfo.Raças);
     },
 
     qtde_magias_preparadas: function (habilidade, nivel){
