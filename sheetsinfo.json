@@ -111,7 +111,7 @@
             20
         ]
     },
-    "ClasseDadoVida": {
+    "Relacao_Classe_DadoVida": {
         "d6": [
             "Mago",
             "Feiticeiro"
@@ -1851,6 +1851,110 @@
         ],
         "Inteligencia": [
             "Mago"
+        ]
+    },
+    "Relacao_Classe_HabilidadeProficiencia": {
+        "Força": [
+            "Bárbaro",
+            "Monge",
+            "Guerreiro",
+            "Ranger"
+        ],
+        "Destreza": [
+            "Bardo",
+            "Monge",
+            "Ranger",
+            "Ladino"
+        ],
+        "Constituição": [
+            "Bárbaro",
+            "Guerreiro",
+            "Feiticeiro"
+        ],
+        "Inteligencia": [
+            "Mago",
+            "Druida",
+            "Ladino"
+        ],
+        "Sabedoria": [
+            "Clérigo",
+            "Druida",
+            "Paladino",
+            "Warlock",
+            "Mago"
+        ],
+        "Carisma": [
+            "Bardo",
+            "Feiticeiro",
+            "Paladino",
+            "Warlock",
+            "Clérigo"
+        ]
+    },
+    "Relacao_Antecedente_Proficiencia": {
+        "Atletismo": [
+            "Forasteiro",
+            "Pirata",
+            "Marinheiro",
+            "Soldado"
+        ],
+        "Acrobacia": [
+            "Artista",
+            "Gladiador"
+        ],
+        "Prestidigitação": [
+            "Charlatão",
+            "Órfão"
+        ],
+        "Furtividade": [
+            "Criminoso",
+            "Órfão"
+        ],
+        "Arcanismo": [
+            "Sábio"
+        ],
+        "História": [
+            "Cavaleiro",
+            "Nobre",
+            "Sábio"
+        ],
+        "Investigação": [
+            "Acólito",
+            "Ermitão"
+        ],
+        "Lidar": [
+            "Herói"
+        ],
+        "Intuição": [
+            "Acólito",
+            "Artesão"
+        ],
+        "Medicina": [
+            "Ermitão"
+        ],
+        "Percepção": [
+            "Pirata",
+            "Marinheiro"
+        ],
+        "Sobrevivência": [
+            "Herói",
+            "Forasteiro"
+        ],
+        "Enganação": [
+            "Charlatão",
+            "Criminoso"
+        ],
+        "Intimidação": [
+            "Soldado"
+        ],
+        "Atuação": [
+            "Artista",
+            "Gladiador"
+        ],
+        "Persuasão": [
+            "Artesão",
+            "Cavaleiro",
+            "Nobre"
         ]
     }
 }

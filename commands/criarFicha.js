@@ -4,62 +4,64 @@ const variables = require("../modules/variables.js");
 var PersonagemNovo = {};
 
 module.exports.run = async (bot, message, comando, personagemDoJogador) => {
-    if (!personagemDoJogador) {
-        result = "Sua ficha está sendo criada. Digite o nome de seu personagem: ";
-        var filter = m => m.author.id === message.author.id;
+    //if (!personagemDoJogador) {
+    result = "Sua ficha está sendo criada. Digite o nome de seu personagem: ";
+    var filter = m => m.author.id === message.author.id;
 
-        message.channel.send(result);
-        var temp = await message.channel.awaitMessages(filter, { max: 1 });
-        nomePersonagem = temp.first().content;
+    message.channel.send(result);
+    var temp = await message.channel.awaitMessages(filter, { max: 1 });
+    nomePersonagem = temp.first().content;
 
-        PersonagemNovo = {
-            Personagem: nomePersonagem,
-            Level: {
-                "Barbaro": 0,
-                "Bardo": 0,
-                "Clerigo": 0,
-                "Druida": 0,
-                "Guerreiro": 0,
-                "Monge": 0,
-                "Paladino": 0,
-                "Ranger": 0,
-                "Ladino": 0,
-                "Feiticeiro": 0,
-                "Warlock": 0,
-                "Mago": 0
-            },
-            CA: 0,
-            XP: 0,
-            Inspiração: 0,
-            ValorProficiencia: 2,
-            Moedas: {
-                "Pl": 0,
-                "Po": 0,
-                "Pe": 0,
-                "Pp": 0,
-                "Pc": 0
-            },
-            Itens: [],
-            Anotacoes: [],
-            Sucessos: 0,
-            Falhas: 0,
-            ArmaSelecionada: ""
-        }
+    PersonagemNovo = {
+        Personagem: nomePersonagem,
+        Level: {
+            "Barbaro": 0,
+            "Bardo": 0,
+            "Clerigo": 0,
+            "Druida": 0,
+            "Guerreiro": 0,
+            "Monge": 0,
+            "Paladino": 0,
+            "Ranger": 0,
+            "Ladino": 0,
+            "Feiticeiro": 0,
+            "Warlock": 0,
+            "Mago": 0
+        },
+        CA: 0,
+        XP: 0,
+        Inspiração: 0,
+        ValorProficiencia: 2,
+        Moedas: {
+            "Pl": 0,
+            "Po": 0,
+            "Pe": 0,
+            "Pp": 0,
+            "Pc": 0
+        },
+        Itens: [],
+        Anotacoes: [],
+        Sucessos: 0,
+        Falhas: 0,
+        ArmaSelecionada: ""
+    }
 
-        await DefinirRaca(message, filter);
-        await DefinirClasse(message, filter);
-        await DefinirAtributos(message, filter);
-        await DefinirProficiencias(message, filter);
+    await DefinirRaca(message, filter);
+    await DefinirClasse(message, filter);
+    await DefinirAtributos(message, filter);
+    await DefinirAntecedentes(message, filter);
+    await DefinirProficiencias(message, filter);
 
-        personagemDoJogador = PersonagemNovo;
 
-        functions.SaveJson(variables.chars, variables.fileSave);
+    personagemDoJogador = PersonagemNovo;
 
-        result = "Sua ficha foi criada";
-    } else {
+    //functions.SaveJson(variables.chars, variables.fileSave);
+
+    result = "Sua ficha foi criada";
+    /*} else {
         result = "Sua ficha já está feita. Digite !c se quiser consulta-la ou !a se quiser altera-la. Se quiser exclui-la, digite e";
         message.channel.send(result);
-    }
+    }*/
 
     if (result) {
         message.channel.send(result);
@@ -93,6 +95,40 @@ async function DefinirClasse(message, filter) {
     PersonagemNovo.Moedas.Po = moedasInicio;
 }
 
+async function DefinirAntecedentes(message, filter) {
+    var profEsc = [];
+    message.channel.send("Ok, " + nomePersonagem + ". \n Agora vamos escolher seu antecedente. Isso é o que define o que seu personagem era antes de se tornar um aventureiro");
+
+    mensagem = "As opções são:"
+    for (i = 0; i < variables.antecedentes().length; i++) {
+        mensagem += variables.antecedentes()[i] + "\n";
+    }
+
+    resposta = "";
+    while (!variables.antecedentes().includes(resposta)) {
+        message.channel.send(mensagem);
+        temp = await message.channel.awaitMessages(filter, { max: 1 });
+        resposta = temp.first().content;
+    }
+
+    for (var i in Object.entries(variables.rel_ante_prof())) {
+        if (Object.entries(variables.rel_ante_prof())[i][0]) {
+            if (Object.entries(variables.rel_ante_prof())[i][1].includes(resposta)) {
+                profEsc.push(Object.entries(variables.rel_ante_prof())[i][0]);
+            }
+        }
+    }
+
+    console.log(profEsc);
+
+    if(!PersonagemNovo.Proficiencias){
+        PersonagemNovo.Proficiencias = [];
+    }
+
+    PersonagemNovo.Proficiencias.push(profEsc);
+
+}
+
 async function DefinirAtributos(message, filter) {
     message.channel.send("Ok, " + nomePersonagem + ". \n Vamos aos atributos");
 
@@ -111,7 +147,8 @@ async function DefinirAtributos(message, filter) {
         modOrdem[i] = functions.ConvertHabilidadeAtrib(atribOrdem[i]);
     }
 
-    PersonagemNovo.HPMax = parseInt(PersonagemNovo.DadoVida.splice(1)) + modOrdem[2];
+    console.log(PersonagemNovo.DadoVida);
+    PersonagemNovo.HPMax = parseInt(PersonagemNovo.DadoVida.slice(1)) + modOrdem[2];
     PersonagemNovo.HabilidadeForça = atribOrdem[0];
     PersonagemNovo.HabilidadeDestreza = atribOrdem[1];
     PersonagemNovo.HabilidadeConstituição = atribOrdem[2];
@@ -133,7 +170,7 @@ async function DefinirProficiencias(message, filter) {
 
     for (var i = 0; i < 4; i++) {
         if (i < 2) {
-            profEsc[i] = await functions.EscolherProficiencia(message, arrayHabilidades);
+            profEsc[i] = await functions.EscolherProficiencia(message, variables.arrayHabilidades());
         } else {
             profEsc[i] = await functions.EscolherProficiencia(message, functions.arrayPericias());
         }
