@@ -1973,6 +1973,34 @@
             "Quantidade": 2,
             "Pericias": ["Arcanismo", "Lidar", "Intuição", "Medicina", "Natureza", "Percepção", "Religião", "Sobrevivência"]
         },
+	"Guerreiro":{
+		"Quantidade": 2,
+		"Pericias":["Acrobacia", "Lidar", "Atletismo", "História", "Intuição", "Intimidação", "Percepção", "Sobrevivência"]
+	},
+	"Monge":{
+		"Quantidade": 2,
+		"Pericias": ["Acrobacia", "Atletismo", "História", "Intuição", "Religião", "Furtividade"]
+	},
+	"Paladino":{
+		"Quantidade": 2,
+		"Pericias": ["Atletismo", "Intuição", "Intimidação", "Medicina", "Persuasão", "Religião"]
+	},
+	"Ranger":{
+		"Quantidade": 3,
+		"Pericias": ["Lidar", "Atletismo", "Intuição", "Investigação", "Natureza", "Percepção", "Furtividade", "Sobrevivência"]
+	},
+	"Ladino":{
+		"Quantidade": 4,
+		"Pericias": ["Acrobacia", "Atletismo", "Enganação", "Intuição", "Intimidação", "Investigação", "Percepção", "Performance", "Persuasão", "Prestidigitação", "Furtividade"]
+	},
+	"Feiticeiro":{
+		"Quantidade": 2,
+		"Pericias": ["Arcanismo", "Enganação", "Intuição", "Intimidação", "Persuasão", "Religião"]
+	},
+	"Warlock":{
+		"Quantidade": 2,
+		"Pericias": ["Arcanismo", "Enganação", "História", "Intimidação", "Investigação", "Natureza", "Religião"]
+	},
         "Mago":{
             "Quantidade": 2,
             "Pericias": ["Arcanismo", "História", "Intuição", "Investigação", "Medicina", "Religião"]
