@@ -2,6 +2,7 @@ const Discord = require("discord.js");
 const functions = require("../modules/functions.js");
 const variables = require("../modules/variables.js");
 var PersonagemNovo = {};
+var nomeClasse;
 
 module.exports.run = async (bot, message, comando, personagemDoJogador) => {
     //if (!personagemDoJogador) {
@@ -90,6 +91,7 @@ async function DefinirClasse(message, filter) {
     if (classe != "Monge") {
         moedasInicio *= 10;
     }
+    nomeClasse = classe;
     PersonagemNovo.Level[classe]++;
     PersonagemNovo.DadoVida = variables.rel_dv_class().getKeyByValue(classe);
     PersonagemNovo.Moedas.Po = moedasInicio;
@@ -121,7 +123,7 @@ async function DefinirAntecedentes(message, filter) {
 
     console.log(profEsc);
 
-    if(!PersonagemNovo.Proficiencias){
+    if (!PersonagemNovo.Proficiencias) {
         PersonagemNovo.Proficiencias = [];
     }
 
@@ -164,19 +166,33 @@ async function DefinirAtributos(message, filter) {
 }
 
 async function DefinirProficiencias(message, filter) {
-    var profEsc = [];
+    periciasDisponiveis = [];
+    if (variables.rel_class_perProf()[nomeClasse].Pericias) {
+        periciasDisponiveis = variables.rel_class_perProf()[nomeClasse].Pericias;
+    } else {
+        for (var i in Object.values(variables.Pericias)) {
+            if (typeof (Object.values(variables.Pericias)[i]) == "function") {
 
-    message.channel.send("Agora vamos para as Proficiencias! Por padrão, temos duas Habilidades e duas Pericias. Se tiver mais, pode alterar a ficha depois. \n");
-
-    for (var i = 0; i < 4; i++) {
-        if (i < 2) {
-            profEsc[i] = await functions.EscolherProficiencia(message, variables.arrayHabilidades());
-        } else {
-            profEsc[i] = await functions.EscolherProficiencia(message, functions.arrayPericias());
+            } else {
+                periciasDisponiveis = periciasDisponiveis.concat(Object.values(variables.Pericias)[i]);
+                console.log(Object.values(variables.Pericias)[i])
+                console.log(periciasDisponiveis);
+            }
         }
     }
 
-    PersonagemNovo.Proficiencias = [profEsc[0], profEsc[1], profEsc[2], profEsc[3]];
+    if (!PersonagemNovo.Proficiencias) {
+        PersonagemNovo.Proficiencias = [];
+    }
+
+    message.channel.send(`Agora vamos para as Proficiencias!\n Você, como ${nomeClasse} tem direito a escolher ${variables.rel_class_perProf()[nomeClasse].Quantidade} pericias.`);
+
+    for (var i = 0; i < variables.rel_class_perProf()[nomeClasse].Quantidade; i++) {
+        var atribV = await functions.EscolherProficiencia(message, periciasDisponiveis);
+        periciasDisponiveis.splice(periciasDisponiveis.indexOf(atribV), 1);
+        PersonagemNovo.Proficiencias.push(atribV);
+    }
+
 }
 
 module.exports.help = {

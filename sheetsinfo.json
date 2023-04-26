@@ -1956,5 +1956,26 @@
             "Cavaleiro",
             "Nobre"
         ]
+    },
+    "Relacao_Classe_PericiasProficiencia":{
+        "Bárbaro":{
+            "Quantidade": 2,
+            "Pericias":["Lidar", "Atletismo", "Intimidação", "Natureza", "Percepção", "Sobrevivência"]
+        },
+        "Bardo":{
+            "Quantidade": 3
+        },
+        "Clérigo":{
+            "Quantidade": 2,
+            "Pericias": ["História", "Intuição", "Medicina", "Persuasão", "Religião"]
+        },
+        "Druida":{
+            "Quantidade": 2,
+            "Pericias": ["Arcanismo", "Lidar", "Intuição", "Medicina", "Natureza", "Percepção", "Religião", "Sobrevivência"]
+        },
+        "Mago":{
+            "Quantidade": 2,
+            "Pericias": ["Arcanismo", "História", "Intuição", "Investigação", "Medicina", "Religião"]
+        }
     }
 }

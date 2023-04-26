@@ -83,6 +83,10 @@ module.exports = {
         return antecedente;
     },
 
+    rel_class_perProf: function(){
+        return this.sheetsinfo.Relacao_Classe_PericiasProficiencia;
+    },
+
     classes: function () {
         var arrP = Object.values(this.rel_dv_class());
         var arrFP = [];
