@@ -37,5 +37,5 @@ module.exports.run = async (bot, message, comando, personagemDoJogador) => {
 module.exports.help = {
     name: "Controle Financeiro",
     code: "bal",
-    description: "[FEITO] Verifica quanto dinheiro você tem."
+    description: "Verifica quanto dinheiro você tem."
 } 

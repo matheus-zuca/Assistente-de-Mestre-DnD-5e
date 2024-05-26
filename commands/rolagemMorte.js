@@ -75,5 +75,5 @@ module.exports.run = async (bot, message, comando, personagemDoJogador) => {
 module.exports.help = {
     name: "Rolagem de Salvamento de Morte",
     code: "ds",
-    description: "[FEITO] Realiza as Rolagens de Salvamento de Morte."
+    description: "Realiza as Rolagens de Salvamento de Morte."
 }

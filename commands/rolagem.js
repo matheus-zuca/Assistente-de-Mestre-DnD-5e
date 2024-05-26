@@ -59,7 +59,7 @@ module.exports.run = async (bot, message, comando, personagemDoJogador) => {
 module.exports.help = {
     name: "Rolagem",
     code: "r",
-    description: "[FEITO] Realiza uma rolagem de dados, podendo ser simples, com somas ou subtração. Além disso, caso já tenha sua ficha cadastrada, você pode apenas apertar !r e digitar a habilidade ou pericia que quer rolar como '!r Força' por exemplo. Já conta também com rolagem de vantagem baseado em quantos pontos de inspiração você tem"
+    description: "Realiza uma rolagem de dados, podendo ser simples, com somas ou subtração. Além disso, caso já tenha sua ficha cadastrada, você pode apenas apertar !r e digitar a habilidade ou pericia que quer rolar como '!r Força' por exemplo. Já conta também com rolagem de vantagem baseado em quantos pontos de inspiração você tem"
 }
 
 Object.prototype.getKeyByValue = function (value) {

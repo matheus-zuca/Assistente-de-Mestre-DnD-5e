@@ -21,5 +21,5 @@ module.exports.run = async (bot, message, comando, personagemDoJogador) => {
 module.exports.help = {
     name: "Escolher Arma",
     code: "select",
-    description: "[FEITO] Seleciona a arma para poder atacar."
+    description: "Seleciona a arma para poder atacar."
 } 
