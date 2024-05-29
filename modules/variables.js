@@ -12,6 +12,8 @@ var Pericias = {
 
 module.exports = {
 
+    Classes_Prep_Magia:["Clerigo", "Druida", "Paladino", "Mago"],
+
     ajuda: {
 
     },
@@ -46,6 +48,10 @@ module.exports = {
 
     qtde_magias_preparadas: function (habilidade, nivel) {
         return habilidade + nivel;
+    },
+
+    rel_class_magias: function(){
+        return this.sheetsinfo.Relacao_Classe_Magias;
     },
 
     rel_class_habConju: function () {

@@ -4,12 +4,24 @@ const variables = require('../modules/variables.js');
 const functions = require('../modules/functions.js');
 
 module.exports.run = async (bot, message, comando, personagemDoJogador) => {
-    if (personagemDoJogador.Level.Clerigo == 0 && personagemDoJogador.Level.Druida == 0 && personagemDoJogador.Level.Paladino == 0 && personagemDoJogador.Level.Mago == 0) {
+
+    lvl_prep_magia = 0;
+    text_prep_magia = ""
+    total_magias_prep = 0;
+    variables.Classes_Prep_Magia.forEach(className => {
+        lvl_prep_magia += personagemDoJogador.Level[className];
+        if(personagemDoJogador.Level[className]>0){
+            text_prep_magia += className + "\n"
+        }
+    });
+
+    if (lvl_prep_magia == 0) {
         message.channel.send("Não é necessário preparar magias pras suas classes atuais")
         return;
     }
 
-    message.channel.send("Pra qual classe quer preparar as Magias? Digite-a corretamente, sem acento");
+
+    message.channel.send(`Pra qual classe quer preparar as Magias? Você pode preparar magias para as suas seguintes classes:\n ${text_prep_magia}`);
     var filter = m => m.author.id === message.author.id;
     temp = await message.channel.awaitMessages(filter, { max: 1 });
     resposta = temp.first().content;
@@ -19,18 +31,19 @@ module.exports.run = async (bot, message, comando, personagemDoJogador) => {
         return;
     }
 
-    habilidadeConjuradora = variables.rel_class_habconju().getKeyByValue(resposta);
-    magiasPreparadas = variables.qtde_magias_preparadas(personagemDoJogador[habilidadeConjuradora], personagemDoJogador.Level[resposta]);
+    //habilidadeConjuradora = variables.rel_class_habConju().getKeyByValue(resposta);
+    magiasPreparadas = 0//variables.qtde_magias_preparadas(personagemDoJogador[habilidadeConjuradora], personagemDoJogador.Level[resposta]);
 
-    message.channel.send(magiasPreparadas);
+    message.channel.send(`Você pode preparar ${magiasPreparadas} magias de ${resposta}\n Você pode escolher as seguintes magias:`);
 
+    console.log(variables.rel_class_magias()[resposta]);
 
 }
 
 module.exports.help = {
     name: "Separar Magias Preparadas",
     code: "prep",
-    description: "[INCONCLUIDO] Separa as magias que serão preparadas no dia"
+    description: "Separa as magias que serão preparadas no dia"
 }
 
 Object.prototype.getKeyByValue = function (value) {
