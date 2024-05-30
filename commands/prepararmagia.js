@@ -31,12 +31,24 @@ module.exports.run = async (bot, message, comando, personagemDoJogador) => {
         return;
     }
 
-    //habilidadeConjuradora = variables.rel_class_habConju().getKeyByValue(resposta);
-    magiasPreparadas = 0//variables.qtde_magias_preparadas(personagemDoJogador[habilidadeConjuradora], personagemDoJogador.Level[resposta]);
+    habilidadeConjuradora = variables.rel_class_habConju().getKeyByValue(resposta);
+    magiasPreparadas = variables.qtde_magias_preparadas(personagemDoJogador[habilidadeConjuradora], personagemDoJogador.Level[resposta]);
 
     message.channel.send(`Você pode preparar ${magiasPreparadas} magias de ${resposta}\n Você pode escolher as seguintes magias:`);
+    magias = variables.rel_class_magias()[resposta][personagemDoJogador.Level[resposta]]
+    lvl_magias = {}
+    lvl_max_permitido = 0;
 
-    console.log(variables.rel_class_magias()[resposta]);
+    for(var key in magias){
+        if(magias[key] > 0){
+            lvl_magias[key] = magias[key]
+            lvl_max_permitido = key;
+        }
+    }
+
+    for(var magia in variables.spells){
+        
+    }
 
 }
 
