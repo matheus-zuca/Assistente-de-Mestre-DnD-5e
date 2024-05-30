@@ -65,6 +65,7 @@ module.exports.run = async (bot, message, comando, personagemDoJogador) => {
             return;
         }else{
             personagemDoJogador.Magias_Preparadas[variables.Classes_Prep_Magia[classe]].push(magia)
+            functions.SaveJson(variables.chars, variables.fileSave);
             message.channel.send("Magia Preparada com Sucesso")
             return;
         }
