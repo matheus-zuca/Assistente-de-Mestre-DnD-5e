@@ -164,6 +164,20 @@ module.exports = {
             }
         }
         return texto;
+    },
+
+    GetHabilidadeConjuradora: function(Personagem, classe){
+        habilidades = variables.rel_class_habConju();
+
+        
+        for (var key in habilidades) {
+            if(typeof(habilidades[key]) === 'function'){
+                continue;
+            }
+            if (habilidades[key].includes(classe)) {
+                return Personagem[key]
+            }
+        }
     }
 }
 
