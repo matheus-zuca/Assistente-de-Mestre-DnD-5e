@@ -46,8 +46,8 @@ module.exports = {
         return Object.keys(this.sheetsinfo.Raças);
     },
 
-    qtde_magias_preparadas: function (habilidade, nivel) {
-        return habilidade + nivel;
+    qtde_magias_preparadas: function (Personagem) {
+        return functions.GetHabilidadeConjuradora(Personagem) + Personagem.Nivel;
     },
 
     rel_class_magias: function(){
