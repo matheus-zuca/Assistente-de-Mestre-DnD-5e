@@ -14,38 +14,52 @@ module.exports.run = async (bot, message, comando, personagemDoJogador) => {
     nomePersonagem = temp.first().content;
 
     PersonagemNovo = {
-        Personagem: nomePersonagem,
+        Nome: nomePersonagem,
+        Raca: "",
+        Inspiracao: 0,
         Level: {
-            "Barbaro": 0,
-            "Bardo": 0,
-            "Clerigo": 0,
-            "Druida": 0,
-            "Guerreiro": 0,
-            "Monge": 0,
-            "Paladino": 0,
-            "Ranger": 0,
-            "Ladino": 0,
-            "Feiticeiro": 0,
-            "Warlock": 0,
-            "Mago": 0
+            Barbaro: 0,
+            Bardo: 0,
+            Clerigo: 0,
+            Druida: 0,
+            Guerreiro: 0,
+            Monge: 0,
+            Paladino: 0,
+            Ranger: 0,
+            Ladino: 0,
+            Feiticeiro: 0,
+            Warlock: 0,
+            Mago: 0,
         },
+        HP: 0,
         CA: 0,
-        XP: 0,
-        Inspiração: 0,
-        ValorProficiencia: 2,
-        Moedas: {
-            "Pl": 0,
-            "Po": 0,
-            "Pe": 0,
-            "Pp": 0,
-            "Pc": 0
-        },
+        HPMax: 0,
+        DadoVida: "",
+        Dados: 0,
+        Força: 0,
+        Destreza: 0,
+        Constituicao: 0,
+        Inteligencia: 0,
+        Sabedoria: 0,
+        Carisma: 0,
+        Proficiencias: [],
+        ValorProficiencia: 0,
         Itens: [],
         Anotacoes: [],
+        Moedas: {
+            Pl: 0,
+            Po: 0,
+            Pe: 0,
+            Pp: 0,
+            Pc: 0
+        },
+        ArmaSelecionada: "",
+        Armas: [],
         Sucessos: 0,
         Falhas: 0,
-        ArmaSelecionada: ""
+        Magias_Preparadas: {}
     }
+    
 
     await DefinirRaca(message, filter);
     await DefinirClasse(message, filter);
@@ -76,6 +90,8 @@ async function DefinirRaca(message, filter) {
         temp = await message.channel.awaitMessages(filter, { max: 1 });
         raca = temp.first().content;
     }
+
+    PersonagemNovo.Raca = raca;
 }
 
 async function DefinirClasse(message, filter) {
@@ -93,6 +109,7 @@ async function DefinirClasse(message, filter) {
     }
     nomeClasse = classe;
     PersonagemNovo.Level[classe]++;
+    PersonagemNovo.Magias_Preparadas[classe] = [];
     PersonagemNovo.DadoVida = variables.rel_dv_class().getKeyByValue(classe);
     PersonagemNovo.Moedas.Po = moedasInicio;
 }
