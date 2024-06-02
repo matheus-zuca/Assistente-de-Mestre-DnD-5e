@@ -32,7 +32,7 @@ module.exports = {
 
     chars: require('../chars.json'),
 
-    //weapons: require('../weaponsinfo.json'),
+    weapons: require('../weaponsinfo.json'),
 
     fileSave: require('fs'),
 
