@@ -3,7 +3,42 @@ const functions = require("../modules/functions.js");
 const variables = require("../modules/variables.js");
 
 module.exports.run = async (bot, message, comando, personagemDoJogador) => {
-    var ficha = new Discord.MessageEmbed()
+	if(!personagemDoJogador){
+		message.channel.send("Não foi possível encontrar sua ficha, mas você pode faze-la usando o nosso bot")
+		return;
+	}
+
+	var armas = ""
+
+	ArmasArray = personagemDoJogador.Armas.sort().reduce(function (acc, curr) {
+        if (typeof acc[curr] == 'undefined') {
+            acc[curr] = 1;
+        } else {
+            acc[curr] += 1;
+        }
+
+        return acc;
+    }, {});
+
+	Object.entries(ArmasArray).forEach((arma, index) => {
+        if (arma[1] == 1) {
+            armas += `${arma[0]}`;
+        } else {
+            armas += `${arma[0]} (${arma[1]}x)`;
+        }
+
+		console.log(index)
+		console.log(Object.keys(ArmasArray).length)
+
+		if(index != Object.keys(ArmasArray).length-1){
+			armas += ", "
+		}
+
+	
+		
+    });
+
+    var ficha_embed = new Discord.MessageEmbed()
 					.setTitle("Ficha de Personagem")
 					.addFields(
 						{ name: 'Nome:', value: personagemDoJogador.Nome, inline: true },
@@ -22,13 +57,12 @@ module.exports.run = async (bot, message, comando, personagemDoJogador) => {
 						{ name: "Sabedoria", value: personagemDoJogador.HabilidadeSabedoria + " (" + personagemDoJogador.Sabedoria + ")", inline: true },
 						{ name: "Carisma", value: personagemDoJogador.HabilidadeCarisma + " (" + personagemDoJogador.Carisma + ")", inline: true }
 					)
-					.addField("Proficiências", "```" + personagemDoJogador.Proficiencias + "```")
-					.addField("Valor da Proficiência", personagemDoJogador.ValorProficiencia);
-                result = ficha;
-                
-                if(result){
-                    message.channel.send(result);
-                }
+					.addField("Proficiências", "```" + personagemDoJogador.Proficiencias.join(", ") + "```")
+					.addField("Valor da Proficiência", personagemDoJogador.ValorProficiencia)
+					.addField("Armas", "```" + armas + "```")
+					.addField("Arma Atual", personagemDoJogador.ArmaSelecionada);
+	
+	message.channel.send(ficha_embed);
 }
 
 module.exports.help = {

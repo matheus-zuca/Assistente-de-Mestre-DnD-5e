@@ -43,6 +43,6 @@ module.exports.run = async (bot, message, comando, personagemDoJogador) => {
 
 module.exports.help = {
     name: "Rolagem de ataque",
-    code: "attack",
+    code: "ataque",
     description: "Baseado em sua arma, realiza uma rolagem de ataque, já calculando se será Corpo-a-Corpo ou A Distancia e rolando também o dano da arma."
 } 

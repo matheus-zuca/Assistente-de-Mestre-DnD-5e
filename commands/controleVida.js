@@ -5,9 +5,11 @@ const variables = require("../modules/variables.js");
 module.exports.run = async (bot, message, comando, personagemDoJogador) => {
         mention = message.mentions.users.first();
 
+
     if (mention) {
         personagemDoJogador = variables.chars[mention.id];
     }
+
 
     if (comando[1]) {
         if (comando[1] == "dl") {
@@ -43,6 +45,8 @@ module.exports.run = async (bot, message, comando, personagemDoJogador) => {
                 mensagem = "HP atualizado para: ";
             }
         }
+
+        
         functions.SaveJson(variables.chars, variables.fileSave);
         message.channel.send(mensagem + personagemDoJogador.HP);
     } else {

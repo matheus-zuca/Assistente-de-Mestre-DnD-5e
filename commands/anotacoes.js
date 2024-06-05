@@ -9,6 +9,6 @@ module.exports.run = async (bot, message, comando, personagemDoJogador) => {
 
 module.exports.help = {
     name: "Anotação",
-    code: "notes",
+    code: "va",
     description: "Envia sua lista de anotações para seu usuário no Discord."
 } 
