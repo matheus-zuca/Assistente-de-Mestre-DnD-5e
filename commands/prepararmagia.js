@@ -18,7 +18,7 @@ module.exports.run = async (bot, message, comando, personagemDoJogador) => {
         if(magiasAtuais.length == 0){
             message.channel.send("Você não tem nenhuma magia preparada")  
         }else{
-            message.channel.send(magiasAtuais.sort().reduce((acc, curr) => {
+            message.channel.send("Magias Preparadas:\n" + magiasAtuais.sort().reduce((acc, curr) => {
                 acc    += curr + "\n";
                 return acc;
             }, ""))

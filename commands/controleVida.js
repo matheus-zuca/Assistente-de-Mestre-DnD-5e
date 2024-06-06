@@ -1,9 +1,10 @@
 const Discord = require("discord.js");
+const { prefix } = require('./auth.json');
 const functions = require("../modules/functions.js");
 const variables = require("../modules/variables.js");
 
 module.exports.run = async (bot, message, comando, personagemDoJogador) => {
-        mention = message.mentions.users.first();
+    mention = message.mentions.users.first();
 
 
     if (mention) {
@@ -12,11 +13,12 @@ module.exports.run = async (bot, message, comando, personagemDoJogador) => {
 
 
     if (comando[1]) {
-        if (comando[1] == "dl") {
+        /*if (comando[1] == "dl") {
             personagemDoJogador.HP = personagemDoJogador.HPMax;
             personagemDoJogador.Dados = personagemDoJogador.Level;
             mensagem = "Dados de vida recuperados. HP atualizado para: ";
-        } else if (comando[1] == "dc") {
+        } else */
+        if (comando[1] == "dc") {
             if (personagemDoJogador.Dados > 0) {
                 personagemDoJogador.Dados--;
                 dadoVida = parseInt(personagemDoJogador.DadoVida.slice(1));
@@ -46,7 +48,7 @@ module.exports.run = async (bot, message, comando, personagemDoJogador) => {
             }
         }
 
-        
+
         functions.SaveJson(variables.chars, variables.fileSave);
         message.channel.send(mensagem + personagemDoJogador.HP);
     } else {
@@ -57,5 +59,5 @@ module.exports.run = async (bot, message, comando, personagemDoJogador) => {
 module.exports.help = {
     name: "HP",
     code: "hp",
-    description: "Consulta sua vida. Além disso, você ainda pode somar ou subtrair um valor dela. Válido também pra dado de vida em um descanso curto, digitando !hp dc, ou recuperar vida completa em um descanso longo, digitando !hp dl."
+    description: `Consulta sua vida. Além disso, você ainda pode somar ou subtrair um valor dela. Válido também pra dado de vida em um descanso curto, digitando ${prefix}hp dc`
 }

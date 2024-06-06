@@ -14,21 +14,24 @@ module.exports.run = async (bot, message, comando, personagemDoJogador) => {
     }
 
     moeda = (comando[2].substr(comando[2].length - 2)).charAt(0).toUpperCase() + (comando[2].substr(comando[2].length - 2)).slice(1).toLowerCase();
-    console.log(moeda);
-    qtdeMoedas = parseInt(comando[2].substr(0, comando[2].length - 2));
+    qtdeMoedas = parseInt(comando[1]);
 
-    if (comando[1].substr(0, 1) == "-") {
-        qtdeMoedas *= -1;
+    if (personagemDoJogador.Moedas[moeda] == undefined) {
+        message.channel.send("Essa moeda não foi encontrada");
+        return;
     }
 
-    if (personagemDoJogador.Moedas[moeda] != undefined) {
-        if ((personagemDoJogador.Moedas[moeda] + qtdeMoedas) <= 0) {
-            message.channel.send("Você não tem dinheiro suficiente pra isso");
-            return;
-        } else {
-            personagemDoJogador.Moedas[moeda] += qtdeMoedas;
-        }
-    };
+    if (!isNaN(qtdeMoedas)){
+        message.channel.send("Digite um valor númerico");
+        return;
+    }
+
+    if ((personagemDoJogador.Moedas[moeda] + qtdeMoedas) <= 0) {
+        message.channel.send("Você não tem dinheiro suficiente pra isso");
+        return;
+    } else {
+        personagemDoJogador.Moedas[moeda] += qtdeMoedas;
+    }
 
     functions.SaveJson(variables.chars, variables.fileSave);
 
