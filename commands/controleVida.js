@@ -11,7 +11,7 @@ module.exports.run = async (bot, message, comando, personagemDoJogador) => {
     }
     
     if(!comando[1]){
-        message.channel.send("Seu HP é: " + personagemDoJogador.HP);
+        message.channel.send(`Seu HP é: ${personagemDoJogador.HP}`);
         return;
     }
 
@@ -27,9 +27,9 @@ module.exports.run = async (bot, message, comando, personagemDoJogador) => {
                 personagemDoJogador.HP += vida[0];
             }
 
-            mensagem = "Você gastou um dado de vida. Ainda tem " + personagemDoJogador.Dados + " e tirou " + vida[0] + ". Hp atualizado para: " + personagemDoJogador.HP
+            mensagem = `Você gastou um dado de vida. Ainda tem ${personagemDoJogador.Dados} restantes e tirou ${vida[0]} em sua recuperação.\n Hp atualizado para: ${personagemDoJogador.HP}`
         } else {
-            mensagem = "Você não tem mais dados de descanso. Seu HP atual é: " + personagemDoJogador.HP
+            mensagem = `Você não tem mais dados de descanso. Seu HP atual é: ${personagemDoJogador.HP}`
         }
 
         message.channel.send(mensagem)
@@ -49,6 +49,12 @@ module.exports.run = async (bot, message, comando, personagemDoJogador) => {
         personagemDoJogador.HP += parseInt(comando[1]);
     }
     message.channel.send(`HP atualizado para: ${personagemDoJogador.HP}`)
+
+    if(personagemDoJogador.HP>0){
+        personagemDoJogador.Sucessos = 0;
+        personagemDoJogador.Falhas = 0;
+    }
+
     functions.SaveJson(variables.chars, variables.fileSave);
 }
 
