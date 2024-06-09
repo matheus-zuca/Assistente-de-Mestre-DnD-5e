@@ -21,63 +21,63 @@
         "19": 305000,
         "20": 355000
     },
-    "Raças": {
-        "Draconato": {
-            "Imagem": "https://www.dndbeyond.com/avatars/thumbnails/6/340/420/618/636272677995471928.png"
-        },
-        "Anão": [],
-        "Elfo": [],
-        "Gnomo": [],
-        "Meio-Elfo": [],
-        "Pequenino": [],
-        "Meio-Orc": [],
-        "Humano": [],
-        "Tieferino": [],
+    "Raças":{
         "Aarakocra": [],
         "Aasimar": [],
-        "Genasi do Ar": [],
-        "Genasi da Terra": [],
-        "Genasi da Água": [],
-        "Genasi do Fogo": [],
+        "Anão": [],
         "Bugurso": [],
         "Centauro": [],
         "Changeling": [],
+        "Draconato": {
+            "Imagem": "https://www.dndbeyond.com/avatars/thumbnails/6/340/420/618/636272677995471928.png"
+        },
         "Eladrin": [],
+        "Elfo": [],
         "Fada": [],
         "Firbolg": [],
+        "Genasi da Água": [],
+        "Genasi da Terra": [],
+        "Genasi do Ar": [],
+        "Genasi do Fogo": [],
+        "Giff": [],
         "Githyanki": [],
         "Githzerai": [],
         "Goblin": [],
         "Golias": [],
+        "Grung": [],
+        "Hadozee": [],
         "Harengon": [],
+        "Hibrido Simico": [],
         "Hobgoblin": [],
+        "Humano": [],
+        "Kalashtar": [],
         "Kenku": [],
+        "Kender": [],
         "Kobold": [],
-        "Povo Lagarto": [],
+        "Leonino": [],
+        "Loxodonte": [],
+        "Locathan": [],
+        "Meio-Elfo": [],
+        "Meio-Orc": [],
         "Minotauro": [],
         "Orc": [],
+        "Owlin": [],
+        "Pequenino": [],
+        "Plasmoid": [],
+        "Povo Lagarto": [],
+        "Raças": {},
         "Sátiro": [],
         "Shadar-kai": [],
         "Shifter": [],
         "Tabaxi": [],
+        "Thri-kreen": [],
+        "Tieferino": [],
         "Tortle": [],
         "Tritão": [],
-        "Yuan-ti": [],
-        "Kender": [],
-        "Giff": [],
-        "Hadozee": [],
-        "Plasmoid": [],
-        "Thri-kreen": [],
-        "Owlin": [],
-        "Leonino": [],
-        "Kalashtar": [],
-        "Warforged": [],
-        "Verdan": [],
-        "Loxodonte": [],
-        "Hibrido Simico": [],
         "Vedalken": [],
-        "Locathan": [],
-        "Grung": []
+        "Verdan": [],
+        "Warforged": [],
+        "Yuan-ti": []
     },
     "LevelProficiencia": {
         "2": [
@@ -1891,7 +1891,7 @@
             "Clérigo"
         ]
     },
-    "Relacao_Antecedente_Proficiencia": {
+    "Relacao_Antecedente_Proficiencia_Pericia": {
         "Atletismo": [
             "Forasteiro",
             "Pirata",
@@ -1908,6 +1908,7 @@
         ],
         "Furtividade": [
             "Criminoso",
+            "Espião",
             "Órfão"
         ],
         "Arcanismo": [
@@ -1927,7 +1928,8 @@
         ],
         "Intuição": [
             "Acólito",
-            "Artesão"
+            "Artesão",
+            "Mercador"
         ],
         "Medicina": [
             "Ermitão"
@@ -1955,6 +1957,80 @@
             "Artesão",
             "Cavaleiro",
             "Nobre"
+        ]
+    },
+    "Relacao_Antecedente_Proficiencia_Ferramentas": {
+        "$um Instrumento Musical": [
+            "Artista",
+            "Gladiador",
+            "Forasteiro"
+        ],
+        "$um Tipo de Jogo(Dados, Cartas, etc...)": [
+            "Criminoso",
+            "Espião",
+            "Nobre",
+            "Cavaleiro",
+            "Soldado"
+        ],
+        "&um tipo de Ferramenta de Artesão": [
+            "Herói",
+            "Artesão",
+            "Mercador"
+        ],
+        "Ferramentas de Ladrão": [
+            "Órfão"
+        ],
+        "Ferramentas de Navegação": [
+            "Marinheiro",
+            "Pirata"
+        ],
+        "Kit de Disfarce": [
+            "Órfão",
+            "Charlatão",
+            "Artista",
+            "Gladiador"
+        ],
+        "Kit de Forja": [
+            "Charlatão"
+        ],
+        "Kit de Herbalista": [
+            "Ermitão"
+        ],
+        "Veículos Aquáticos": [
+            "Marinheiro",
+            "Pirata"
+        ],
+        "Veículos Terrestres": [
+            "Herói",
+            "Soldado"
+        ]
+    },
+    "Relacao_Antecedente_PO": {
+        "25": [
+            "Nobre",
+            "Cavaleiro"
+        ],
+        "15": [
+            "Acólito",
+            "Charlatão",
+            "Criminoso",
+            "Espião",
+            "Artista",
+            "Gladiador",
+            "Artesão",
+            "Mercador"
+        ],
+        "10": [
+            "Herói",
+            "Forasteiro",
+            "Sábio",
+            "Marinheiro",
+            "Pirata",
+            "Soldado",
+            "Órfão"
+        ],
+        "5": [
+            "Ermitão"
         ]
     },
     "Relacao_Classe_PericiasProficiencia": {
@@ -2093,5 +2169,6 @@
                 "Religião"
             ]
         }
-    }
+    },
+    "Relacao_Raca_Abilidades": {}
 }

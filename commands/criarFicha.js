@@ -5,11 +5,14 @@ var PersonagemNovo = {};
 var nomeClasse;
 
 module.exports.run = async (bot, message, comando, personagemDoJogador) => {
-    //if (!personagemDoJogador) {
-    result = "Sua ficha está sendo criada. Digite o nome de seu personagem: ";
-    var filter = m => m.author.id === message.author.id;
+    /*if (personagemDoJogador) {
+        message.channel.send(`Sua ficha já está feita. Digite ${variables.prefix}c se quiser consulta-la ou ${variables.prefix}a se quiser altera-la. Se quiser exclui-la, digite e`)
+        return;
+    }*/
 
-    message.channel.send(result);
+    
+    var filter = m => m.author.id === message.author.id;
+    message.channel.send("Sua ficha está sendo criada. Digite o nome de seu personagem: ");
     var temp = await message.channel.awaitMessages(filter, { max: 1 });
     nomePersonagem = temp.first().content;
 
@@ -61,9 +64,9 @@ module.exports.run = async (bot, message, comando, personagemDoJogador) => {
     }
     
 
+    await DefinirAtributos(message, filter);
     await DefinirRaca(message, filter);
     await DefinirClasse(message, filter);
-    await DefinirAtributos(message, filter);
     await DefinirAntecedentes(message, filter);
     await DefinirProficiencias(message, filter);
 
@@ -73,14 +76,44 @@ module.exports.run = async (bot, message, comando, personagemDoJogador) => {
     //functions.SaveJson(variables.chars, variables.fileSave);
 
     result = "Sua ficha foi criada";
-    /*} else {
-        result = "Sua ficha já está feita. Digite !c se quiser consulta-la ou !a se quiser altera-la. Se quiser exclui-la, digite e";
-        message.channel.send(result);
-    }*/
 
     if (result) {
         message.channel.send(result);
     }
+}
+
+async function DefinirAtributos(message, filter) {
+    message.channel.send("Ok, " + nomePersonagem + ". \n Vamos aos atributos");
+
+    var atribs = [];
+    var atribOrdem = [];
+    var modOrdem = [];
+
+    for (var i = 0; i < 6; i++) {
+        atribs[i] = functions.RolagemAtributos(4, 6);
+    }
+
+    for (var i = 0; i < 6; i++) {
+        var atribV = await functions.EscolhaAtributos(atribs, i, message, "", variables.arrayHabilidades());
+        atribs.splice(atribs.indexOf(atribV), 1);
+        atribOrdem[i] = atribV;
+        modOrdem[i] = functions.ConvertHabilidadeAtrib(atribOrdem[i]);
+    }
+
+    console.log(PersonagemNovo.DadoVida);
+    PersonagemNovo.HPMax = parseInt(PersonagemNovo.DadoVida.slice(1)) + modOrdem[2];
+    PersonagemNovo.HabilidadeForça = atribOrdem[0];
+    PersonagemNovo.HabilidadeDestreza = atribOrdem[1];
+    PersonagemNovo.HabilidadeConstituição = atribOrdem[2];
+    PersonagemNovo.HabilidadeInteligência = atribOrdem[3];
+    PersonagemNovo.HabilidadeSabedoria = atribOrdem[4];
+    PersonagemNovo.HabilidadeCarisma = atribOrdem[5];
+    PersonagemNovo.Força = modOrdem[0];
+    PersonagemNovo.Destreza = modOrdem[1];
+    PersonagemNovo.Constituição = modOrdem[2];
+    PersonagemNovo.Inteligência = modOrdem[3];
+    PersonagemNovo.Sabedoria = modOrdem[4];
+    PersonagemNovo.Carisma = modOrdem[5];
 }
 
 async function DefinirRaca(message, filter) {
@@ -130,10 +163,10 @@ async function DefinirAntecedentes(message, filter) {
         resposta = temp.first().content;
     }
 
-    for (var i in Object.entries(variables.rel_ante_prof())) {
-        if (Object.entries(variables.rel_ante_prof())[i][0]) {
-            if (Object.entries(variables.rel_ante_prof())[i][1].includes(resposta)) {
-                profEsc.push(Object.entries(variables.rel_ante_prof())[i][0]);
+    for (var i in Object.entries(variables.rel_ante_prof_pericia())) {
+        if (Object.entries(variables.rel_ante_prof_pericia())[i][0]) {
+            if (Object.entries(variables.rel_ante_prof_pericia())[i][1].includes(resposta)) {
+                profEsc.push(Object.entries(variables.rel_ante_prof_pericia())[i][0]);
             }
         }
     }
@@ -146,40 +179,6 @@ async function DefinirAntecedentes(message, filter) {
 
     PersonagemNovo.Proficiencias.push(profEsc);
 
-}
-
-async function DefinirAtributos(message, filter) {
-    message.channel.send("Ok, " + nomePersonagem + ". \n Vamos aos atributos");
-
-    var atribs = [];
-    var atribOrdem = [];
-    var modOrdem = [];
-
-    for (var i = 0; i < 6; i++) {
-        atribs[i] = functions.RolagemAtributos(4, 6);
-    }
-
-    for (var i = 0; i < 6; i++) {
-        var atribV = await functions.EscolhaAtributos(atribs, i, message, "", variables.arrayHabilidades());
-        atribs.splice(atribs.indexOf(atribV), 1);
-        atribOrdem[i] = atribV;
-        modOrdem[i] = functions.ConvertHabilidadeAtrib(atribOrdem[i]);
-    }
-
-    console.log(PersonagemNovo.DadoVida);
-    PersonagemNovo.HPMax = parseInt(PersonagemNovo.DadoVida.slice(1)) + modOrdem[2];
-    PersonagemNovo.HabilidadeForça = atribOrdem[0];
-    PersonagemNovo.HabilidadeDestreza = atribOrdem[1];
-    PersonagemNovo.HabilidadeConstituição = atribOrdem[2];
-    PersonagemNovo.HabilidadeInteligência = atribOrdem[3];
-    PersonagemNovo.HabilidadeSabedoria = atribOrdem[4];
-    PersonagemNovo.HabilidadeCarisma = atribOrdem[5];
-    PersonagemNovo.Força = modOrdem[0];
-    PersonagemNovo.Destreza = modOrdem[1];
-    PersonagemNovo.Constituição = modOrdem[2];
-    PersonagemNovo.Inteligência = modOrdem[3];
-    PersonagemNovo.Sabedoria = modOrdem[4];
-    PersonagemNovo.Carisma = modOrdem[5];
 }
 
 async function DefinirProficiencias(message, filter) {

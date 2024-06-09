@@ -12,6 +12,8 @@ var Pericias = {
 
 module.exports = {
 
+    prefix:"/",
+
     ajuda: {
 
     },
@@ -25,6 +27,27 @@ module.exports = {
         "Sabedoria": ["Lidar", "Intuição", "Medicina", "Percepção", "Sobrevivência"],
         "Carisma": ["Enganação", "Intimidação", "Atuação", "Persuasão"]
     },
+
+    Ferramentas_de_Artesão: [
+        "Feramentas de Tecelão",
+        "Ferramentas de Carpintaria",
+        "Ferramentas de Cartografia",
+        "Ferramentas de Ceramista",
+        "Ferramentas de Cozinha",
+        "Ferramentas de Couraria",
+        "Ferramentas de Entalhador",
+        "Ferramentas de Ferreiro",
+        "Ferramentas de Funileiro",
+        "Ferramentas de Joalheria",
+        "Ferramentas de Pedraria",
+        "Ferramentas de Sapataria",
+        "Ferramentas de Soprador de Vidro",
+        "Suprimentos de Alquimia",
+        "Suprimentos de Caligrafia",
+        "Suprimentos de Cervejaria",
+        "Suprimentos de Pintura"
+    ],
+
 
     arrayHabilidades: function () {
         return Object.keys(Pericias);
@@ -68,13 +91,13 @@ module.exports = {
         return this.sheetsinfo.Relacao_Classe_HabilidadeProficiencia;
     },
 
-    rel_ante_prof: function () {
-        return this.sheetsinfo.Relacao_Antecedente_Proficiencia;
+    rel_ante_prof_pericia: function () {
+        return this.sheetsinfo.Relacao_Antecedente_Proficiencia_Pericia;
     },
 
     antecedentes: function () {
         var antecedenteTemp = [];
-        for (const [key, value] of Object.entries(this.rel_ante_prof())){
+        for (const [key, value] of Object.entries(this.rel_ante_prof_prericia())) {
             antecedenteTemp = antecedenteTemp.concat(value);
         }
 
@@ -83,7 +106,7 @@ module.exports = {
         return antecedente;
     },
 
-    rel_class_perProf: function(){
+    rel_class_perProf: function () {
         return this.sheetsinfo.Relacao_Classe_PericiasProficiencia;
     },
 
