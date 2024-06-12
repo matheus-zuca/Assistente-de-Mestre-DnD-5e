@@ -12,7 +12,7 @@ var Pericias = {
 
 module.exports = {
 
-    prefix:"/",
+    prefix: "/",
 
     ajuda: {
 
@@ -48,6 +48,7 @@ module.exports = {
         "Suprimentos de Pintura"
     ],
 
+    Alinhamentos: ["Leal e Bom", "Leal e Neutro", "Leal e Mau", "Neutro e Bom", "Neutro", "Neutro e Mau", "Caótico e Bom", "Caótico e Neutro", "Caótico e Mau"],
 
     arrayHabilidades: function () {
         return Object.keys(Pericias);
@@ -95,7 +96,7 @@ module.exports = {
         return this.sheetsinfo.Relacao_Antecedente_Proficiencia_Pericia;
     },
 
-    rel_raca_hab: function(){
+    rel_raca_hab: function () {
         return this.sheetsinfo.Relacao_Raca_Habilidades;
     },
 
