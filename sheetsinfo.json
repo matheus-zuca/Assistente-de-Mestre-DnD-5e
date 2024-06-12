@@ -2294,5 +2294,286 @@
                 "Religião"
             ]
         }
+    },
+    "Relacao_Classe_Equipamento": {
+        "Bardo": {
+            "Armas": [
+                "Rapieira"
+            ],
+            "Itens": [
+                "Pacote de Diplomata",
+                "Alaude"
+            ]
+        },
+        "Bárbaro": {
+            "Armas": [
+                "Machado Grande",
+                "Machadinha",
+                "Machadinha",
+                "Lança Pequena",
+                "Lança Pequena",
+                "Lança Pequena",
+                "Lança Pequena"
+            ],
+            "Itens": [
+                "Pacote de Explorador"
+            ]
+        },
+        "Clérigo": {
+            "Armas": [
+                "Maça",
+                "Balestra Leve"
+            ],
+            "Armadura": [
+                "Cota de Malha",
+                "Escudo"
+            ],
+            "Itens": [
+                "Virote",
+                "Virote",
+                "Virote",
+                "Virote",
+                "Virote",
+                "Virote",
+                "Virote",
+                "Virote",
+                "Virote",
+                "Virote",
+                "Virote",
+                "Virote",
+                "Virote",
+                "Virote",
+                "Virote",
+                "Virote",
+                "Virote",
+                "Virote",
+                "Virote",
+                "Virote",
+                "Pacote de Pregação",
+                "Simbolo Sagrado"
+            ]
+        },
+        "Druida": {
+            "Armas": [
+                "Cimitarra"
+            ],
+            "Armadura": [
+                "Armadura de Couro",
+                "Escudo"
+            ],
+            "Itens": [
+                "Pacote de Explorador",
+                "Foco Druidico"
+            ]
+        },
+        "Feiticeiro": {
+            "Armas": [
+                "Balestra Leve"
+            ],
+            "Itens": [
+                "Virote",
+                "Virote",
+                "Virote",
+                "Virote",
+                "Virote",
+                "Virote",
+                "Virote",
+                "Virote",
+                "Virote",
+                "Virote",
+                "Virote",
+                "Virote",
+                "Virote",
+                "Virote",
+                "Virote",
+                "Virote",
+                "Virote",
+                "Virote",
+                "Virote",
+                "Virote",
+                "Pacote de Explorador",
+                "Foco Arcano"
+            ]
+        },
+        "Guerreiro": {
+            "Armas": [
+                "Balestra Leve",
+                "Espada Longa"
+            ],
+            "Armadura": [
+                "Cota de Malha",
+                "Escudo"
+            ],
+            "Itens": [
+                "Pacote do Explorador",
+                "Virote",
+                "Virote",
+                "Virote",
+                "Virote",
+                "Virote",
+                "Virote",
+                "Virote",
+                "Virote",
+                "Virote",
+                "Virote",
+                "Virote",
+                "Virote",
+                "Virote",
+                "Virote",
+                "Virote",
+                "Virote",
+                "Virote",
+                "Virote",
+                "Virote",
+                "Virote"
+            ]
+        },
+        "Ladino": {
+            "Armas": [
+                "Rapieira",
+                "Arco Curto",
+                "Adaga",
+                "Adaga"
+            ],
+            "Armadura": [
+                "Armadura de Couro"
+            ],
+            "Itens": [
+                "Flecha",
+                "Flecha",
+                "Flecha",
+                "Flecha",
+                "Flecha",
+                "Flecha",
+                "Flecha",
+                "Flecha",
+                "Flecha",
+                "Flecha",
+                "Flecha",
+                "Flecha",
+                "Flecha",
+                "Flecha",
+                "Flecha",
+                "Flecha",
+                "Flecha",
+                "Flecha",
+                "Flecha",
+                "Flecha",
+                "Pacote do Ladrão",
+                "Ferramentas de Ladrão"
+            ]
+        },
+        "Mago": {
+            "Armas": [
+                "Bastão"
+            ],
+            "Itens": [
+                "Foco Arcano",
+                "Grimorio",
+                "Pacote de Estudioso"
+            ]
+        },
+        "Monge": {
+            "Armas": [
+                "Espada Curta",
+                "Dardo",
+                "Dardo",
+                "Dardo",
+                "Dardo",
+                "Dardo",
+                "Dardo",
+                "Dardo",
+                "Dardo",
+                "Dardo",
+                "Dardo"
+            ],
+            "Itens": [
+                "Pacote de Explorador"
+            ]
+        },
+        "Paladino": {
+            "Armas": [
+                "Espada Longa",
+                "Lança Pequena",
+                "Lança Pequena",
+                "Lança Pequena",
+                "Lança Pequena",
+                "Lança Pequena"
+            ],
+            "Armadura": [
+                "Cota de Malha"
+            ],
+            "Itens": [
+                "Simbolo Sagrado",
+                "Pacote de Pregação"
+            ]
+        },
+        "Ranger": {
+            "Armas": [
+                "Espada Curta",
+                "Espada Curta",
+                "Arco Longo"
+            ],
+            "Armadura": [
+                "Cota de Malha"
+            ],
+            "Itens": [
+                "Flecha",
+                "Flecha",
+                "Flecha",
+                "Flecha",
+                "Flecha",
+                "Flecha",
+                "Flecha",
+                "Flecha",
+                "Flecha",
+                "Flecha",
+                "Flecha",
+                "Flecha",
+                "Flecha",
+                "Flecha",
+                "Flecha",
+                "Flecha",
+                "Flecha",
+                "Flecha",
+                "Flecha",
+                "Flecha",
+                "Pacote de Exploração"
+            ]
+        },
+        "Warlock": {
+            "Armas": [
+                "Balestra Leve",
+                "Adaga",
+                "Adaga"
+            ],
+            "Armadura": [
+                "Armadura de Couro"
+            ],
+            "Itens": [
+                "Virote",
+                "Virote",
+                "Virote",
+                "Virote",
+                "Virote",
+                "Virote",
+                "Virote",
+                "Virote",
+                "Virote",
+                "Virote",
+                "Virote",
+                "Virote",
+                "Virote",
+                "Virote",
+                "Virote",
+                "Virote",
+                "Virote",
+                "Virote",
+                "Virote",
+                "Virote",
+                "Pacote de Estudioso",
+                "Foco Arcano"
+            ]
+        }
     }
 }

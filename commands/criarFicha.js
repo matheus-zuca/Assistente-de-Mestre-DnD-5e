@@ -1,6 +1,7 @@
 const Discord = require("discord.js");
 const functions = require("../modules/functions.js");
 const variables = require("../modules/variables.js");
+
 var PersonagemNovo = {};
 var nomeClasse;
 
@@ -58,6 +59,7 @@ module.exports.run = async (bot, message, comando, personagemDoJogador) => {
         },
         ArmaSelecionada: "",
         Armas: [],
+        Armadura: "",
         Sucessos: 0,
         Falhas: 0,
         Magias_Preparadas: {}
@@ -143,6 +145,7 @@ async function DefinirRaca(message, filter) {
     }
 
     PersonagemNovo.Raça = raca;
+    let QntdPericias = 0;
 
     for (var item in variables.rel_raca_hab()) {
         if (item == "getKeyByValue") {
@@ -150,6 +153,7 @@ async function DefinirRaca(message, filter) {
         }
 
         if (variables.rel_raca_hab()[item].includes(raca)) {
+            QntdPericias++;
             valor = item.split(" ")
             habilidadeAtual = `Habilidade${valor[0]}`
             PersonagemNovo[habilidadeAtual] += parseInt(valor[1])
@@ -157,7 +161,23 @@ async function DefinirRaca(message, filter) {
             message.channel.send(`Por causa de seu bônus racial, ${valor[0]} agora é ${PersonagemNovo[habilidadeAtual]} e o modificador foi para ${PersonagemNovo[valor[0]]}`)
         }
     }
-    return;
+    message.channel.send(`A quantidade de Pericias é ${QntdPericias}`)
+    if (QntdPericias == 1) {
+        pericia_escolhida = ""
+        while (!variables.arrayHabilidades().includes(pericia_escolhida)) {
+            message.channel.send("Você pode escolher uma habilidade a mais. Digite a que gostaria:");
+            pericia_escolhida = variables.arrayHabilidades().join("\n")
+            message.channel.send(pericia_escolhida)
+            temp = await message.channel.awaitMessages(filter, { max: 1 });
+            pericia_escolhida = temp.first().content;
+        }
+
+        habilidadeAtual = `Habilidade${pericia_escolhida}`
+        PersonagemNovo[habilidadeAtual] += 1
+        PersonagemNovo[pericia_escolhida] = functions.ConvertHabilidadeAtrib(PersonagemNovo[habilidadeAtual])
+        message.channel.send(`Você escolheu ${pericia_escolhida}.\n Agora seu novo valor é de ${PersonagemNovo[habilidadeAtual]} e o Modificador é ${PersonagemNovo[pericia_escolhida]}`)
+
+    }
 
 
 }
@@ -195,6 +215,36 @@ async function DefinirClasse(message, filter) {
     PersonagemNovo.Moedas.Po = moedasInicio;
     PersonagemNovo.HPMax = parseInt(PersonagemNovo.DadoVida.slice(1)) + PersonagemNovo.Constituição
     PersonagemNovo.HP = PersonagemNovo.HPMax
+
+    PersonagemNovo.Itens = PersonagemNovo.Itens.concat(variables.rel_class_equip()[classe].Itens)
+    PersonagemNovo.Armas = PersonagemNovo.Armas.concat(variables.rel_class_equip()[classe].Armas)
+    await CalcularCA(classe);
+}
+
+async function CalcularCA(classe) {
+    if (classe == "Monge") {
+        PersonagemNovo.CA = 10 + PersonagemNovo.Destreza + PersonagemNovo.Sabedoria
+    }
+
+    if (classe == "Bárbaro") {
+        PersonagemNovo.CA = 10 + PersonagemNovo.Destreza + PersonagemNovo.Constituição
+    }
+
+    if (variables.rel_class_equip()[classe].Armadura) {
+        PersonagemNovo.Armadura = variables.rel_class_equip()[classe].Armadura[0]
+        PersonagemNovo.CA = variables.armors[PersonagemNovo.Armadura].CA
+
+        if (variables.armors[PersonagemNovo.Armadura].ModDestreza) {
+            PersonagemNovo.CA += PersonagemNovo.Destreza
+        }
+
+        if (variables.rel_class_equip()[classe].Armadura[1]) {
+            PersonagemNovo.CA += 2;
+            PersonagemNovo.Itens.push("Escudo")
+        }
+    } else {
+        PersonagemNovo.CA = 10 + PersonagemNovo.Destreza
+    }
 }
 
 async function DefinirAntecedentes(message, filter) {
@@ -240,9 +290,7 @@ async function DefinirProficiencias(message, filter) {
         periciasDisponiveis = variables.rel_class_perProf()[nomeClasse].Pericias;
     } else {
         for (var i in Object.values(variables.Pericias)) {
-            if (typeof (Object.values(variables.Pericias)[i]) == "function") {
-
-            } else {
+            if (typeof (Object.values(variables.Pericias)[i]) != "function") {
                 periciasDisponiveis = periciasDisponiveis.concat(Object.values(variables.Pericias)[i]);
             }
         }

@@ -58,6 +58,8 @@ module.exports = {
 
     weapons: require('../weaponsinfo.json'),
 
+    armors: require('../armorinfo.json'),
+
     fileSave: require('fs'),
 
     spells: require('../spellsinfo.json'),
@@ -90,6 +92,10 @@ module.exports = {
 
     rel_class_habProf: function () {
         return this.sheetsinfo.Relacao_Classe_HabilidadeProficiencia;
+    },
+
+    rel_class_equip: function(){
+        return this.sheetsinfo.Relacao_Classe_Equipamento;
     },
 
     rel_ante_prof_pericia: function () {

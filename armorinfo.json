@@ -1,0 +1,11 @@
+{
+    "Armadura de Couro": {
+        "CA": 11,
+        "ModDestreza": true
+    },
+    "Cota de Malha": {
+        "CA": 16,
+        "ModDestreza": false,
+        "Furtividade": false
+    }
+}
