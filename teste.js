@@ -13,7 +13,7 @@ function generateOutputFile(channel, member) {
 }
 
 client.on('message', msg => {
-    if (msg.content.startsWith(config.prefix + 'join')) {
+    if (msg.content.startsWith(variables.prefix + 'join')) {
         let [command, ...channelName] = msg.content.split(" ");
         if (!msg.guild) {
             return msg.reply('no private service is available in your area at the moment. Please contact a service representative for more details.');
@@ -48,7 +48,7 @@ client.on('message', msg => {
             })
             .catch(console.log);
     }
-    if (msg.content.startsWith(config.prefix + 'leave')) {
+    if (msg.content.startsWith(variables.prefix + 'leave')) {
         let [command, ...channelName] = msg.content.split(" ");
         let voiceChannel = msg.guild.channels.find("name", channelName.join(" "));
         voiceChannel.leave();
