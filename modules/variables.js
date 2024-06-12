@@ -95,9 +95,13 @@ module.exports = {
         return this.sheetsinfo.Relacao_Antecedente_Proficiencia_Pericia;
     },
 
+    rel_raca_hab: function(){
+        return this.sheetsinfo.Relacao_Raca_Habilidades;
+    },
+
     antecedentes: function () {
         var antecedenteTemp = [];
-        for (const [key, value] of Object.entries(this.rel_ante_prof_prericia())) {
+        for (const [key, value] of Object.entries(this.rel_ante_prof_pericia())) {
             antecedenteTemp = antecedenteTemp.concat(value);
         }
 

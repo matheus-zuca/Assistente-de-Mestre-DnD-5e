@@ -10,7 +10,7 @@ module.exports.run = async (bot, message, comando, personagemDoJogador) => {
         return;
     }*/
 
-    
+
     var filter = m => m.author.id === message.author.id;
     message.channel.send("Sua ficha está sendo criada. Digite o nome de seu personagem: ");
     var temp = await message.channel.awaitMessages(filter, { max: 1 });
@@ -62,7 +62,7 @@ module.exports.run = async (bot, message, comando, personagemDoJogador) => {
         Falhas: 0,
         Magias_Preparadas: {}
     }
-    
+
 
     await DefinirAtributos(message, filter);
     await DefinirRaca(message, filter);
@@ -74,12 +74,30 @@ module.exports.run = async (bot, message, comando, personagemDoJogador) => {
     personagemDoJogador = PersonagemNovo;
 
     //functions.SaveJson(variables.chars, variables.fileSave);
+    var ficha = new Discord.MessageEmbed()
+					.setTitle("Ficha de Personagem")
+					.addFields(
+						{ name: 'Nome:', value: personagemDoJogador.Nome, inline: true },
+						{ name: "Raça", value: personagemDoJogador.Raça, inline: true },
+						{ name: "Classe e Nivel", value: functions.GetClass(personagemDoJogador), inline: true },
+						{ name: "Tendência", value: "Alguma", inline: true },
+						{ name: "HP", value: personagemDoJogador.HP + " (" + personagemDoJogador.HPMax + ")", inline: true },
+						{ name: "CA", value: personagemDoJogador.CA, inline: true }
+					)
+					.addField("\u200B", "\u200B")
+					.addFields(
+						{ name: "Força", value: personagemDoJogador.HabilidadeForça + " (" + personagemDoJogador.Força + ")", inline: true },
+						{ name: "Destreza", value: personagemDoJogador.HabilidadeDestreza + " (" + personagemDoJogador.Destreza + ")", inline: true },
+						{ name: "Constituição", value: personagemDoJogador.HabilidadeConstituição + " (" + personagemDoJogador.Constituição + ")", inline: true },
+						{ name: "Inteligência", value: personagemDoJogador.HabilidadeInteligência + " (" + personagemDoJogador.Inteligência + ")", inline: true },
+						{ name: "Sabedoria", value: personagemDoJogador.HabilidadeSabedoria + " (" + personagemDoJogador.Sabedoria + ")", inline: true },
+						{ name: "Carisma", value: personagemDoJogador.HabilidadeCarisma + " (" + personagemDoJogador.Carisma + ")", inline: true }
+					)
+					.addField("Proficiências", "" + personagemDoJogador.Proficiencias.join(", ") + "")
+					.addField("Valor da Proficiência", personagemDoJogador.ValorProficiencia)
 
-    result = "Sua ficha foi criada";
-
-    if (result) {
-        message.channel.send(result);
-    }
+    message.channel.send("Sua ficha foi criada");
+    message.channel.send(ficha)
 }
 
 async function DefinirAtributos(message, filter) {
@@ -100,7 +118,7 @@ async function DefinirAtributos(message, filter) {
         modOrdem[i] = functions.ConvertHabilidadeAtrib(atribOrdem[i]);
     }
 
-    console.log(PersonagemNovo.DadoVida);
+
     PersonagemNovo.HPMax = parseInt(PersonagemNovo.DadoVida.slice(1)) + modOrdem[2];
     PersonagemNovo.HabilidadeForça = atribOrdem[0];
     PersonagemNovo.HabilidadeDestreza = atribOrdem[1];
@@ -114,6 +132,8 @@ async function DefinirAtributos(message, filter) {
     PersonagemNovo.Inteligência = modOrdem[3];
     PersonagemNovo.Sabedoria = modOrdem[4];
     PersonagemNovo.Carisma = modOrdem[5];
+
+    console.log(modOrdem[5])
 }
 
 async function DefinirRaca(message, filter) {
@@ -125,6 +145,25 @@ async function DefinirRaca(message, filter) {
     }
 
     PersonagemNovo.Raca = raca;
+
+    for (var item in variables.rel_raca_hab()) {
+        if (item == "getKeyByValue") {
+            continue;
+        }
+
+        if (variables.rel_raca_hab()[item].includes(raca)) {
+            valor = item.split(" ")
+            habilidadeAtual = `Habilidade${valor[0]}`
+            console.log(PersonagemNovo[valor[0]])
+            console.log(PersonagemNovo.Carisma)
+            PersonagemNovo[habilidadeAtual] += parseInt(valor[1])
+            PersonagemNovo[valor[0]] = functions.ConvertHabilidadeAtrib(PersonagemNovo[habilidadeAtual])
+            message.channel.send(`Por causa de seu bônus racial, ${valor[0]} agora é ${PersonagemNovo[habilidadeAtual]} e o modificador foi para ${PersonagemNovo[valor[0]]}`)
+        }
+    }
+    return;
+
+
 }
 
 async function DefinirClasse(message, filter) {
@@ -164,6 +203,10 @@ async function DefinirAntecedentes(message, filter) {
     }
 
     for (var i in Object.entries(variables.rel_ante_prof_pericia())) {
+        if (i == "getKeyByValue") {
+            continue;
+        }
+
         if (Object.entries(variables.rel_ante_prof_pericia())[i][0]) {
             if (Object.entries(variables.rel_ante_prof_pericia())[i][1].includes(resposta)) {
                 profEsc.push(Object.entries(variables.rel_ante_prof_pericia())[i][0]);

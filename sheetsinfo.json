@@ -21,10 +21,29 @@
         "19": 305000,
         "20": 355000
     },
-    "Raças":{
+    "Raças": {
+        "Anão da Montanha": [],
+        "Anão da Colina": [],
+        "Alto Elfo": [],
+        "Elfo das Florestas": [],
+        "Drow": [],
+        "Halfling Pés-Leves": [],
+        "Halfling Robustos": [],
+        "Gnomo das Florestas": [],
+        "Gnomo das Pedras": [],
+        "Draconato": [],
+        "Humano": [],
+        "Meio-Elfo": [],
+        "Tieferino": [],
+        "Meio-Orc": []
+    },
+    "Raças_Total": {
         "Aarakocra": [],
-        "Aasimar": [],
-        "Anão": [],
+        "Aasimar Protetor": [],
+        "Aasimar do Flagelo": [],
+        "Aasimar Caido": [],
+        "Anão da Montanha": [],
+        "Anão da Colina": [],
         "Bugurso": [],
         "Centauro": [],
         "Changeling": [],
@@ -56,7 +75,7 @@
         "Kobold": [],
         "Leonino": [],
         "Loxodonte": [],
-        "Locathan": [],
+        "Locathah": [],
         "Meio-Elfo": [],
         "Meio-Orc": [],
         "Minotauro": [],
@@ -78,6 +97,112 @@
         "Verdan": [],
         "Warforged": [],
         "Yuan-ti": []
+    },
+    "Relacao_Raca_Habilidades": {
+        "Força 1": [
+            "Draconato",
+            "Humano",
+            "Leonino",
+            "Firbolg",
+            "Aasimar Caido"
+        ],
+        "Força 2": [
+            "Meio-Orc",
+            "Centauro",
+            "Minotauro",
+            "Tortle",
+            "Locathah",
+            "Bugurso",
+            "Orc",
+            "Anão da Montanha"
+        ],
+        "Destreza 1": [
+            "Humano",
+            "Sátiro",
+            "Locathah",
+            "Bugurso",
+            "Gnomo das Florestas"
+        ],
+        "Destreza 2": [
+            "Grung",
+            "Goblin",
+            "Kenku",
+            "Kobold",
+            "Tabaxi",
+            "Alto Elfo",
+            "Elfo das Florestas",
+            "Drow",
+            "Halfling Pés-Leves",
+            "Halfling Robustos"
+        ],
+        "Constituição 1": [
+            "Humano",
+            "Meio-Orc",
+            "Minotauro",
+            "Grung",
+            "Goblin",
+            "Aasimar do Flagelo",
+            "Orc",
+            "Halfling Robustos",
+            "Gnomo das Pedras"
+        ],
+        "Constituição 2": [
+            "Leonino",
+            "Warforged",
+            "Loxodonte",
+            "Hibrido Simico",
+            "Hobgoblin",
+            "Povo Lagarto",
+            "Anão da Montanha",
+            "Anão da Colina"
+        ],
+        "Inteligência 1": [
+            "Humano",
+            "Tieferino",
+            "Hobgoblin",
+            "Alto Elfo"
+        ],
+        "Inteligência 2": [
+            "Vedalken",
+            "Gnomo das Florestas",
+            "Gnomo das Pedras"
+        ],
+        "Sabedoria 1": [
+            "Humano",
+            "Centauro",
+            "Loxodonte",
+            "Vedalken",
+            "Tortle",
+            "Kenku",
+            "Aasimar Protetor",
+            "Povo Lagarto",
+            "Anão da Colina",
+            "Elfo das Florestas"
+        ],
+        "Sabedoria 2": [
+            "Kalashtar",
+            "Firbolg"
+        ],
+        "Carisma 1": [
+            "Draconato",
+            "Humano",
+            "Kalashtar",
+            "Tabaxi",
+            "Drow",
+            "Halfling Pés-Leves"
+        ],
+        "Carisma 2": [
+            "Meio-Elfo",
+            "Tieferino",
+            "Sátiro",
+            "Changeling",
+            "Aasimar Protetor",
+            "Aasimar do Flagelo",
+            "Aasimar Caido"
+        ],
+        "Força -2": [
+            "Kobold"
+        ]
     },
     "LevelProficiencia": {
         "2": [
@@ -2169,6 +2294,5 @@
                 "Religião"
             ]
         }
-    },
-    "Relacao_Raca_Abilidades": {}
+    }
 }
