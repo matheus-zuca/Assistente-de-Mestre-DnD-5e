@@ -1,5 +1,4 @@
 const Discord = require("discord.js");
-const { prefix } = require('../auth.json');
 const functions = require("../modules/functions.js");
 const variables = require("../modules/variables.js");
 
@@ -61,5 +60,5 @@ module.exports.run = async (bot, message, comando, personagemDoJogador) => {
 module.exports.help = {
     name: "HP",
     code: "hp",
-    description: `Consulta sua vida. Além disso, você ainda pode somar ou subtrair um valor dela. Válido também pra dado de vida em um descanso curto, digitando ${prefix}hp dc`
+    description: `Consulta sua vida. Além disso, você ainda pode somar ou subtrair um valor dela. Válido também pra dado de vida em um descanso curto, digitando ${variables.prefix}hp dc`
 }

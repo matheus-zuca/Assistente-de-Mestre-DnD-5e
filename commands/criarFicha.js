@@ -6,10 +6,10 @@ var PersonagemNovo = {};
 var nomeClasse;
 
 module.exports.run = async (bot, message, comando, personagemDoJogador) => {
-    /*if (personagemDoJogador) {
+    if (personagemDoJogador) {
         message.channel.send(`Sua ficha já está feita. Digite ${variables.prefix}c se quiser consulta-la ou ${variables.prefix}a se quiser altera-la. Se quiser exclui-la, digite e`)
         return;
-    }*/
+    }
 
 
     var filter = m => m.author.id === message.author.id;
