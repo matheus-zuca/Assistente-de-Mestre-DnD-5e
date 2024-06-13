@@ -16,7 +16,7 @@ O Assistente de Mestre é um projeto voltado a atender especificamente as necess
 ### `/r - Rolagens de Dados`
 ~~~javascript
 //Rolagem de Dados Padrão
-!r 1d10
+/r 1d10
 
 //Rolagem de Dados com Vantagem ou Desvantagem
 /r 1d20 v
@@ -46,14 +46,14 @@ O Assistente de Mestre é um projeto voltado a atender especificamente as necess
 /hp-10 //O bot não ultrapassa zero.
 ~~~
 
-### `/addnote e !notes - Anotações `
+### `/addnote e /anote - Anotações `
 
 ~~~javascript
 //Adicionar alguma anotação para o banco de informações registradas de um jogador
 /addnote O reino tem um traidor //Assim que adiciona, o bot apaga a mensagem do jogador, prezando pela privacidade
 
 //Verificar as anotações já registradas
-/notes //o bot manda a resposta no privado, prezando pela privacidade
+/anote //o bot manda a resposta no privado, prezando pela privacidade
 ~~~
 
 ### `/c - Consulta da Ficha`
@@ -82,11 +82,54 @@ que a classe é proficiente e outras questões semelhantes também são automati
 /bal - 10PO //Caso o Jogador não tenha essa quantidade, o Bot o avisará
 ~~~
 
+### `/spellinfo - Consulta de Feitiços`
+~~~javascript
+//Buscar informações sobre algum feitiço especifico
+/spellinfo Bola de Fogo
+
+//É possível buscar feitiços que atendam a um filtro especifico como nível
+/spellinfo $l 3
+//Escola de Conjuração
+/spellinfo $e Invocação
+//Classe
+/spellinfo $c Clérigo
+
+//Ou um misto de alguns desses
+/spellinfo $l 9 $c Mago
+~~~
+
+### `/prep - Preparação de Magias`
+~~~javascript
+//Verificar quais classes precisam disso, quais magias são de qual classe e, se necessário, as prepara
+/prep Escudo Arcano
+~~~
+
+### `/itens - Verifica o Inventário`
+~~~javascript
+//Abrir o inventário
+/itens
+~~~
+
+### `/add - Adiciona itens ou armas ao seu personagem`
+~~~javascript
+//Adicionar item ao inventário
+/add $item Corda
+
+//Adicionar arma ao inventário
+/add $arma Espada Curta
+~~~
+
+### `/xp - Calculo de XP`
+~~~javascript
+//Somar XP ao valor atual
+/xp +100
+
+//O programa calcula automaticamente se o personagem subiu de nivel e faz as alterações para tal
+~~~
+
 ## ⚙️ Implementações Futuras
 
-[ ] Rolagem de ataque \
-[ ] Atualizar ficha \
-[ ] Subir de Nível
+[ ] Atualizar ficha 
 
 ## 🛠 Tecnologias
 
