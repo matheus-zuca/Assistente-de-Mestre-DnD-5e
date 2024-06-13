@@ -17,19 +17,35 @@ module.exports.run = async (bot, message, comando, personagemDoJogador) => {
     personagemDoJogador.XP += parseInt(comando[1])
     message.channel.send(`XP atualizado. Você tem ${personagemDoJogador.XP} pontos de Experiencia`);
 
+    var leveltotal = Object.values(personagemDoJogador.Level).reduce((a, b) => { return a + b });
 
-    
-    var filter = m => m.author.id === message.author.id;
-    message.channel.send("Qual classe você vai subir?");
-    var temp = await message.channel.awaitMessages(filter, { max: 1 });
-    classe = temp.first().content;
-
-    if (Object.keys(personagemDoJogador.Level).includes(classe)) {
-        personagemDoJogador.Level[classe]++;
+    if (personagemDoJogador.XP < variables.niveis()[leveltotal + 1]) {
+        return;
     }
 
-    var leveltotal = Object.values(personagemDoJogador.Level).reduce((a, b) => { return a + b });
+    message.channel.send("Você subiu de nivel!")
+    var filter = m => m.author.id === message.author.id;
+
+    classe = ""
+    while (!Object.keys(personagemDoJogador.Level).includes(classe)) {
+        message.channel.send("Qual classe você quer subir?");
+        var temp = await message.channel.awaitMessages(filter, { max: 1 });
+        classe = temp.first().content;
+    }
+    personagemDoJogador.Level[classe]++;
+    leveltotal++;
+
     personagemDoJogador.ValorProficiencia = parseInt(variables.rel_prof_nivel().getKeyByValue(leveltotal));
+
+    dadoDeVida = variables.rel_dv_class().getKeyByValue(classe)
+
+    message.channel.send(`Seu dado de vida é um ${dadoDeVida}`)
+    message.channel.send(`Vamos ver sua sorte...`)
+    vidaSomada = functions.Rolagem(1, parseInt(dadoDeVida.slice(1)))
+    message.channel.send(`Você ganhou ${vidaSomada} pontos de vida`)
+    personagemDoJogador.HP += vidaSomada
+
+
     //functions.SaveJson(variables.chars, variables.fileSave);
 
 }

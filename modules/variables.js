@@ -42,6 +42,10 @@ module.exports = {
 
     sheetsinfo: require('../sheetsinfo.json'),
 
+    niveis: function(){
+        return this.sheetsinfo.Niveis;
+    },
+
     racas: function () {
         return Object.keys(this.sheetsinfo.Raças);
     },
