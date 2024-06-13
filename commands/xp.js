@@ -38,15 +38,28 @@ module.exports.run = async (bot, message, comando, personagemDoJogador) => {
     personagemDoJogador.ValorProficiencia = parseInt(variables.rel_prof_nivel().getKeyByValue(leveltotal));
 
     dadoDeVida = variables.rel_dv_class().getKeyByValue(classe)
-
     message.channel.send(`Seu dado de vida é um ${dadoDeVida}`)
     message.channel.send(`Vamos ver sua sorte...`)
     vidaSomada = functions.Rolagem(1, parseInt(dadoDeVida.slice(1)))
     message.channel.send(`Você ganhou ${vidaSomada} pontos de vida`)
     personagemDoJogador.HP += vidaSomada
 
+    let niveis_inc_hab = [4, 8, 12, 16, 19]
+    if (niveis_inc_hab.includes(leveltotal)) {
+        message.channel.send(`Você pode somar 1 em alguma Habilidade. Digite qual vai ser:`)
+        habilidade = ""
+        while (!variables.arrayHabilidades().includes(habilidade)) {
+            message.channel.send(variables.arrayHabilidades().join("\n"));
+            var temp = await message.channel.awaitMessages(filter, { max: 1 });
+            habilidade = temp.first().content;
+        }
 
-    //functions.SaveJson(variables.chars, variables.fileSave);
+        personagemDoJogador[`Habilidade${habilidade}`] += 1
+        personagemDoJogador[habilidade] = functions.ConvertHabilidadeAtrib(personagemDoJogador[`Habilidade${habilidade}`])
+    }
+
+
+    functions.SaveJson(variables.chars, variables.fileSave);
 
 }
 
