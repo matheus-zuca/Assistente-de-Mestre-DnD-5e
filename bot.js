@@ -18,7 +18,7 @@ variables.fileSave.readdir("./commands/", (err, file) => {
 		let props = require(`./commands/${f}`);
 		console.log(`${f} carregou`);
 		bot.commands.set(props.help.code, props);
-		variables.ajuda[props.help.name] = `${prefix}${props.help.code}: ${props.help.description}`;
+		variables.ajuda[props.help.name] = `${variables.prefix}${props.help.code}: ${props.help.description}`;
 	});
 });
 
@@ -29,7 +29,7 @@ bot.on('message', async message => {
 	var personagemDoJogador = variables.chars[message.author.id];
 	let commandFile = bot.commands.get(comando[0].toLowerCase());
 	teste = message.content;
-	if (message.content.substring(0, 1) == prefix) {
+	if (message.content.substring(0, 1) == variables.prefix) {
 		if (commandFile) {
 			commandFile.run(bot, message, comando, personagemDoJogador);
 		}

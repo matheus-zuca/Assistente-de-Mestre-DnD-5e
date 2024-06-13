@@ -12,6 +12,8 @@ var Pericias = {
 
 module.exports = {
 
+    prefix: "/",
+
     ajuda: {
 
     },
