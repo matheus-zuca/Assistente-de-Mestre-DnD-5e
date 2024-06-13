@@ -1,5 +1,4 @@
 const Discord = require('discord.js');
-const prefix = require('../auth.json');
 const variables = require('../modules/variables.js');
 const functions = require('../modules/functions.js');
 
