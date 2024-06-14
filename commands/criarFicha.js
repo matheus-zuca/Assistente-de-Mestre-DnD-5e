@@ -76,7 +76,7 @@ module.exports.run = async (bot, message, comando, personagemDoJogador) => {
 
     personagemDoJogador = PersonagemNovo;
 
-    //functions.SaveJson(variables.chars, variables.fileSave);
+    functions.SaveJson(variables.chars, variables.fileSave);
     var ficha = new Discord.MessageEmbed()
         .setTitle("Ficha de Personagem")
         .addFields(

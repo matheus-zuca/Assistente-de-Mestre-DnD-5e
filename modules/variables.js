@@ -56,6 +56,8 @@ module.exports = {
         return Object.keys(Pericias);
     },
 
+    Alinhamentos: ["Leal e Bom", "Leal e Neutro", "Leal e Mau", "Neutro e Bom", "Neutro", "Neutro e Mau", "Caótico e Bom", "Caótico e Neutro", "Caótico e Mau"],
+
     chars: require('../chars.json'),
 
     weapons: require('../weaponsinfo.json'),
