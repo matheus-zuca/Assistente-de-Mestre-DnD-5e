@@ -56,11 +56,7 @@ module.exports = {
     },
 
     EscolhaAtributos: async function (arrayResult, a, mensagem, resposta, arrayHabilidades) {
-        resposta += "Os números disponíveis são: \n\n";
-        for (var i = 0; i <= arrayResult.length - 1; i++) {
-            resposta += arrayResult[i] + "\n";
-        }
-        resposta += "\n Qual valor quer para " + arrayHabilidades[a];
+        resposta += `Os números disponíveis são: \n\n ${arrayResult.join("\n")} \n Qual valor quer para  ${arrayHabilidades[a]}?`
         mensagem.channel.send(resposta);
         temp = [];
         var filter = m => m.author.id === mensagem.author.id;
@@ -164,6 +160,20 @@ module.exports = {
             }
         }
         return texto;
+    },
+
+    GetHabilidadeConjuradora: function(Personagem, classe){
+        habilidades = variables.rel_class_habConju();
+
+        
+        for (var key in habilidades) {
+            if(typeof(habilidades[key]) === 'function'){
+                continue;
+            }
+            if (habilidades[key].includes(classe)) {
+                return Personagem[key]
+            }
+        }
     }
 }
 

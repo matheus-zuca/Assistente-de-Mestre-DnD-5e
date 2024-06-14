@@ -3,8 +3,8 @@
         "Nivel": 2,
         "Escola": "Transmutação",
         "classes": [
-            "feiticeiro",
-            "mago"
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": "30 pés",
@@ -31,8 +31,8 @@
         "Nivel": 2,
         "Escola": "encantamento",
         "classes": [
-            "bardo",
-            "clérigo"
+            "Bardo",
+            "Clerigo"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 60 pés",
@@ -44,7 +44,7 @@
         "Nivel": 4,
         "Escola": "adivinhação",
         "classes": [
-            "clérigo"
+            "Clerigo"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " pessoal",
@@ -56,10 +56,10 @@
         "Nivel": 2,
         "Escola": "transmutação",
         "classes": [
-            "bruxo",
-            "druida",
-            "feiticeiro",
-            "mago"
+            "Warlock",
+            "Druida",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 300 pés",
@@ -71,9 +71,9 @@
         "Nivel": 2,
         "Escola": "abjuração",
         "classes": [
-            "artífice",
-            "clérigo",
-            "paladino"
+            "Artifice",
+            "Clerigo",
+            "Paladino"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 30 pés",
@@ -85,9 +85,9 @@
         "Nivel": 1,
         "Escola": "abjuração (ritual)",
         "classes": [
-            "artífice",
-            "mago",
-            "patrulheiro"
+            "Artifice",
+            "Mago",
+            "Ranger"
         ],
         "TempoConjuracao": "1 minutos",
         "Alcance": " 30 pés",
@@ -99,7 +99,7 @@
         "Nivel": 6,
         "Escola": "conjuração",
         "classes": [
-            "clérigo"
+            "Clerigo"
         ],
         "TempoConjuracao": "10 minutos",
         "Alcance": " 60 pés",
@@ -111,7 +111,7 @@
         "Nivel": 5,
         "Escola": "transmutação",
         "classes": [
-            "patrulheiro"
+            "Ranger"
         ],
         "TempoConjuracao": "1 ação bonus",
         "Alcance": " toque",
@@ -123,9 +123,9 @@
         "Nivel": 2,
         "Escola": "transmutação",
         "classes": [
-            "artífice",
-            "feiticeiro",
-            "mago"
+            "Artifice",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " pessoal",
@@ -137,8 +137,8 @@
         "Nivel": 9,
         "Escola": "transmutação",
         "classes": [
-            "druida",
-            "mago"
+            "Druida",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " pessoal",
@@ -150,7 +150,7 @@
         "Nivel": 7,
         "Escola": "necromancia",
         "classes": [
-            "mago"
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 60 pés",
@@ -162,9 +162,9 @@
         "Nivel": 3,
         "Escola": "encantamento",
         "classes": [
-            "bardo",
-            "clérigo",
-            "mago"
+            "Bardo",
+            "Clerigo",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 30 pés",
@@ -176,10 +176,10 @@
         "Nivel": 0,
         "Escola": "encantamento",
         "classes": [
-            "bardo",
-            "bruxo",
-            "feiticeiro",
-            "mago"
+            "Bardo",
+            "Warlock",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " pessoal",
@@ -191,9 +191,9 @@
         "Nivel": 1,
         "Escola": "encantamento",
         "classes": [
-            "bardo",
-            "druida",
-            "patrulheiro"
+            "Bardo",
+            "Druida",
+            "Ranger"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 30 pés",
@@ -205,7 +205,7 @@
         "Nivel": 1,
         "Escola": "transmutação",
         "classes": [
-            "mago"
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 60 pés",
@@ -217,9 +217,9 @@
         "Nivel": 3,
         "Escola": "transmutação",
         "classes": [
-            "bardo",
-            "druida",
-            "patrulheiro"
+            "Bardo",
+            "Druida",
+            "Ranger"
         ],
         "TempoConjuracao": "especial",
         "Alcance": " 150 pés",
@@ -231,10 +231,10 @@
         "Nivel": 5,
         "Escola": "abjuração",
         "classes": [
-            "bardo",
-            "clérigo",
-            "druida",
-            "mago"
+            "Bardo",
+            "Clerigo",
+            "Druida",
+            "Mago"
         ],
         "TempoConjuracao": "1 horas",
         "Alcance": " 60 pés",
@@ -246,11 +246,11 @@
         "Nivel": 3,
         "Escola": "transmutação (ritual)",
         "classes": [
-            "artífice",
-            "clérigo",
-            "druida",
-            "feiticeiro",
-            "patrulheiro"
+            "Artifice",
+            "Clerigo",
+            "Druida",
+            "Feiticeiro",
+            "Ranger"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 30 pés",
@@ -262,8 +262,8 @@
         "Nivel": 3,
         "Escola": "necromancia",
         "classes": [
-            "clérigo",
-            "mago"
+            "Clerigo",
+            "Mago"
         ],
         "TempoConjuracao": "1 minutos",
         "Alcance": " 10 pés",
@@ -275,10 +275,10 @@
         "Nivel": 5,
         "Escola": "transmutação",
         "classes": [
-            "artífice",
-            "bardo",
-            "feiticeiro",
-            "mago"
+            "Artifice",
+            "Bardo",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 120 pés",
@@ -290,8 +290,8 @@
         "Nivel": 8,
         "Escola": "encantamento",
         "classes": [
-            "druida",
-            "mago"
+            "Druida",
+            "Mago"
         ],
         "TempoConjuracao": "1 horas",
         "Alcance": " 60 pés",
@@ -303,11 +303,11 @@
         "Nivel": 2,
         "Escola": "transmutação",
         "classes": [
-            "artífice",
-            "bardo",
-            "clérigo",
-            "druida",
-            "feiticeiro"
+            "Artifice",
+            "Bardo",
+            "Clerigo",
+            "Druida",
+            "Feiticeiro"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " toque",
@@ -319,8 +319,8 @@
         "Nivel": 9,
         "Escola": "abjuração",
         "classes": [
-            "bruxo",
-            "mago"
+            "Warlock",
+            "Mago"
         ],
         "TempoConjuracao": "1 minutos",
         "Alcance": " 30 pés",
@@ -332,8 +332,8 @@
         "Nivel": 4,
         "Escola": "conjuração",
         "classes": [
-            "artífice",
-            "mago"
+            "Artifice",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " toque",
@@ -345,8 +345,8 @@
         "Nivel": 1,
         "Escola": "conjuração",
         "classes": [
-            "artífice",
-            "mago"
+            "Artifice",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 60 pés",
@@ -358,8 +358,8 @@
         "Nivel": 3,
         "Escola": "transmutação",
         "classes": [
-            "artífice",
-            "paladino"
+            "Artifice",
+            "Paladino"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " toque",
@@ -371,21 +371,21 @@
         "Nivel": 2,
         "Escola": "evocação",
         "classes": [
-            "clérigo"
+            "Clerigo"
         ],
         "TempoConjuracao": "1 ação bonus",
         "Alcance": " 60 pés",
         "Componentes": "V S",
         "Duração": "1 minutos",
-        "Descrição": " Você cria uma arma espectral flutuante, dentro do alcance, que permanece pela duração ou até você conjurar essa magia novamente. Quando você conjura essa magia, você pode realizar um ataque corpo-a-corpo com magia contra uma criatura a 1,5 metro [5 feet] da arma. Se atingir, o alvo sofre dano de energia igual a 1d8 + seu modificador de habilidade de conjuração. Com uma ação bônus, no seu turno, você pode mover a arma até 6 metros [20 feet] e repetir o ataque contra uma criatura a 1,5 metro [5 feet] dela. A arma pode ter a forma que você desejar. Clérigos de divindades associadas com uma arma em particular (como St. Cuthbert é conhecido por sua maça ou Thor por seu martelo) fazem o efeito dessa magia se assemelhar a essa arma. Em Níveis Superiores. Quando você conjurar essa magia usando um espaço de magia de 4° nível ou superior, o dano aumenta em 1d8 para cada dois níveis do espaço acima do 2°. "
+        "Descrição": " Você cria uma arma espectral flutuante, dentro do alcance, que permanece pela duração ou até você conjurar essa magia novamente. Quando você conjura essa magia, você pode realizar um ataque corpo-a-corpo com magia contra uma criatura a 1,5 metro [5 feet] da arma. Se atingir, o alvo sofre dano de energia igual a 1d8 + seu modificador de habilidade de conjuração. Com uma ação bônus, no seu turno, você pode mover a arma até 6 metros [20 feet] e repetir o ataque contra uma criatura a 1,5 metro [5 feet] dela. A arma pode ter a forma que você desejar. Clerigos de divindades associadas com uma arma em particular (como St. Cuthbert é conhecido por sua maça ou Thor por seu martelo) fazem o efeito dessa magia se assemelhar a essa arma. Em Níveis Superiores. Quando você conjurar essa magia usando um espaço de magia de 4° nível ou superior, o dano aumenta em 1d8 para cada dois níveis do espaço acima do 2°. "
     },
     "Arma Mágica": {
         "Nivel": 2,
         "Escola": "transmutação",
         "classes": [
-            "artífice",
-            "mago",
-            "paladino"
+            "Artifice",
+            "Mago",
+            "Paladino"
         ],
         "TempoConjuracao": "1 ação bonus",
         "Alcance": " toque",
@@ -397,8 +397,8 @@
         "Nivel": 5,
         "Escola": "evocação",
         "classes": [
-            "clérigo",
-            "paladino"
+            "Clerigo",
+            "Paladino"
         ],
         "TempoConjuracao": "1 ação bonus",
         "Alcance": " toque",
@@ -410,8 +410,8 @@
         "Nivel": 1,
         "Escola": "abjuração",
         "classes": [
-            "feiticeiro",
-            "mago"
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " toque",
@@ -423,7 +423,7 @@
         "Nivel": 1,
         "Escola": "abjuração",
         "classes": [
-            "bruxo"
+            "Warlock"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " pessoal",
@@ -435,9 +435,9 @@
         "Nivel": 2,
         "Escola": "transmutação",
         "classes": [
-            "bardo",
-            "feiticeiro",
-            "mago"
+            "Bardo",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 60 pés",
@@ -449,7 +449,7 @@
         "Nivel": 4,
         "Escola": "ilusão",
         "classes": [
-            "mago"
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 120 pés",
@@ -461,10 +461,10 @@
         "Nivel": 0,
         "Escola": "adivinhação",
         "classes": [
-            "bardo",
-            "bruxo",
-            "feiticeiro",
-            "mago"
+            "Bardo",
+            "Warlock",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 30 pés",
@@ -476,8 +476,8 @@
         "Nivel": 5,
         "Escola": "conjuração",
         "classes": [
-            "mago",
-            "patrulheiro"
+            "Mago",
+            "Ranger"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 30 pés",
@@ -489,10 +489,10 @@
         "Nivel": 6,
         "Escola": "necromancia",
         "classes": [
-            "bardo",
-            "bruxo",
-            "feiticeiro",
-            "mago"
+            "Bardo",
+            "Warlock",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " pessoal",
@@ -504,7 +504,7 @@
         "Nivel": 2,
         "Escola": "adivinhação (ritual)",
         "classes": [
-            "clérigo"
+            "Clerigo"
         ],
         "TempoConjuracao": "1 minutos",
         "Alcance": " pessoal",
@@ -516,9 +516,9 @@
         "Nivel": 2,
         "Escola": "transmutação",
         "classes": [
-            "artífice",
-            "feiticeiro",
-            "mago"
+            "Artifice",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 30 pés",
@@ -530,7 +530,7 @@
         "Nivel": 4,
         "Escola": "abjuração",
         "classes": [
-            "paladino"
+            "Paladino"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " pessoal",
@@ -542,7 +542,7 @@
         "Nivel": 4,
         "Escola": "abjuração",
         "classes": [
-            "paladino"
+            "Paladino"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " pessoal",
@@ -554,7 +554,7 @@
         "Nivel": 3,
         "Escola": "evocação",
         "classes": [
-            "paladino"
+            "Paladino"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " pessoal",
@@ -566,19 +566,19 @@
         "Nivel": 2,
         "Escola": "ilusão",
         "classes": [
-            "mago"
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " toque",
         "Componentes": "V S M (um pequeno quadrado de seda)",
         "Duração": "24 horas",
-        "Descrição": "Você coloca uma ilusão em uma criatura ou objeto que você tocar, então magias de adivinhação revelarão informações falsas sobre ele. O alvo pode ser uma criatura voluntária ou um objeto que não esteja sendo carregado ou vestido por outra criatura. Quando você conjura essa magia, escolha um ou ambos os efeitos seguintes. O efeito permanece pela duração. Se você conjurar essa magia na mesma criatura ou objeto a cada dia por 30 dias, colocando o mesmo efeito nele todas as vezes, a ilusão durará até ser dissipada. Aura Falsa. Você modifica a forma como o alvo aparece para magias e efeitos mágicos, como detectar magia, que detectam auras mágicas. Você pode fazer um objeto não-mágico parecer mágico ou mudar a aura mágica de um objeto para que ela pareça pertencer a outra escola de magia a sua escolha. Quando você usar esse efeito num objeto, você pode fazer a aura falsa aparente a qualquer criatura que manusear o item. Máscara. Você modifica a forma como o alvo aparece para magias e efeitos que detectam tipos de criaturas, como o Sentido Divino do paladino ou o gatilho de um magia símbolo. Você escolhe o tipo de criatura e outras magias e efeitos mágicos consideram o alvo como se ele fosse uma criatura desse tipo ou tendência."
+        "Descrição": "Você coloca uma ilusão em uma criatura ou objeto que você tocar, então magias de adivinhação revelarão informações falsas sobre ele. O alvo pode ser uma criatura voluntária ou um objeto que não esteja sendo carregado ou vestido por outra criatura. Quando você conjura essa magia, escolha um ou ambos os efeitos seguintes. O efeito permanece pela duração. Se você conjurar essa magia na mesma criatura ou objeto a cada dia por 30 dias, colocando o mesmo efeito nele todas as vezes, a ilusão durará até ser dissipada. Aura Falsa. Você modifica a forma como o alvo aparece para magias e efeitos mágicos, como detectar magia, que detectam auras mágicas. Você pode fazer um objeto não-mágico parecer mágico ou mudar a aura mágica de um objeto para que ela pareça pertencer a outra escola de magia a sua escolha. Quando você usar esse efeito num objeto, você pode fazer a aura falsa aparente a qualquer criatura que manusear o item. Máscara. Você modifica a forma como o alvo aparece para magias e efeitos que detectam tipos de criaturas, como o Sentido Divino do Paladino ou o gatilho de um magia símbolo. Você escolhe o tipo de criatura e outras magias e efeitos mágicos consideram o alvo como se ele fosse uma criatura desse tipo ou tendência."
     },
     "Aura Sagrada": {
         "Nivel": 8,
         "Escola": "abjuração",
         "classes": [
-            "clérigo"
+            "Clerigo"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " pessoal",
@@ -590,8 +590,8 @@
         "Nivel": 5,
         "Escola": "evocação",
         "classes": [
-            "clérigo",
-            "mago"
+            "Clerigo",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 60 pés",
@@ -603,7 +603,7 @@
         "Nivel": 1,
         "Escola": "evocação",
         "classes": [
-            "paladino"
+            "Paladino"
         ],
         "TempoConjuracao": "1 ação bonus",
         "Alcance": " pessoal",
@@ -615,8 +615,8 @@
         "Nivel": 2,
         "Escola": "transmutação",
         "classes": [
-            "feiticeiro",
-            "mago"
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação bonus",
         "Alcance": " toque",
@@ -628,11 +628,11 @@
         "Nivel": 4,
         "Escola": "abjuração",
         "classes": [
-            "bruxo",
-            "clérigo",
-            "feiticeiro",
-            "mago",
-            "paladino"
+            "Warlock",
+            "Clerigo",
+            "Feiticeiro",
+            "Mago",
+            "Paladino"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 60 pés",
@@ -644,8 +644,8 @@
         "Nivel": 6,
         "Escola": "conjuração",
         "classes": [
-            "clérigo",
-            "druida"
+            "Clerigo",
+            "Druida"
         ],
         "TempoConjuracao": "10 minutos",
         "Alcance": " 30 pés",
@@ -657,7 +657,7 @@
         "Nivel": 6,
         "Escola": "evocação",
         "classes": [
-            "clérigo"
+            "Clerigo"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 90 pés",
@@ -669,8 +669,8 @@
         "Nivel": 1,
         "Escola": "encantamento",
         "classes": [
-            "clérigo",
-            "paladino"
+            "Clerigo",
+            "Paladino"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 30 pés",
@@ -682,9 +682,9 @@
         "Nivel": 2,
         "Escola": "ilusão (ritual)",
         "classes": [
-            "artífice",
-            "bardo",
-            "mago"
+            "Artifice",
+            "Bardo",
+            "Mago"
         ],
         "TempoConjuracao": "1 minutos",
         "Alcance": " 30 pés",
@@ -696,8 +696,8 @@
         "Nivel": 3,
         "Escola": "evocação",
         "classes": [
-            "feiticeiro",
-            "mago"
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 150 pés",
@@ -709,8 +709,8 @@
         "Nivel": 7,
         "Escola": "evocação",
         "classes": [
-            "feiticeiro",
-            "mago"
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 150 pés",
@@ -734,8 +734,8 @@
         "Nivel": 1,
         "Escola": "transmutação",
         "classes": [
-            "druida",
-            "patrulheiro"
+            "Druida",
+            "Ranger"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " toque",
@@ -747,7 +747,7 @@
         "Nivel": 0,
         "Escola": "transmutação",
         "classes": [
-            "druida"
+            "Druida"
         ],
         "TempoConjuracao": "1 ação bonus",
         "Alcance": " toque",
@@ -759,7 +759,7 @@
         "Nivel": 6,
         "Escola": "abjuração",
         "classes": [
-            "druida"
+            "Druida"
         ],
         "TempoConjuracao": "10 minutos",
         "Alcance": " toque",
@@ -771,7 +771,7 @@
         "Nivel": 1,
         "Escola": "conjuração",
         "classes": [
-            "bruxo"
+            "Warlock"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " pessoal",
@@ -783,7 +783,7 @@
         "Nivel": 1,
         "Escola": "encantamento",
         "classes": [
-            "bruxo"
+            "Warlock"
         ],
         "TempoConjuracao": "1 ação bonus",
         "Alcance": " 90 pés",
@@ -795,8 +795,8 @@
         "Nivel": 5,
         "Escola": "conjuração",
         "classes": [
-            "druida",
-            "patrulheiro"
+            "Druida",
+            "Ranger"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " pessoal",
@@ -808,7 +808,7 @@
         "Nivel": 6,
         "Escola": "transmutação",
         "classes": [
-            "druida"
+            "Druida"
         ],
         "TempoConjuracao": "1 minutos",
         "Alcance": " 30 pés",
@@ -820,8 +820,8 @@
         "Nivel": 8,
         "Escola": "abjuração",
         "classes": [
-            "clérigo",
-            "mago"
+            "Clerigo",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " pessoal",
@@ -833,8 +833,8 @@
         "Nivel": 4,
         "Escola": "conjuração",
         "classes": [
-            "artífice",
-            "mago"
+            "Artifice",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 30 pés",
@@ -846,8 +846,8 @@
         "Nivel": 6,
         "Escola": "transmutação",
         "classes": [
-            "bruxo",
-            "mago"
+            "Warlock",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 60 pés",
@@ -859,9 +859,9 @@
         "Nivel": 1,
         "Escola": "transmutação",
         "classes": [
-            "artífice",
-            "feiticeiro",
-            "mago"
+            "Artifice",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 60 pés",
@@ -873,8 +873,8 @@
         "Nivel": 2,
         "Escola": "encantamento",
         "classes": [
-            "bardo",
-            "bruxo"
+            "Bardo",
+            "Warlock"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 60 pés",
@@ -886,8 +886,8 @@
         "Nivel": 1,
         "Escola": "necromancia",
         "classes": [
-            "bruxo",
-            "mago"
+            "Warlock",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 60 pés",
@@ -899,10 +899,10 @@
         "Nivel": 2,
         "Escola": "necromancia",
         "classes": [
-            "bardo",
-            "clérigo",
-            "feiticeiro",
-            "mago"
+            "Bardo",
+            "Clerigo",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 30 pés",
@@ -914,8 +914,8 @@
         "Nivel": 1,
         "Escola": "abjuração (ritual)",
         "classes": [
-            "clérigo",
-            "paladino"
+            "Clerigo",
+            "Paladino"
         ],
         "TempoConjuracao": "1 horas",
         "Alcance": " toque",
@@ -927,9 +927,9 @@
         "Nivel": 2,
         "Escola": "evocação",
         "classes": [
-            "artífice",
-            "clérigo",
-            "mago"
+            "Artifice",
+            "Clerigo",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " toque",
@@ -941,7 +941,7 @@
         "Nivel": 0,
         "Escola": "evocação",
         "classes": [
-            "clérigo"
+            "Clerigo"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 60 pés",
@@ -953,8 +953,8 @@
         "Nivel": 5,
         "Escola": "conjuração",
         "classes": [
-            "bruxo",
-            "mago"
+            "Warlock",
+            "Mago"
         ],
         "TempoConjuracao": "1 minutos",
         "Alcance": " 90 pés",
@@ -966,8 +966,8 @@
         "Nivel": 0,
         "Escola": "transmutação",
         "classes": [
-            "artífice",
-            "druida"
+            "Artifice",
+            "Druida"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 30 pés",
@@ -979,9 +979,9 @@
         "Nivel": 0,
         "Escola": "evocação",
         "classes": [
-            "bruxo",
-            "feiticeiro",
-            "mago"
+            "Warlock",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 15 pés",
@@ -993,8 +993,8 @@
         "Nivel": 2,
         "Escola": "evocação",
         "classes": [
-            "feiticeiro",
-            "mago"
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 90 pés",
@@ -1006,8 +1006,8 @@
         "Nivel": 9,
         "Escola": "evocação",
         "classes": [
-            "feiticeiro",
-            "mago"
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 1 milhas",
@@ -1019,9 +1019,9 @@
         "Nivel": 6,
         "Escola": "necromancia",
         "classes": [
-            "bruxo",
-            "feiticeiro",
-            "mago"
+            "Warlock",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 150 pés",
@@ -1033,7 +1033,7 @@
         "Nivel": 5,
         "Escola": "abjuração",
         "classes": [
-            "paladino"
+            "Paladino"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " pessoal",
@@ -1045,9 +1045,9 @@
         "Nivel": 5,
         "Escola": "conjuração",
         "classes": [
-            "bardo",
-            "feiticeiro",
-            "mago"
+            "Bardo",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 minutos",
         "Alcance": " 10 pés",
@@ -1059,10 +1059,10 @@
         "Nivel": 3,
         "Escola": "abjuração",
         "classes": [
-            "bruxo",
-            "clérigo",
-            "mago",
-            "paladino"
+            "Warlock",
+            "Clerigo",
+            "Mago",
+            "Paladino"
         ],
         "TempoConjuracao": "1 minutos",
         "Alcance": " 10 pés",
@@ -1074,10 +1074,10 @@
         "Nivel": 3,
         "Escola": "adivinhação",
         "classes": [
-            "bardo",
-            "clérigo",
-            "feiticeiro",
-            "mago"
+            "Bardo",
+            "Clerigo",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "10 minutos",
         "Alcance": " 1 milhas",
@@ -1089,7 +1089,7 @@
         "Nivel": 8,
         "Escola": "necromancia",
         "classes": [
-            "mago"
+            "Mago"
         ],
         "TempoConjuracao": "1 horas",
         "Alcance": " toque",
@@ -1101,7 +1101,7 @@
         "Nivel": 5,
         "Escola": "evocação",
         "classes": [
-            "clérigo"
+            "Clerigo"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 60 pés",
@@ -1113,8 +1113,8 @@
         "Nivel": 1,
         "Escola": "encantamento",
         "classes": [
-            "clérigo",
-            "paladino"
+            "Clerigo",
+            "Paladino"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 60 pés",
@@ -1126,10 +1126,10 @@
         "Nivel": 1,
         "Escola": "adivinhação (ritual)",
         "classes": [
-            "bardo",
-            "bruxo",
-            "feiticeiro",
-            "mago"
+            "Bardo",
+            "Warlock",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " pessoal",
@@ -1141,7 +1141,7 @@
         "Nivel": 4,
         "Escola": "encantamento",
         "classes": [
-            "bardo"
+            "Bardo"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 30 pés",
@@ -1153,7 +1153,7 @@
         "Nivel": 5,
         "Escola": "adivinhação (ritual)",
         "classes": [
-            "clérigo"
+            "Clerigo"
         ],
         "TempoConjuracao": "1 minutos",
         "Alcance": " pessoal",
@@ -1165,8 +1165,8 @@
         "Nivel": 5,
         "Escola": "adivinhação (ritual)",
         "classes": [
-            "druida",
-            "patrulheiro"
+            "Druida",
+            "Ranger"
         ],
         "TempoConjuracao": "1 minutos",
         "Alcance": " pessoal",
@@ -1178,8 +1178,8 @@
         "Nivel": 5,
         "Escola": "evocação",
         "classes": [
-            "feiticeiro",
-            "mago"
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " pessoal",
@@ -1191,10 +1191,10 @@
         "Nivel": 4,
         "Escola": "encantamento",
         "classes": [
-            "bardo",
-            "druida",
-            "feiticeiro",
-            "mago"
+            "Bardo",
+            "Druida",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 90 pés",
@@ -1206,9 +1206,9 @@
         "Nivel": 5,
         "Escola": "adivinhação",
         "classes": [
-            "bardo",
-            "clérigo",
-            "mago"
+            "Bardo",
+            "Clerigo",
+            "Mago"
         ],
         "TempoConjuracao": "10 minutos",
         "Alcance": " pessoal",
@@ -1220,8 +1220,8 @@
         "Nivel": 3,
         "Escola": "conjuração",
         "classes": [
-            "druida",
-            "patrulheiro"
+            "Druida",
+            "Ranger"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 60 pés",
@@ -1233,7 +1233,7 @@
         "Nivel": 7,
         "Escola": "conjuração",
         "classes": [
-            "clérigo"
+            "Clerigo"
         ],
         "TempoConjuracao": "1 minutos",
         "Alcance": " 90 pés",
@@ -1245,8 +1245,8 @@
         "Nivel": 4,
         "Escola": "conjuração",
         "classes": [
-            "druida",
-            "mago"
+            "Druida",
+            "Mago"
         ],
         "TempoConjuracao": "1 minutos",
         "Alcance": " 90 pés",
@@ -1258,8 +1258,8 @@
         "Nivel": 5,
         "Escola": "conjuração",
         "classes": [
-            "druida",
-            "mago"
+            "Druida",
+            "Mago"
         ],
         "TempoConjuracao": "1 minutos",
         "Alcance": " 90 pés",
@@ -1271,8 +1271,8 @@
         "Nivel": 6,
         "Escola": "conjuração",
         "classes": [
-            "bruxo",
-            "druida"
+            "Warlock",
+            "Druida"
         ],
         "TempoConjuracao": "1 minutos",
         "Alcance": " 90 pés",
@@ -1284,7 +1284,7 @@
         "Nivel": 3,
         "Escola": "conjuração",
         "classes": [
-            "patrulheiro"
+            "Ranger"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " pessoal",
@@ -1296,7 +1296,7 @@
         "Nivel": 5,
         "Escola": "conjuração",
         "classes": [
-            "patrulheiro"
+            "Ranger"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 150 pés",
@@ -1308,8 +1308,8 @@
         "Nivel": 4,
         "Escola": "conjuração",
         "classes": [
-            "druida",
-            "patrulheiro"
+            "Druida",
+            "Ranger"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 60 pés",
@@ -1321,7 +1321,7 @@
         "Nivel": 5,
         "Escola": "evocação",
         "classes": [
-            "clérigo"
+            "Clerigo"
         ],
         "TempoConjuracao": "24 horas",
         "Alcance": " toque",
@@ -1333,12 +1333,12 @@
         "Nivel": 0,
         "Escola": "transmutação",
         "classes": [
-            "artífice",
-            "bardo",
-            "clérigo",
-            "druida",
-            "feiticeiro",
-            "mago"
+            "Artifice",
+            "Bardo",
+            "Clerigo",
+            "Druida",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 minutos",
         "Alcance": " toque",
@@ -1350,7 +1350,7 @@
         "Nivel": 1,
         "Escola": "conjuração",
         "classes": [
-            "druida"
+            "Druida"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 90 pés",
@@ -1362,8 +1362,8 @@
         "Nivel": 5,
         "Escola": "adivinhação (ritual)",
         "classes": [
-            "bruxo",
-            "mago"
+            "Warlock",
+            "Mago"
         ],
         "TempoConjuracao": "1 minutos",
         "Alcance": " pessoal",
@@ -1375,7 +1375,7 @@
         "Nivel": 6,
         "Escola": "evocação",
         "classes": [
-            "mago"
+            "Mago"
         ],
         "TempoConjuracao": "10 minutos",
         "Alcance": " pessoal",
@@ -1387,9 +1387,9 @@
         "Nivel": 3,
         "Escola": "abjuração",
         "classes": [
-            "bruxo",
-            "feiticeiro",
-            "mago"
+            "Warlock",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 reação, que você realiza quando vê uma criatura a até 18 metros [60 feet] conjurando uma magia",
         "Alcance": " 60 pés",
@@ -1401,9 +1401,9 @@
         "Nivel": 4,
         "Escola": "transmutação",
         "classes": [
-            "clérigo",
-            "druida",
-            "mago"
+            "Clerigo",
+            "Druida",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 300 pés",
@@ -1415,9 +1415,9 @@
         "Nivel": 0,
         "Escola": "transmutação",
         "classes": [
-            "druida",
-            "feiticeiro",
-            "mago"
+            "Druida",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 60 pés",
@@ -1429,9 +1429,9 @@
         "Nivel": 8,
         "Escola": "transmutação",
         "classes": [
-            "clérigo",
-            "druida",
-            "mago"
+            "Clerigo",
+            "Druida",
+            "Mago"
         ],
         "TempoConjuracao": "10 minutos",
         "Alcance": " pessoal",
@@ -1443,9 +1443,9 @@
         "Nivel": 5,
         "Escola": "transmutação",
         "classes": [
-            "druida",
-            "feiticeiro",
-            "mago"
+            "Druida",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 300 pés",
@@ -1457,7 +1457,7 @@
         "Nivel": 1,
         "Escola": "conjuração (ritual)",
         "classes": [
-            "mago"
+            "Mago"
         ],
         "TempoConjuracao": "1 horas",
         "Alcance": " 10 pés",
@@ -1469,7 +1469,7 @@
         "Nivel": 2,
         "Escola": "conjuração",
         "classes": [
-            "paladino"
+            "Paladino"
         ],
         "TempoConjuracao": "10 minutos",
         "Alcance": " 30 pés",
@@ -1481,7 +1481,7 @@
         "Nivel": 3,
         "Escola": "conjuração",
         "classes": [
-            "druida"
+            "Druida"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 120 pés",
@@ -1493,7 +1493,7 @@
         "Nivel": 2,
         "Escola": "transmutação",
         "classes": [
-            "patrulheiro"
+            "Ranger"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 5 pés",
@@ -1505,10 +1505,10 @@
         "Nivel": 2,
         "Escola": "encantamento",
         "classes": [
-            "bardo",
-            "bruxo",
-            "feiticeiro",
-            "mago"
+            "Bardo",
+            "Warlock",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 120 pés",
@@ -1520,9 +1520,9 @@
         "Nivel": 7,
         "Escola": "evocação",
         "classes": [
-            "bruxo",
-            "feiticeiro",
-            "mago"
+            "Warlock",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " pessoal",
@@ -1534,8 +1534,8 @@
         "Nivel": 6,
         "Escola": "evocação",
         "classes": [
-            "feiticeiro",
-            "mago"
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 150 pés",
@@ -1547,8 +1547,8 @@
         "Nivel": 2,
         "Escola": "transmutação",
         "classes": [
-            "druida",
-            "patrulheiro"
+            "Druida",
+            "Ranger"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 150 pés",
@@ -1560,9 +1560,9 @@
         "Nivel": 5,
         "Escola": "ilusão",
         "classes": [
-            "artífice",
-            "feiticeiro",
-            "mago"
+            "Artifice",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 minutos",
         "Alcance": " 30 pés",
@@ -1574,9 +1574,9 @@
         "Nivel": 3,
         "Escola": "conjuração",
         "classes": [
-            "artífice",
-            "clérigo",
-            "paladino"
+            "Artifice",
+            "Clerigo",
+            "Paladino"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 30 pés",
@@ -1588,7 +1588,7 @@
         "Nivel": 0,
         "Escola": "conjuração",
         "classes": [
-            "druida"
+            "Druida"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " pessoal",
@@ -1600,11 +1600,11 @@
         "Nivel": 0,
         "Escola": "conjuração",
         "classes": [
-            "artífice",
-            "bruxo",
-            "druida",
-            "feiticeiro",
-            "mago"
+            "Artifice",
+            "Warlock",
+            "Druida",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 60 pés",
@@ -1616,7 +1616,7 @@
         "Nivel": 6,
         "Escola": "transmutação",
         "classes": [
-            "mago"
+            "Mago"
         ],
         "TempoConjuracao": "1 horas",
         "Alcance": " toque",
@@ -1628,9 +1628,9 @@
         "Nivel": 6,
         "Escola": "necromancia",
         "classes": [
-            "bruxo",
-            "clérigo",
-            "mago"
+            "Warlock",
+            "Clerigo",
+            "Mago"
         ],
         "TempoConjuracao": "1 minutos",
         "Alcance": " 10 pés",
@@ -1642,8 +1642,8 @@
         "Nivel": 1,
         "Escola": "transmutação",
         "classes": [
-            "clérigo",
-            "druida"
+            "Clerigo",
+            "Druida"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 30 pés",
@@ -1655,7 +1655,7 @@
         "Nivel": 5,
         "Escola": "transmutação",
         "classes": [
-            "mago"
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 30 pés",
@@ -1667,8 +1667,8 @@
         "Nivel": 6,
         "Escola": "evocação",
         "classes": [
-            "clérigo",
-            "druida"
+            "Clerigo",
+            "Druida"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 60 pés",
@@ -1680,7 +1680,7 @@
         "Nivel": 9,
         "Escola": "conjuração",
         "classes": [
-            "clérigo"
+            "Clerigo"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 60 pés",
@@ -1692,12 +1692,12 @@
         "Nivel": 1,
         "Escola": "evocação",
         "classes": [
-            "artífice",
-            "bardo",
-            "clérigo",
-            "druida",
-            "paladino",
-            "patrulheiro"
+            "Artifice",
+            "Bardo",
+            "Clerigo",
+            "Druida",
+            "Paladino",
+            "Ranger"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " toque",
@@ -1709,9 +1709,9 @@
         "Nivel": 5,
         "Escola": "conjuração",
         "classes": [
-            "bardo",
-            "clérigo",
-            "druida"
+            "Bardo",
+            "Clerigo",
+            "Druida"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 60 pés",
@@ -1735,8 +1735,8 @@
         "Nivel": 6,
         "Escola": "encantamento",
         "classes": [
-            "bardo",
-            "mago"
+            "Bardo",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 30 pés",
@@ -1748,8 +1748,8 @@
         "Nivel": 5,
         "Escola": "necromancia",
         "classes": [
-            "bruxo",
-            "mago"
+            "Warlock",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 60 pés",
@@ -1761,9 +1761,9 @@
         "Nivel": 7,
         "Escola": "necromancia",
         "classes": [
-            "bruxo",
-            "feiticeiro",
-            "mago"
+            "Warlock",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 60 pés",
@@ -1775,8 +1775,8 @@
         "Nivel": 9,
         "Escola": "conjuração",
         "classes": [
-            "feiticeiro",
-            "mago"
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " pessoal",
@@ -1788,8 +1788,8 @@
         "Nivel": 6,
         "Escola": "transmutação",
         "classes": [
-            "feiticeiro",
-            "mago"
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 60 pés",
@@ -1801,10 +1801,10 @@
         "Nivel": 2,
         "Escola": "evocação",
         "classes": [
-            "bardo",
-            "bruxo",
-            "feiticeiro",
-            "mago"
+            "Bardo",
+            "Warlock",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 60 pés",
@@ -1816,8 +1816,8 @@
         "Nivel": 5,
         "Escola": "transmutação",
         "classes": [
-            "bardo",
-            "druida"
+            "Bardo",
+            "Druida"
         ],
         "TempoConjuracao": "8 horas",
         "Alcance": " toque",
@@ -1829,8 +1829,8 @@
         "Nivel": 5,
         "Escola": "ilusão",
         "classes": [
-            "bardo",
-            "mago"
+            "Bardo",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " pessoal",
@@ -1842,7 +1842,7 @@
         "Nivel": 5,
         "Escola": "abjuração",
         "classes": [
-            "paladino"
+            "Paladino"
         ],
         "TempoConjuracao": "1 ação bonus",
         "Alcance": " pessoal",
@@ -1854,7 +1854,7 @@
         "Nivel": 3,
         "Escola": "evocação",
         "classes": [
-            "paladino"
+            "Paladino"
         ],
         "TempoConjuracao": "1 ação bonus",
         "Alcance": " pessoal",
@@ -1866,7 +1866,7 @@
         "Nivel": 1,
         "Escola": "evocação",
         "classes": [
-            "paladino"
+            "Paladino"
         ],
         "TempoConjuracao": "1 ação bonus",
         "Alcance": " pessoal",
@@ -1878,10 +1878,10 @@
         "Nivel": 4,
         "Escola": "transmutação",
         "classes": [
-            "artífice",
-            "bruxo",
-            "druida",
-            "mago"
+            "Artifice",
+            "Warlock",
+            "Druida",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 90 pés",
@@ -1893,7 +1893,7 @@
         "Nivel": 4,
         "Escola": "evocação",
         "classes": [
-            "paladino"
+            "Paladino"
         ],
         "TempoConjuracao": "1 ação bonus",
         "Alcance": " pessoal",
@@ -1905,7 +1905,7 @@
         "Nivel": 1,
         "Escola": "evocação",
         "classes": [
-            "paladino"
+            "Paladino"
         ],
         "TempoConjuracao": "1 ação bonus",
         "Alcance": " pessoal",
@@ -1917,7 +1917,7 @@
         "Nivel": 1,
         "Escola": "evocação",
         "classes": [
-            "paladino"
+            "Paladino"
         ],
         "TempoConjuracao": "1 ação bonus",
         "Alcance": " pessoal",
@@ -1941,14 +1941,14 @@
         "Nivel": 1,
         "Escola": "adivinhação (ritual)",
         "classes": [
-            "artífice",
-            "bardo",
-            "clérigo",
-            "druida",
-            "feiticeiro",
-            "mago",
-            "paladino",
-            "patrulheiro"
+            "Artifice",
+            "Bardo",
+            "Clerigo",
+            "Druida",
+            "Feiticeiro",
+            "Mago",
+            "Paladino",
+            "Ranger"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " pessoal",
@@ -1960,8 +1960,8 @@
         "Nivel": 1,
         "Escola": "adivinhação",
         "classes": [
-            "clérigo",
-            "paladino"
+            "Clerigo",
+            "Paladino"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " pessoal",
@@ -1973,9 +1973,9 @@
         "Nivel": 2,
         "Escola": "adivinhação",
         "classes": [
-            "bardo",
-            "feiticeiro",
-            "mago"
+            "Bardo",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " pessoal",
@@ -1987,10 +1987,10 @@
         "Nivel": 1,
         "Escola": "adivinhação (ritual)",
         "classes": [
-            "clérigo",
-            "druida",
-            "paladino",
-            "patrulheiro"
+            "Clerigo",
+            "Druida",
+            "Paladino",
+            "Ranger"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " pessoal",
@@ -2014,9 +2014,9 @@
         "Nivel": 2,
         "Escola": "conjuração",
         "classes": [
-            "druida",
-            "feiticeiro",
-            "mago"
+            "Druida",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 60 pés",
@@ -2028,9 +2028,9 @@
         "Nivel": 3,
         "Escola": "abjuração",
         "classes": [
-            "bardo",
-            "mago",
-            "patrulheiro"
+            "Bardo",
+            "Mago",
+            "Ranger"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " toque",
@@ -2042,7 +2042,7 @@
         "Nivel": 1,
         "Escola": "conjuração (ritual)",
         "classes": [
-            "mago"
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 30 pés",
@@ -2054,8 +2054,8 @@
         "Nivel": 3,
         "Escola": "encantamento",
         "classes": [
-            "bardo",
-            "clérigo"
+            "Bardo",
+            "Clerigo"
         ],
         "TempoConjuracao": "1 minutos",
         "Alcance": " 60 pés",
@@ -2067,10 +2067,10 @@
         "Nivel": 1,
         "Escola": "ilusão",
         "classes": [
-            "artífice",
-            "bardo",
-            "feiticeiro",
-            "mago"
+            "Artifice",
+            "Bardo",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " pessoal",
@@ -2082,9 +2082,9 @@
         "Nivel": 6,
         "Escola": "conjuração",
         "classes": [
-            "bruxo",
-            "feiticeiro",
-            "mago"
+            "Warlock",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 30 pés",
@@ -2096,14 +2096,14 @@
         "Nivel": 3,
         "Escola": "abjuração",
         "classes": [
-            "artífice",
-            "bardo",
-            "bruxo",
-            "clérigo",
-            "druida",
-            "feiticeiro",
-            "mago",
-            "paladino"
+            "Artifice",
+            "Bardo",
+            "Warlock",
+            "Clerigo",
+            "Druida",
+            "Feiticeiro",
+            "Mago",
+            "Paladino"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 120 pés",
@@ -2115,8 +2115,8 @@
         "Nivel": 5,
         "Escola": "abjuração",
         "classes": [
-            "clérigo",
-            "paladino"
+            "Clerigo",
+            "Paladino"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " pessoal",
@@ -2128,10 +2128,10 @@
         "Nivel": 1,
         "Escola": "ilusão",
         "classes": [
-            "bardo",
-            "bruxo",
-            "feiticeiro",
-            "mago"
+            "Bardo",
+            "Warlock",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 minutos",
         "Alcance": " toque",
@@ -2143,7 +2143,7 @@
         "Nivel": 6,
         "Escola": "necromancia",
         "classes": [
-            "clérigo"
+            "Clerigo"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 60 pés",
@@ -2167,8 +2167,8 @@
         "Nivel": 2,
         "Escola": "encantamento",
         "classes": [
-            "bardo",
-            "mago"
+            "Bardo",
+            "Mago"
         ],
         "TempoConjuracao": "1 reação, que você faz quando fala com outra criatura",
         "Alcance": " pessoal",
@@ -2180,8 +2180,8 @@
         "Nivel": 4,
         "Escola": "encantamento",
         "classes": [
-            "druida",
-            "feiticeiro"
+            "Druida",
+            "Feiticeiro"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 60 pés",
@@ -2193,10 +2193,10 @@
         "Nivel": 8,
         "Escola": "encantamento",
         "classes": [
-            "bardo",
-            "bruxo",
-            "feiticeiro",
-            "mago"
+            "Bardo",
+            "Warlock",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 60 pés",
@@ -2208,9 +2208,9 @@
         "Nivel": 5,
         "Escola": "encantamento",
         "classes": [
-            "bardo",
-            "feiticeiro",
-            "mago"
+            "Bardo",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 60 pés",
@@ -2222,7 +2222,7 @@
         "Nivel": 8,
         "Escola": "ilusão",
         "classes": [
-            "mago"
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 120 pés",
@@ -2234,7 +2234,7 @@
         "Nivel": 0,
         "Escola": "transmutação",
         "classes": [
-            "druida"
+            "Druida"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 30 pés",
@@ -2246,7 +2246,7 @@
         "Nivel": 1,
         "Escola": "encantamento",
         "classes": [
-            "paladino"
+            "Paladino"
         ],
         "TempoConjuracao": "1 ação bonus",
         "Alcance": " 30 pés",
@@ -2258,7 +2258,7 @@
         "Nivel": 9,
         "Escola": "ilusão",
         "classes": [
-            "mago"
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 120 pés",
@@ -2270,9 +2270,9 @@
         "Nivel": 2,
         "Escola": "adivinhação",
         "classes": [
-            "clérigo",
-            "druida",
-            "patrulheiro"
+            "Clerigo",
+            "Druida",
+            "Ranger"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 120 pés",
@@ -2284,7 +2284,7 @@
         "Nivel": 4,
         "Escola": "conjuração",
         "classes": [
-            "paladino"
+            "Paladino"
         ],
         "TempoConjuracao": "10 minutos",
         "Alcance": " 30 pés",
@@ -2296,9 +2296,9 @@
         "Nivel": 6,
         "Escola": "adivinhação",
         "classes": [
-            "bardo",
-            "clérigo",
-            "druida"
+            "Bardo",
+            "Clerigo",
+            "Druida"
         ],
         "TempoConjuracao": "1 minutos",
         "Alcance": " pessoal",
@@ -2310,9 +2310,9 @@
         "Nivel": 5,
         "Escola": "necromancia",
         "classes": [
-            "bruxo",
-            "feiticeiro",
-            "mago"
+            "Warlock",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 60 pés",
@@ -2324,11 +2324,11 @@
         "Nivel": 4,
         "Escola": "encantamento",
         "classes": [
-            "bardo",
-            "bruxo",
-            "druida",
-            "feiticeiro",
-            "mago"
+            "Bardo",
+            "Warlock",
+            "Druida",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 30 pés",
@@ -2340,11 +2340,11 @@
         "Nivel": 1,
         "Escola": "encantamento",
         "classes": [
-            "bardo",
-            "bruxo",
-            "druida",
-            "feiticeiro",
-            "mago"
+            "Bardo",
+            "Warlock",
+            "Druida",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 30 pés",
@@ -2356,10 +2356,10 @@
         "Nivel": 8,
         "Escola": "encantamento",
         "classes": [
-            "bardo",
-            "bruxo",
-            "druida",
-            "mago"
+            "Bardo",
+            "Warlock",
+            "Druida",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 150 pés",
@@ -2371,9 +2371,9 @@
         "Nivel": 3,
         "Escola": "evocação",
         "classes": [
-            "bardo",
-            "clérigo",
-            "mago"
+            "Bardo",
+            "Clerigo",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " especial",
@@ -2385,9 +2385,9 @@
         "Nivel": 3,
         "Escola": "transmutação",
         "classes": [
-            "druida",
-            "feiticeiro",
-            "mago"
+            "Druida",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 120 pés",
@@ -2399,10 +2399,10 @@
         "Nivel": 2,
         "Escola": "transmutação (ritual)",
         "classes": [
-            "artífice",
-            "bardo",
-            "druida",
-            "mago"
+            "Artifice",
+            "Bardo",
+            "Druida",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " linha de visão",
@@ -2414,9 +2414,9 @@
         "Nivel": 1,
         "Escola": "ilusão (ritual)",
         "classes": [
-            "bardo",
-            "bruxo",
-            "mago"
+            "Bardo",
+            "Warlock",
+            "Mago"
         ],
         "TempoConjuracao": "1 minutos",
         "Alcance": " toque",
@@ -2428,8 +2428,8 @@
         "Nivel": 1,
         "Escola": "abjuração",
         "classes": [
-            "feiticeiro",
-            "mago"
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 reação, que você faz quando é atingido por um ataque ou alvo da magia mísseis mágicos",
         "Alcance": " pessoal",
@@ -2441,8 +2441,8 @@
         "Nivel": 1,
         "Escola": "abjuração",
         "classes": [
-            "clérigo",
-            "paladino"
+            "Clerigo",
+            "Paladino"
         ],
         "TempoConjuracao": "1 ação bonus",
         "Alcance": " 60 pés",
@@ -2454,7 +2454,7 @@
         "Nivel": 4,
         "Escola": "evocação",
         "classes": [
-            "mago"
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " pessoal",
@@ -2466,9 +2466,9 @@
         "Nivel": 2,
         "Escola": "evocação",
         "classes": [
-            "bruxo",
-            "feiticeiro",
-            "mago"
+            "Warlock",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 60 pés",
@@ -2480,8 +2480,8 @@
         "Nivel": 8,
         "Escola": "evocação",
         "classes": [
-            "bruxo",
-            "mago"
+            "Warlock",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 150 pés",
@@ -2493,9 +2493,9 @@
         "Nivel": 4,
         "Escola": "conjuração",
         "classes": [
-            "druida",
-            "feiticeiro",
-            "mago"
+            "Druida",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 90 pés",
@@ -2507,8 +2507,8 @@
         "Nivel": 4,
         "Escola": "evocação",
         "classes": [
-            "feiticeiro",
-            "mago"
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 150 pés",
@@ -2520,7 +2520,7 @@
         "Nivel": 6,
         "Escola": "evocação",
         "classes": [
-            "mago"
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 300 pés",
@@ -2532,8 +2532,8 @@
         "Nivel": 2,
         "Escola": "conjuração",
         "classes": [
-            "druida",
-            "mago"
+            "Druida",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 60 pés",
@@ -2545,8 +2545,8 @@
         "Nivel": 4,
         "Escola": "evocação",
         "classes": [
-            "artífice",
-            "mago"
+            "Artifice",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 30 pés",
@@ -2558,8 +2558,8 @@
         "Nivel": 4,
         "Escola": "evocação",
         "classes": [
-            "feiticeiro",
-            "mago"
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 150 pés",
@@ -2571,8 +2571,8 @@
         "Nivel": 7,
         "Escola": "evocação",
         "classes": [
-            "bardo",
-            "mago"
+            "Bardo",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 60 pés",
@@ -2584,9 +2584,9 @@
         "Nivel": 2,
         "Escola": "adivinhação",
         "classes": [
-            "bruxo",
-            "feiticeiro",
-            "mago"
+            "Warlock",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 60 pés",
@@ -2598,8 +2598,8 @@
         "Nivel": 2,
         "Escola": "conjuração",
         "classes": [
-            "druida",
-            "patrulheiro"
+            "Druida",
+            "Ranger"
         ],
         "TempoConjuracao": "1 ação bonus",
         "Alcance": " 60 pés",
@@ -2611,7 +2611,7 @@
         "Nivel": 3,
         "Escola": "conjuração",
         "classes": [
-            "clérigo"
+            "Clerigo"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " pessoal",
@@ -2623,9 +2623,9 @@
         "Nivel": 0,
         "Escola": "conjuração",
         "classes": [
-            "artífice",
-            "feiticeiro",
-            "mago"
+            "Artifice",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 60 pés",
@@ -2637,9 +2637,9 @@
         "Nivel": 2,
         "Escola": "transmutação",
         "classes": [
-            "artífice",
-            "bardo",
-            "druida"
+            "Artifice",
+            "Bardo",
+            "Druida"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 60 pés",
@@ -2651,8 +2651,8 @@
         "Nivel": 0,
         "Escola": "necromancia",
         "classes": [
-            "artífice",
-            "clérigo"
+            "Artifice",
+            "Clerigo"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " toque",
@@ -2664,10 +2664,10 @@
         "Nivel": 5,
         "Escola": "encantamento",
         "classes": [
-            "bardo",
-            "bruxo",
-            "feiticeiro",
-            "mago"
+            "Bardo",
+            "Warlock",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 120 pés",
@@ -2691,8 +2691,8 @@
         "Nivel": 8,
         "Escola": "necromancia",
         "classes": [
-            "feiticeiro",
-            "mago"
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 150 pés",
@@ -2704,9 +2704,9 @@
         "Nivel": 8,
         "Escola": "evocação",
         "classes": [
-            "druida",
-            "feiticeiro",
-            "mago"
+            "Druida",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 150 pés",
@@ -2718,8 +2718,8 @@
         "Nivel": 4,
         "Escola": "transmutação",
         "classes": [
-            "artífice",
-            "mago"
+            "Artifice",
+            "Mago"
         ],
         "TempoConjuracao": "10 minutos",
         "Alcance": " 120 pés",
@@ -2731,9 +2731,9 @@
         "Nivel": 1,
         "Escola": "conjuração",
         "classes": [
-            "druida",
-            "feiticeiro",
-            "mago"
+            "Druida",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 60 pés",
@@ -2745,9 +2745,9 @@
         "Nivel": 1,
         "Escola": "adivinhação (ritual)",
         "classes": [
-            "bardo",
-            "druida",
-            "patrulheiro"
+            "Bardo",
+            "Druida",
+            "Ranger"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " pessoal",
@@ -2759,8 +2759,8 @@
         "Nivel": 3,
         "Escola": "necromancia",
         "classes": [
-            "bardo",
-            "clérigo"
+            "Bardo",
+            "Clerigo"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 10 pés",
@@ -2772,9 +2772,9 @@
         "Nivel": 3,
         "Escola": "transmutação",
         "classes": [
-            "bardo",
-            "druida",
-            "patrulheiro"
+            "Bardo",
+            "Druida",
+            "Ranger"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " pessoal",
@@ -2810,11 +2810,11 @@
         "Nivel": 2,
         "Escola": "evocação",
         "classes": [
-            "mago"
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 90 pés",
-        "Componentes": "V S M (folha de ruibarbo em pó e o estômago de uma víbora)",
+        "Componentes": "V S M (folha de ruibarbo em pó e o estôMago de uma víbora)",
         "Duração": "instantâneo",
         "Descrição": "\nUma flecha esverdeada cintilante voa em direção de um alvo dentro do alcance e explode em um jato de ácido. Faça um ataque à distância com magia contra o alvo. Se atingir, o alvo sofre 4d4 de dano de ácido imediatamente e 2d4 de dano de ácido no final do próximo turno dele. Se errar, a flecha salpica o alvo com ácido, causando metade do dano inicial e nenhum dano no final do próximo turno dele.\n\nEm Níveis Superiores. Quando você conjurar essa magia usando um espaço de magia de 3° nível ou superior, o dano (tanto inicial quanto posterior) aumenta em 1d4 para cada nível do espaço acima do 2°.\n\n"
     },
@@ -2822,7 +2822,7 @@
         "Nivel": 3,
         "Escola": "transmutação",
         "classes": [
-            "patrulheiro"
+            "Ranger"
         ],
         "TempoConjuracao": "1 ação bonus",
         "Alcance": " pessoal",
@@ -2834,11 +2834,11 @@
         "Nivel": 3,
         "Escola": "transmutação",
         "classes": [
-            "artífice",
-            "druida",
-            "feiticeiro",
-            "mago",
-            "patrulheiro"
+            "Artifice",
+            "Druida",
+            "Feiticeiro",
+            "Mago",
+            "Ranger"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " toque",
@@ -2850,9 +2850,9 @@
         "Nivel": 1,
         "Escola": "evocação",
         "classes": [
-            "artífice",
-            "bardo",
-            "druida"
+            "Artifice",
+            "Bardo",
+            "Druida"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 60 pés",
@@ -2864,7 +2864,7 @@
         "Nivel": 3,
         "Escola": "conjuração",
         "classes": [
-            "bruxo"
+            "Warlock"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 150 pés",
@@ -2876,9 +2876,9 @@
         "Nivel": 2,
         "Escola": "ilusão",
         "classes": [
-            "bardo",
-            "feiticeiro",
-            "mago"
+            "Bardo",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 60 pés",
@@ -2890,10 +2890,10 @@
         "Nivel": 3,
         "Escola": "necromancia (ritual)",
         "classes": [
-            "bardo",
-            "clérigo",
-            "druida",
-            "mago"
+            "Bardo",
+            "Clerigo",
+            "Druida",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " toque",
@@ -2905,11 +2905,11 @@
         "Nivel": 7,
         "Escola": "transmutação",
         "classes": [
-            "bardo",
-            "bruxo",
-            "clérigo",
-            "feiticeiro",
-            "mago"
+            "Bardo",
+            "Warlock",
+            "Clerigo",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " pessoal",
@@ -2921,9 +2921,9 @@
         "Nivel": 3,
         "Escola": "transmutação",
         "classes": [
-            "bruxo",
-            "feiticeiro",
-            "mago"
+            "Warlock",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " toque",
@@ -2935,7 +2935,7 @@
         "Nivel": 8,
         "Escola": "transmutação",
         "classes": [
-            "druida"
+            "Druida"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 30 pés",
@@ -2947,10 +2947,10 @@
         "Nivel": 5,
         "Escola": "transmutação",
         "classes": [
-            "artífice",
-            "bardo",
-            "feiticeiro",
-            "mago"
+            "Artifice",
+            "Bardo",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " toque",
@@ -2962,7 +2962,7 @@
         "Nivel": 8,
         "Escola": "conjuração",
         "classes": [
-            "mago"
+            "Mago"
         ],
         "TempoConjuracao": "1 minutos",
         "Alcance": " 1 milhas",
@@ -2974,8 +2974,8 @@
         "Nivel": 6,
         "Escola": "necromancia",
         "classes": [
-            "bruxo",
-            "mago"
+            "Warlock",
+            "Mago"
         ],
         "TempoConjuracao": "1 reação, que você faz quando um humanoide que você pode ver dentro de 18 metros [60 feet] de você morre",
         "Alcance": " 60 pés",
@@ -2987,10 +2987,10 @@
         "Nivel": 3,
         "Escola": "abjuração",
         "classes": [
-            "artífice",
-            "bardo",
-            "clérigo",
-            "mago"
+            "Artifice",
+            "Bardo",
+            "Clerigo",
+            "Mago"
         ],
         "TempoConjuracao": "1 horas",
         "Alcance": " toque",
@@ -3002,8 +3002,8 @@
         "Nivel": 6,
         "Escola": "abjuração",
         "classes": [
-            "feiticeiro",
-            "mago"
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " pessoal",
@@ -3015,10 +3015,10 @@
         "Nivel": 0,
         "Escola": "evocação",
         "classes": [
-            "artífice",
-            "bardo",
-            "feiticeiro",
-            "mago"
+            "Artifice",
+            "Bardo",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 120 pés",
@@ -3030,7 +3030,7 @@
         "Nivel": 1,
         "Escola": "conjuração",
         "classes": [
-            "patrulheiro"
+            "Ranger"
         ],
         "TempoConjuracao": "1 ação bonus",
         "Alcance": " pessoal",
@@ -3042,7 +3042,7 @@
         "Nivel": 1,
         "Escola": "transmutação",
         "classes": [
-            "patrulheiro"
+            "Ranger"
         ],
         "TempoConjuracao": "1 ação bonus",
         "Alcance": " pessoal",
@@ -3054,12 +3054,12 @@
         "Nivel": 0,
         "Escola": "evocação",
         "classes": [
-            "artífice",
-            "bardo",
-            "bruxo",
-            "druida",
-            "feiticeiro",
-            "mago"
+            "Artifice",
+            "Bardo",
+            "Warlock",
+            "Druida",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " pessoal",
@@ -3071,10 +3071,10 @@
         "Nivel": 9,
         "Escola": "encantamento",
         "classes": [
-            "bardo",
-            "bruxo",
-            "feiticeiro",
-            "mago"
+            "Bardo",
+            "Warlock",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 90 pés",
@@ -3086,7 +3086,7 @@
         "Nivel": 4,
         "Escola": "conjuração",
         "classes": [
-            "clérigo"
+            "Clerigo"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 30 pés",
@@ -3098,8 +3098,8 @@
         "Nivel": 4,
         "Escola": "transmutação",
         "classes": [
-            "druida",
-            "patrulheiro"
+            "Druida",
+            "Ranger"
         ],
         "TempoConjuracao": "1 ação bonus",
         "Alcance": " pessoal",
@@ -3111,8 +3111,8 @@
         "Nivel": 1,
         "Escola": "encantamento",
         "classes": [
-            "bardo",
-            "paladino"
+            "Bardo",
+            "Paladino"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " toque",
@@ -3124,9 +3124,9 @@
         "Nivel": 1,
         "Escola": "adivinhação (ritual)",
         "classes": [
-            "artífice",
-            "bardo",
-            "mago"
+            "Artifice",
+            "Bardo",
+            "Mago"
         ],
         "TempoConjuracao": "1 minutos",
         "Alcance": " toque",
@@ -3138,11 +3138,11 @@
         "Nivel": 3,
         "Escola": "adivinhação",
         "classes": [
-            "bardo",
-            "bruxo",
-            "clérigo",
-            "feiticeiro",
-            "mago"
+            "Bardo",
+            "Warlock",
+            "Clerigo",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " toque",
@@ -3154,10 +3154,10 @@
         "Nivel": 0,
         "Escola": "ilusão",
         "classes": [
-            "bardo",
-            "bruxo",
-            "feiticeiro",
-            "mago"
+            "Bardo",
+            "Warlock",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 30 pés",
@@ -3169,8 +3169,8 @@
         "Nivel": 6,
         "Escola": "ilusão",
         "classes": [
-            "bardo",
-            "mago"
+            "Bardo",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 120 pés",
@@ -3182,10 +3182,10 @@
         "Nivel": 3,
         "Escola": "ilusão",
         "classes": [
-            "bardo",
-            "bruxo",
-            "feiticeiro",
-            "mago"
+            "Bardo",
+            "Warlock",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 120 pés",
@@ -3197,9 +3197,9 @@
         "Nivel": 1,
         "Escola": "ilusão",
         "classes": [
-            "bardo",
-            "feiticeiro",
-            "mago"
+            "Bardo",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 60 pés",
@@ -3211,10 +3211,10 @@
         "Nivel": 5,
         "Escola": "encantamento",
         "classes": [
-            "bardo",
-            "bruxo",
-            "feiticeiro",
-            "mago"
+            "Bardo",
+            "Warlock",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 90 pés",
@@ -3226,12 +3226,12 @@
         "Nivel": 2,
         "Escola": "encantamento",
         "classes": [
-            "bardo",
-            "bruxo",
-            "clérigo",
-            "druida",
-            "feiticeiro",
-            "mago"
+            "Bardo",
+            "Warlock",
+            "Clerigo",
+            "Druida",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 60 pés",
@@ -3243,8 +3243,8 @@
         "Nivel": 5,
         "Escola": "evocação",
         "classes": [
-            "feiticeiro",
-            "mago"
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 90 pés",
@@ -3256,10 +3256,10 @@
         "Nivel": 3,
         "Escola": "encantamento",
         "classes": [
-            "bruxo",
-            "clérigo",
-            "feiticeiro",
-            "mago"
+            "Warlock",
+            "Clerigo",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 30 pés",
@@ -3271,10 +3271,10 @@
         "Nivel": 0,
         "Escola": "conjuração",
         "classes": [
-            "bruxo",
-            "druida",
-            "feiticeiro",
-            "mago"
+            "Warlock",
+            "Druida",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 30 pés",
@@ -3286,10 +3286,10 @@
         "Nivel": 3,
         "Escola": "encantamento",
         "classes": [
-            "bardo",
-            "bruxo",
-            "feiticeiro",
-            "mago"
+            "Bardo",
+            "Warlock",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 120 pés",
@@ -3301,7 +3301,7 @@
         "Nivel": 1,
         "Escola": "necromancia",
         "classes": [
-            "clérigo"
+            "Clerigo"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " toque",
@@ -3313,7 +3313,7 @@
         "Nivel": 4,
         "Escola": "transmutação",
         "classes": [
-            "druida"
+            "Druida"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 30 pés",
@@ -3325,8 +3325,8 @@
         "Nivel": 5,
         "Escola": "necromancia",
         "classes": [
-            "bruxo",
-            "mago"
+            "Warlock",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 60 pés",
@@ -3338,9 +3338,9 @@
         "Nivel": 7,
         "Escola": "transmutação",
         "classes": [
-            "druida",
-            "feiticeiro",
-            "mago"
+            "Druida",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 100 pés",
@@ -3352,11 +3352,11 @@
         "Nivel": 2,
         "Escola": "ilusão",
         "classes": [
-            "artífice",
-            "bardo",
-            "bruxo",
-            "feiticeiro",
-            "mago"
+            "Artifice",
+            "Bardo",
+            "Warlock",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " toque",
@@ -3368,9 +3368,9 @@
         "Nivel": 4,
         "Escola": "ilusão",
         "classes": [
-            "bardo",
-            "feiticeiro",
-            "mago"
+            "Bardo",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " toque",
@@ -3382,7 +3382,7 @@
         "Nivel": 6,
         "Escola": "conjuração (ritual)",
         "classes": [
-            "mago"
+            "Mago"
         ],
         "TempoConjuracao": "1 minutos",
         "Alcance": " toque",
@@ -3394,8 +3394,8 @@
         "Nivel": 4,
         "Escola": "conjuração",
         "classes": [
-            "bruxo",
-            "mago"
+            "Warlock",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 60 pés",
@@ -3407,8 +3407,8 @@
         "Nivel": 3,
         "Escola": "conjuração",
         "classes": [
-            "bruxo",
-            "mago"
+            "Warlock",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 60 pés",
@@ -3420,7 +3420,7 @@
         "Nivel": 9,
         "Escola": "abjuração",
         "classes": [
-            "mago"
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " pessoal",
@@ -3432,8 +3432,8 @@
         "Nivel": 5,
         "Escola": "evocação",
         "classes": [
-            "druida",
-            "patrulheiro"
+            "Druida",
+            "Ranger"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 120 pés",
@@ -3445,7 +3445,7 @@
         "Nivel": 7,
         "Escola": "transmutação",
         "classes": [
-            "mago"
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " toque",
@@ -3457,7 +3457,7 @@
         "Nivel": 8,
         "Escola": "conjuração",
         "classes": [
-            "mago"
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 60 pés",
@@ -3469,10 +3469,10 @@
         "Nivel": 1,
         "Escola": "abjuração",
         "classes": [
-            "artífice",
-            "druida",
-            "mago",
-            "patrulheiro"
+            "Artifice",
+            "Druida",
+            "Mago",
+            "Ranger"
         ],
         "TempoConjuracao": "1 minutos",
         "Alcance": " toque",
@@ -3484,9 +3484,9 @@
         "Nivel": 0,
         "Escola": "evocação",
         "classes": [
-            "bruxo",
-            "feiticeiro",
-            "mago"
+            "Warlock",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 5 pés",
@@ -3498,9 +3498,9 @@
         "Nivel": 0,
         "Escola": "evocação",
         "classes": [
-            "bruxo",
-            "feiticeiro",
-            "mago"
+            "Warlock",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "ação",
         "Alcance": " 5 pés",
@@ -3512,7 +3512,7 @@
         "Nivel": 2,
         "Escola": "evocação",
         "classes": [
-            "druida"
+            "Druida"
         ],
         "TempoConjuracao": "1 ação bonus",
         "Alcance": " pessoal",
@@ -3524,9 +3524,9 @@
         "Nivel": 2,
         "Escola": "ilusão",
         "classes": [
-            "bruxo",
-            "feiticeiro",
-            "mago"
+            "Warlock",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação bonus",
         "Alcance": " pessoal",
@@ -3538,8 +3538,8 @@
         "Nivel": 3,
         "Escola": "transmutação",
         "classes": [
-            "feiticeiro",
-            "mago"
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 120 pés",
@@ -3551,8 +3551,8 @@
         "Nivel": 1,
         "Escola": "ilusão",
         "classes": [
-            "feiticeiro",
-            "mago"
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " pessoal",
@@ -3564,9 +3564,9 @@
         "Nivel": 2,
         "Escola": "transmutação",
         "classes": [
-            "artífice",
-            "feiticeiro",
-            "mago"
+            "Artifice",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 60 pés",
@@ -3578,7 +3578,7 @@
         "Nivel": 5,
         "Escola": "adivinhação (ritual)",
         "classes": [
-            "mago"
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 30 pés",
@@ -3590,8 +3590,8 @@
         "Nivel": 8,
         "Escola": "abjuração",
         "classes": [
-            "bardo",
-            "mago"
+            "Bardo",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " toque",
@@ -3603,9 +3603,9 @@
         "Nivel": 2,
         "Escola": "adivinhação (ritual)",
         "classes": [
-            "bardo",
-            "druida",
-            "patrulheiro"
+            "Bardo",
+            "Druida",
+            "Ranger"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " pessoal",
@@ -3617,12 +3617,12 @@
         "Nivel": 4,
         "Escola": "adivinhação",
         "classes": [
-            "bardo",
-            "clérigo",
-            "druida",
-            "mago",
-            "paladino",
-            "patrulheiro"
+            "Bardo",
+            "Clerigo",
+            "Druida",
+            "Mago",
+            "Paladino",
+            "Ranger"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " pessoal",
@@ -3634,12 +3634,12 @@
         "Nivel": 2,
         "Escola": "adivinhação",
         "classes": [
-            "bardo",
-            "clérigo",
-            "druida",
-            "mago",
-            "paladino",
-            "patrulheiro"
+            "Bardo",
+            "Clerigo",
+            "Druida",
+            "Mago",
+            "Paladino",
+            "Ranger"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " pessoal",
@@ -3651,8 +3651,8 @@
         "Nivel": 8,
         "Escola": "transmutação",
         "classes": [
-            "bardo",
-            "bruxo"
+            "Bardo",
+            "Warlock"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " pessoal",
@@ -3664,9 +3664,9 @@
         "Nivel": 0,
         "Escola": "transmutação",
         "classes": [
-            "druida",
-            "feiticeiro",
-            "mago"
+            "Druida",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 30 pés",
@@ -3678,9 +3678,9 @@
         "Nivel": 2,
         "Escola": "evocação",
         "classes": [
-            "druida",
-            "feiticeiro",
-            "mago"
+            "Druida",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " pessoal",
@@ -3692,10 +3692,10 @@
         "Nivel": 0,
         "Escola": "evocação",
         "classes": [
-            "artífice",
-            "bardo",
-            "clérigo",
-            "mago"
+            "Artifice",
+            "Bardo",
+            "Clerigo",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " toque",
@@ -3707,11 +3707,11 @@
         "Nivel": 3,
         "Escola": "evocação",
         "classes": [
-            "clérigo",
-            "druida",
-            "feiticeiro",
-            "paladino",
-            "patrulheiro"
+            "Clerigo",
+            "Druida",
+            "Feiticeiro",
+            "Paladino",
+            "Ranger"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 60 pés",
@@ -3723,10 +3723,10 @@
         "Nivel": 4,
         "Escola": "necromancia",
         "classes": [
-            "bruxo",
-            "druida",
-            "feiticeiro",
-            "mago"
+            "Warlock",
+            "Druida",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 30 pés",
@@ -3738,8 +3738,8 @@
         "Nivel": 7,
         "Escola": "conjuração",
         "classes": [
-            "bardo",
-            "mago"
+            "Bardo",
+            "Mago"
         ],
         "TempoConjuracao": "1 minutos",
         "Alcance": " 300 pés",
@@ -3751,10 +3751,10 @@
         "Nivel": 6,
         "Escola": "transmutação",
         "classes": [
-            "bruxo",
-            "druida",
-            "feiticeiro",
-            "mago"
+            "Warlock",
+            "Druida",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " pessoal",
@@ -3766,10 +3766,10 @@
         "Nivel": 6,
         "Escola": "transmutação",
         "classes": [
-            "bruxo",
-            "druida",
-            "feiticeiro",
-            "mago"
+            "Warlock",
+            "Druida",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " pessoal",
@@ -3781,10 +3781,10 @@
         "Nivel": 6,
         "Escola": "transmutação",
         "classes": [
-            "bruxo",
-            "druida",
-            "feiticeiro",
-            "mago"
+            "Warlock",
+            "Druida",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " pessoal",
@@ -3796,10 +3796,10 @@
         "Nivel": 6,
         "Escola": "transmutação",
         "classes": [
-            "bruxo",
-            "druida",
-            "feiticeiro",
-            "mago"
+            "Warlock",
+            "Druida",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " pessoal",
@@ -3811,7 +3811,7 @@
         "Nivel": 3,
         "Escola": "evocação",
         "classes": [
-            "paladino"
+            "Paladino"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " pessoal",
@@ -3823,8 +3823,8 @@
         "Nivel": 5,
         "Escola": "evocação",
         "classes": [
-            "artífice",
-            "mago"
+            "Artifice",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 120 pés",
@@ -3836,8 +3836,8 @@
         "Nivel": 1,
         "Escola": "evocação",
         "classes": [
-            "feiticeiro",
-            "mago"
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " pessoal",
@@ -3849,11 +3849,11 @@
         "Nivel": 0,
         "Escola": "conjuração",
         "classes": [
-            "artífice",
-            "bardo",
-            "bruxo",
-            "feiticeiro",
-            "mago"
+            "Artifice",
+            "Bardo",
+            "Warlock",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 30 pés",
@@ -3865,7 +3865,7 @@
         "Nivel": 2,
         "Escola": "evocação",
         "classes": [
-            "paladino"
+            "Paladino"
         ],
         "TempoConjuracao": "1 ação bonus",
         "Alcance": " pessoal",
@@ -3877,7 +3877,7 @@
         "Nivel": 1,
         "Escola": "adivinhação",
         "classes": [
-            "patrulheiro"
+            "Ranger"
         ],
         "TempoConjuracao": "1 ação bonus",
         "Alcance": " 90 pés",
@@ -3889,9 +3889,9 @@
         "Nivel": 3,
         "Escola": "conjuração",
         "classes": [
-            "druida",
-            "feiticeiro",
-            "mago"
+            "Druida",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 120 pés",
@@ -3903,10 +3903,10 @@
         "Nivel": 3,
         "Escola": "ilusão",
         "classes": [
-            "bardo",
-            "bruxo",
-            "feiticeiro",
-            "mago"
+            "Bardo",
+            "Warlock",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " pessoal",
@@ -3918,9 +3918,9 @@
         "Nivel": 2,
         "Escola": "encantamento (ritual)",
         "classes": [
-            "bardo",
-            "druida",
-            "patrulheiro"
+            "Bardo",
+            "Druida",
+            "Ranger"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 30 pés",
@@ -3932,10 +3932,10 @@
         "Nivel": 0,
         "Escola": "transmutação",
         "classes": [
-            "artífice",
-            "bardo",
-            "feiticeiro",
-            "mago"
+            "Artifice",
+            "Bardo",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 120 pés",
@@ -3947,8 +3947,8 @@
         "Nivel": 3,
         "Escola": "transmutação (ritual)",
         "classes": [
-            "clérigo",
-            "druida"
+            "Clerigo",
+            "Druida"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " toque",
@@ -3960,10 +3960,10 @@
         "Nivel": 4,
         "Escola": "transmutação",
         "classes": [
-            "bardo",
-            "druida",
-            "feiticeiro",
-            "mago"
+            "Bardo",
+            "Druida",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 60 pés",
@@ -3975,9 +3975,9 @@
         "Nivel": 9,
         "Escola": "transmutação",
         "classes": [
-            "bardo",
-            "feiticeiro",
-            "mago"
+            "Bardo",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 120 pés",
@@ -3989,9 +3989,9 @@
         "Nivel": 9,
         "Escola": "transmutação",
         "classes": [
-            "bardo",
-            "bruxo",
-            "mago"
+            "Bardo",
+            "Warlock",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 30 pés",
@@ -4003,8 +4003,8 @@
         "Nivel": 3,
         "Escola": "evocação",
         "classes": [
-            "feiticeiro",
-            "mago"
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " pessoal",
@@ -4016,9 +4016,9 @@
         "Nivel": 7,
         "Escola": "ilusão",
         "classes": [
-            "bardo",
-            "druida",
-            "mago"
+            "Bardo",
+            "Druida",
+            "Mago"
         ],
         "TempoConjuracao": "10 minutos",
         "Alcance": " linha de visão",
@@ -4030,11 +4030,11 @@
         "Nivel": 5,
         "Escola": "encantamento",
         "classes": [
-            "bardo",
-            "clérigo",
-            "druida",
-            "mago",
-            "paladino"
+            "Bardo",
+            "Clerigo",
+            "Druida",
+            "Mago",
+            "Paladino"
         ],
         "TempoConjuracao": "1 minutos",
         "Alcance": " 60 pés",
@@ -4046,8 +4046,8 @@
         "Nivel": 1,
         "Escola": "evocação",
         "classes": [
-            "feiticeiro",
-            "mago"
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 120 pés",
@@ -4059,20 +4059,20 @@
         "Nivel": 1,
         "Escola": "evocação",
         "classes": [
-            "mago"
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 120 pés",
         "Componentes": "V S M (Componente de royalties: 2 po)",
         "Duração": "instantâneo",
-        "Descrição": "\nQualquer mago aprendiz pode lançar um velho e tedioso míssil mágico. Claro, ele sempre atinge seu alvo. *Bocejo*. Afaste a labuta da magia do seu avô com esta versão aprimorada do feitiço, usada por Jim Darkmagic!\n\nVocê cria três dardos de força mágica, torcidos, assobiadores, hipoalergênicos e sem glúten. Cada dardo tem como alvo uma criatura de sua escolha que você pode ver dentro do alcance. Faça um ataque à distância com magia para cada míssil. Em um sucesso, um míssil causa 2d4 de dano de força ao seu alvo.\n\nSe a jogada de ataque obtiver um acerto crítico, o alvo desse míssil recebe 5d4 de dano de força em vez de você rolar o dano duas vezes por acerto crítico. Se a jogada de ataque de qualquer míssil for 1, todos os mísseis errarão seus alvos e explodirão na sua cara, causando 1 de dano de força por míssil a você.\n\nNíveis Superiores. Quando você conjura essa magia usando um espaço de magia de 2° nível ou superior, o feitiço cria mais um dardo, e o componente de royalties aumenta em 1 po, para cada nível do espaço de magia acima do 1º.\n\n\n"
+        "Descrição": "\nQualquer Mago aprendiz pode lançar um velho e tedioso míssil mágico. Claro, ele sempre atinge seu alvo. *Bocejo*. Afaste a labuta da magia do seu avô com esta versão aprimorada do feitiço, usada por Jim Darkmagic!\n\nVocê cria três dardos de força mágica, torcidos, assobiadores, hipoalergênicos e sem glúten. Cada dardo tem como alvo uma criatura de sua escolha que você pode ver dentro do alcance. Faça um ataque à distância com magia para cada míssil. Em um sucesso, um míssil causa 2d4 de dano de força ao seu alvo.\n\nSe a jogada de ataque obtiver um acerto crítico, o alvo desse míssil recebe 5d4 de dano de força em vez de você rolar o dano duas vezes por acerto crítico. Se a jogada de ataque de qualquer míssil for 1, todos os mísseis errarão seus alvos e explodirão na sua cara, causando 1 de dano de força por míssil a você.\n\nNíveis Superiores. Quando você conjura essa magia usando um espaço de magia de 2° nível ou superior, o feitiço cria mais um dardo, e o componente de royalties aumenta em 1 po, para cada nível do espaço de magia acima do 1º.\n\n\n"
     },
     "Modificar Memória": {
         "Nivel": 5,
         "Escola": "encantamento",
         "classes": [
-            "bardo",
-            "mago"
+            "Bardo",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 30 pés",
@@ -4084,7 +4084,7 @@
         "Nivel": 2,
         "Escola": "encantamento",
         "classes": [
-            "mago"
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 60 pés",
@@ -4096,9 +4096,9 @@
         "Nivel": 0,
         "Escola": "transmutação",
         "classes": [
-            "druida",
-            "feiticeiro",
-            "mago"
+            "Druida",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 30 pés",
@@ -4110,10 +4110,10 @@
         "Nivel": 4,
         "Escola": "transmutação",
         "classes": [
-            "artífice",
-            "clérigo",
-            "druida",
-            "mago"
+            "Artifice",
+            "Clerigo",
+            "Druida",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " toque",
@@ -4125,9 +4125,9 @@
         "Nivel": 0,
         "Escola": "transmutação",
         "classes": [
-            "druida",
-            "feiticeiro",
-            "mago"
+            "Druida",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 30 pés",
@@ -4139,7 +4139,7 @@
         "Nivel": 3,
         "Escola": "ilusão (ritual)",
         "classes": [
-            "mago"
+            "Mago"
         ],
         "TempoConjuracao": "1 minutos",
         "Alcance": " 30 pés",
@@ -4151,9 +4151,9 @@
         "Nivel": 6,
         "Escola": "transmutação",
         "classes": [
-            "druida",
-            "feiticeiro",
-            "mago"
+            "Druida",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 120 pés",
@@ -4165,11 +4165,11 @@
         "Nivel": 4,
         "Escola": "abjuração",
         "classes": [
-            "artífice",
-            "bardo",
-            "clérigo",
-            "druida",
-            "patrulheiro"
+            "Artifice",
+            "Bardo",
+            "Clerigo",
+            "Druida",
+            "Ranger"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " toque",
@@ -4181,9 +4181,9 @@
         "Nivel": 3,
         "Escola": "evocação",
         "classes": [
-            "druida",
-            "feiticeiro",
-            "mago"
+            "Druida",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 60 pés",
@@ -4195,7 +4195,7 @@
         "Nivel": 3,
         "Escola": "evocação",
         "classes": [
-            "mago"
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 90 pés",
@@ -4207,7 +4207,7 @@
         "Nivel": 5,
         "Escola": "evocação",
         "classes": [
-            "mago"
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 120 pés",
@@ -4219,7 +4219,7 @@
         "Nivel": 6,
         "Escola": "conjuração",
         "classes": [
-            "druida"
+            "Druida"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 120 pés",
@@ -4231,9 +4231,9 @@
         "Nivel": 4,
         "Escola": "evocação",
         "classes": [
-            "druida",
-            "feiticeiro",
-            "mago"
+            "Druida",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 120 pés",
@@ -4245,7 +4245,7 @@
         "Nivel": 6,
         "Escola": "evocação",
         "classes": [
-            "mago"
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 120 pés",
@@ -4257,10 +4257,10 @@
         "Nivel": 5,
         "Escola": "evocação",
         "classes": [
-            "artífice",
-            "druida",
-            "feiticeiro",
-            "mago"
+            "Artifice",
+            "Druida",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 120 pés",
@@ -4272,8 +4272,8 @@
         "Nivel": 3,
         "Escola": "evocação",
         "classes": [
-            "druida",
-            "patrulheiro"
+            "Druida",
+            "Ranger"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 120 pés",
@@ -4285,7 +4285,7 @@
         "Nivel": 9,
         "Escola": "abjuração",
         "classes": [
-            "mago"
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 60 pés",
@@ -4297,9 +4297,9 @@
         "Nivel": 3,
         "Escola": "conjuração",
         "classes": [
-            "druida",
-            "feiticeiro",
-            "mago"
+            "Druida",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 150 pés",
@@ -4311,9 +4311,9 @@
         "Nivel": 3,
         "Escola": "conjuração",
         "classes": [
-            "bardo",
-            "feiticeiro",
-            "mago"
+            "Bardo",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 90 pés",
@@ -4325,8 +4325,8 @@
         "Nivel": 5,
         "Escola": "conjuração",
         "classes": [
-            "feiticeiro",
-            "mago"
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 120 pés",
@@ -4338,10 +4338,10 @@
         "Nivel": 1,
         "Escola": "conjuração",
         "classes": [
-            "druida",
-            "feiticeiro",
-            "mago",
-            "patrulheiro"
+            "Druida",
+            "Feiticeiro",
+            "Mago",
+            "Ranger"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 120 pés",
@@ -4353,9 +4353,9 @@
         "Nivel": 2,
         "Escola": "ilusão",
         "classes": [
-            "artífice",
-            "feiticeiro",
-            "mago"
+            "Artifice",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " pessoal",
@@ -4367,10 +4367,10 @@
         "Nivel": 2,
         "Escola": "conjuração",
         "classes": [
-            "bardo",
-            "bruxo",
-            "feiticeiro",
-            "mago"
+            "Bardo",
+            "Warlock",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 60 pés",
@@ -4382,8 +4382,8 @@
         "Nivel": 8,
         "Escola": "conjuração",
         "classes": [
-            "feiticeiro",
-            "mago"
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 150 pés",
@@ -4407,8 +4407,8 @@
         "Nivel": 4,
         "Escola": "adivinhação",
         "classes": [
-            "artífice",
-            "mago"
+            "Artifice",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 30 pés",
@@ -4432,7 +4432,7 @@
         "Nivel": 5,
         "Escola": "evocação",
         "classes": [
-            "paladino"
+            "Paladino"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " pessoal",
@@ -4444,10 +4444,10 @@
         "Nivel": 1,
         "Escola": "evocação",
         "classes": [
-            "bardo",
-            "druida",
-            "feiticeiro",
-            "mago"
+            "Bardo",
+            "Druida",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " pessoal",
@@ -4459,7 +4459,7 @@
         "Nivel": 2,
         "Escola": "evocação",
         "classes": [
-            "clérigo"
+            "Clerigo"
         ],
         "TempoConjuracao": "10 minutos",
         "Alcance": " 30 pés",
@@ -4471,8 +4471,8 @@
         "Nivel": 1,
         "Escola": "evocação",
         "classes": [
-            "feiticeiro",
-            "mago"
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 90 pés",
@@ -4484,9 +4484,9 @@
         "Nivel": 0,
         "Escola": "adivinhação",
         "classes": [
-            "artífice",
-            "clérigo",
-            "druida"
+            "Artifice",
+            "Clerigo",
+            "Druida"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " toque",
@@ -4498,7 +4498,7 @@
         "Nivel": 6,
         "Escola": "transmutação",
         "classes": [
-            "druida"
+            "Druida"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 120 pés",
@@ -4510,10 +4510,10 @@
         "Nivel": 3,
         "Escola": "ilusão",
         "classes": [
-            "bardo",
-            "bruxo",
-            "feiticeiro",
-            "mago"
+            "Bardo",
+            "Warlock",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 120 pés",
@@ -4525,9 +4525,9 @@
         "Nivel": 1,
         "Escola": "evocação",
         "classes": [
-            "bardo",
-            "clérigo",
-            "druida"
+            "Bardo",
+            "Clerigo",
+            "Druida"
         ],
         "TempoConjuracao": "1 ação bonus",
         "Alcance": " 60 pés",
@@ -4539,7 +4539,7 @@
         "Nivel": 3,
         "Escola": "evocação",
         "classes": [
-            "clérigo"
+            "Clerigo"
         ],
         "TempoConjuracao": "1 ação bonus",
         "Alcance": " 60 pés",
@@ -4551,10 +4551,10 @@
         "Nivel": 8,
         "Escola": "encantamento",
         "classes": [
-            "bardo",
-            "bruxo",
-            "feiticeiro",
-            "mago"
+            "Bardo",
+            "Warlock",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 60 pés",
@@ -4566,7 +4566,7 @@
         "Nivel": 9,
         "Escola": "evocação",
         "classes": [
-            "bardo"
+            "Bardo"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " toque",
@@ -4578,9 +4578,9 @@
         "Nivel": 7,
         "Escola": "encantamento",
         "classes": [
-            "bruxo",
-            "feiticeiro",
-            "mago"
+            "Warlock",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 60 pés",
@@ -4592,10 +4592,10 @@
         "Nivel": 9,
         "Escola": "encantamento",
         "classes": [
-            "bardo",
-            "bruxo",
-            "feiticeiro",
-            "mago"
+            "Bardo",
+            "Warlock",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 60 pés",
@@ -4607,7 +4607,7 @@
         "Nivel": 6,
         "Escola": "conjuração",
         "classes": [
-            "clérigo"
+            "Clerigo"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 5 pés",
@@ -4619,7 +4619,7 @@
         "Nivel": 7,
         "Escola": "evocação",
         "classes": [
-            "clérigo"
+            "Clerigo"
         ],
         "TempoConjuracao": "1 ação bonus",
         "Alcance": " 30 pés",
@@ -4631,7 +4631,7 @@
         "Nivel": 0,
         "Escola": "evocação",
         "classes": [
-            "clérigo"
+            "Clerigo"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 5 pés",
@@ -4643,8 +4643,8 @@
         "Nivel": 9,
         "Escola": "transmutação",
         "classes": [
-            "feiticeiro",
-            "mago"
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " pessoal",
@@ -4656,9 +4656,9 @@
         "Nivel": 5,
         "Escola": "evocação",
         "classes": [
-            "bruxo",
-            "feiticeiro",
-            "mago"
+            "Warlock",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 120 pés",
@@ -4670,9 +4670,9 @@
         "Nivel": 2,
         "Escola": "conjuração",
         "classes": [
-            "bruxo",
-            "feiticeiro",
-            "mago"
+            "Warlock",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação bonus",
         "Alcance": " pessoal",
@@ -4684,9 +4684,9 @@
         "Nivel": 3,
         "Escola": "conjuração",
         "classes": [
-            "bruxo",
-            "feiticeiro",
-            "mago"
+            "Warlock",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 90 pés",
@@ -4698,11 +4698,11 @@
         "Nivel": 1,
         "Escola": "transmutação",
         "classes": [
-            "artífice",
-            "bardo",
-            "druida",
-            "mago",
-            "patrulheiro"
+            "Artifice",
+            "Bardo",
+            "Druida",
+            "Mago",
+            "Ranger"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " toque",
@@ -4714,8 +4714,8 @@
         "Nivel": 2,
         "Escola": "abjuração",
         "classes": [
-            "druida",
-            "patrulheiro"
+            "Druida",
+            "Ranger"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " pessoal",
@@ -4727,10 +4727,10 @@
         "Nivel": 2,
         "Escola": "transmutação",
         "classes": [
-            "artífice",
-            "bruxo",
-            "feiticeiro",
-            "mago"
+            "Artifice",
+            "Warlock",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " toque",
@@ -4742,9 +4742,9 @@
         "Nivel": 0,
         "Escola": "transmutação",
         "classes": [
-            "artífice",
-            "bruxo",
-            "druida"
+            "Artifice",
+            "Warlock",
+            "Druida"
         ],
         "TempoConjuracao": "1 ação bonus",
         "Alcance": " toque",
@@ -4756,8 +4756,8 @@
         "Nivel": 2,
         "Escola": "transmutação",
         "classes": [
-            "druida",
-            "patrulheiro"
+            "Druida",
+            "Ranger"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " toque",
@@ -4769,11 +4769,11 @@
         "Nivel": 4,
         "Escola": "abjuração",
         "classes": [
-            "artífice",
-            "druida",
-            "feiticeiro",
-            "mago",
-            "patrulheiro"
+            "Artifice",
+            "Druida",
+            "Feiticeiro",
+            "Mago",
+            "Ranger"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " toque",
@@ -4785,8 +4785,8 @@
         "Nivel": 3,
         "Escola": "evocação (ritual)",
         "classes": [
-            "bardo",
-            "mago"
+            "Bardo",
+            "Mago"
         ],
         "TempoConjuracao": "1 minutos",
         "Alcance": " pessoal",
@@ -4798,8 +4798,8 @@
         "Nivel": 3,
         "Escola": "transmutação",
         "classes": [
-            "artífice",
-            "mago"
+            "Artifice",
+            "Mago"
         ],
         "TempoConjuracao": "1 minutos",
         "Alcance": " toque",
@@ -4811,8 +4811,8 @@
         "Nivel": 1,
         "Escola": "encantamento",
         "classes": [
-            "bardo",
-            "clérigo"
+            "Bardo",
+            "Clerigo"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 30 pés",
@@ -4824,11 +4824,11 @@
         "Nivel": 0,
         "Escola": "evocação",
         "classes": [
-            "artífice",
-            "bruxo",
-            "druida",
-            "feiticeiro",
-            "mago"
+            "Artifice",
+            "Warlock",
+            "Druida",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 60 pés",
@@ -4852,10 +4852,10 @@
         "Nivel": 2,
         "Escola": "transmutação",
         "classes": [
-            "artífice",
-            "bardo",
-            "feiticeiro",
-            "mago"
+            "Artifice",
+            "Bardo",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 60 pés",
@@ -4867,9 +4867,9 @@
         "Nivel": 3,
         "Escola": "transmutação",
         "classes": [
-            "artífice",
-            "feiticeiro",
-            "mago"
+            "Artifice",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " pessoal",
@@ -4881,10 +4881,10 @@
         "Nivel": 4,
         "Escola": "conjuração",
         "classes": [
-            "bardo",
-            "bruxo",
-            "feiticeiro",
-            "mago"
+            "Bardo",
+            "Warlock",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 500 pés",
@@ -4896,9 +4896,9 @@
         "Nivel": 9,
         "Escola": "conjuração",
         "classes": [
-            "clérigo",
-            "feiticeiro",
-            "mago"
+            "Clerigo",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 60 pés",
@@ -4910,9 +4910,9 @@
         "Nivel": 6,
         "Escola": "conjuração",
         "classes": [
-            "bruxo",
-            "feiticeiro",
-            "mago"
+            "Warlock",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 500 pés",
@@ -4924,8 +4924,8 @@
         "Nivel": 5,
         "Escola": "necromancia",
         "classes": [
-            "clérigo",
-            "druida"
+            "Clerigo",
+            "Druida"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " toque",
@@ -4937,9 +4937,9 @@
         "Nivel": 5,
         "Escola": "conjuração",
         "classes": [
-            "clérigo",
-            "druida",
-            "feiticeiro"
+            "Clerigo",
+            "Druida",
+            "Feiticeiro"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 300 pés",
@@ -4951,11 +4951,11 @@
         "Nivel": 0,
         "Escola": "transmutação",
         "classes": [
-            "artífice",
-            "bardo",
-            "bruxo",
-            "feiticeiro",
-            "mago"
+            "Artifice",
+            "Bardo",
+            "Warlock",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 10 pés",
@@ -4967,9 +4967,9 @@
         "Nivel": 7,
         "Escola": "evocação",
         "classes": [
-            "bardo",
-            "bruxo",
-            "mago"
+            "Bardo",
+            "Warlock",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 100 pés",
@@ -4981,9 +4981,9 @@
         "Nivel": 6,
         "Escola": "ilusão",
         "classes": [
-            "bruxo",
-            "feiticeiro",
-            "mago"
+            "Warlock",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 60 pés",
@@ -4995,7 +4995,7 @@
         "Nivel": 6,
         "Escola": "abjuração (ritual)",
         "classes": [
-            "clérigo"
+            "Clerigo"
         ],
         "TempoConjuracao": "10 minutos",
         "Alcance": " toque",
@@ -5007,9 +5007,9 @@
         "Nivel": 9,
         "Escola": "necromancia",
         "classes": [
-            "bruxo",
-            "clérigo",
-            "mago"
+            "Warlock",
+            "Clerigo",
+            "Mago"
         ],
         "TempoConjuracao": "1 horas",
         "Alcance": " 10 pés",
@@ -5021,8 +5021,8 @@
         "Nivel": 7,
         "Escola": "ilusão",
         "classes": [
-            "bardo",
-            "mago"
+            "Bardo",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 500 milhas",
@@ -5034,8 +5034,8 @@
         "Nivel": 4,
         "Escola": "abjuração",
         "classes": [
-            "clérigo",
-            "paladino"
+            "Clerigo",
+            "Paladino"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " toque",
@@ -5047,12 +5047,12 @@
         "Nivel": 3,
         "Escola": "abjuração",
         "classes": [
-            "artífice",
-            "clérigo",
-            "druida",
-            "feiticeiro",
-            "mago",
-            "patrulheiro"
+            "Artifice",
+            "Clerigo",
+            "Druida",
+            "Feiticeiro",
+            "Mago",
+            "Ranger"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " toque",
@@ -5064,10 +5064,10 @@
         "Nivel": 0,
         "Escola": "abjuração",
         "classes": [
-            "bardo",
-            "bruxo",
-            "feiticeiro",
-            "mago"
+            "Bardo",
+            "Warlock",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " pessoal",
@@ -5079,10 +5079,10 @@
         "Nivel": 1,
         "Escola": "abjuração",
         "classes": [
-            "bruxo",
-            "clérigo",
-            "mago",
-            "paladino"
+            "Warlock",
+            "Clerigo",
+            "Mago",
+            "Paladino"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " toque",
@@ -5094,11 +5094,11 @@
         "Nivel": 2,
         "Escola": "abjuração",
         "classes": [
-            "artífice",
-            "clérigo",
-            "druida",
-            "paladino",
-            "patrulheiro"
+            "Artifice",
+            "Clerigo",
+            "Druida",
+            "Paladino",
+            "Ranger"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " toque",
@@ -5110,7 +5110,7 @@
         "Nivel": 6,
         "Escola": "abjuração",
         "classes": [
-            "druida"
+            "Druida"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " pessoal",
@@ -5122,8 +5122,8 @@
         "Nivel": 6,
         "Escola": "abjuração",
         "classes": [
-            "bardo",
-            "mago"
+            "Bardo",
+            "Mago"
         ],
         "TempoConjuracao": "10 minutos",
         "Alcance": " toque",
@@ -5135,10 +5135,10 @@
         "Nivel": 1,
         "Escola": "transmutação (ritual)",
         "classes": [
-            "artífice",
-            "clérigo",
-            "druida",
-            "paladino"
+            "Artifice",
+            "Clerigo",
+            "Druida",
+            "Paladino"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 10 pés",
@@ -5162,10 +5162,10 @@
         "Nivel": 1,
         "Escola": "transmutação",
         "classes": [
-            "artífice",
-            "bardo",
-            "feiticeiro",
-            "mago"
+            "Artifice",
+            "Bardo",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 reação, que você realiza quando você ou uma criatura a até 18 metros [60 feet] cair",
         "Alcance": " 60 pés",
@@ -5177,8 +5177,8 @@
         "Nivel": 2,
         "Escola": "evocação",
         "classes": [
-            "feiticeiro",
-            "mago"
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " pessoal",
@@ -5190,8 +5190,8 @@
         "Nivel": 1,
         "Escola": "necromancia",
         "classes": [
-            "feiticeiro",
-            "mago"
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 60 pés",
@@ -5203,8 +5203,8 @@
         "Nivel": 2,
         "Escola": "evocação",
         "classes": [
-            "feiticeiro",
-            "mago"
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 120 pés",
@@ -5216,9 +5216,9 @@
         "Nivel": 1,
         "Escola": "evocação",
         "classes": [
-            "bruxo",
-            "feiticeiro",
-            "mago"
+            "Warlock",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 30 pés",
@@ -5230,7 +5230,7 @@
         "Nivel": 1,
         "Escola": "evocação",
         "classes": [
-            "feiticeiro"
+            "Feiticeiro"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 120 pés",
@@ -5242,9 +5242,9 @@
         "Nivel": 0,
         "Escola": "evocação",
         "classes": [
-            "artífice",
-            "feiticeiro",
-            "mago"
+            "Artifice",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 120 pés",
@@ -5256,9 +5256,9 @@
         "Nivel": 0,
         "Escola": "evocação",
         "classes": [
-            "artífice",
-            "feiticeiro",
-            "mago"
+            "Artifice",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 60 pés",
@@ -5270,8 +5270,8 @@
         "Nivel": 2,
         "Escola": "necromancia",
         "classes": [
-            "bruxo",
-            "mago"
+            "Warlock",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 60 pés",
@@ -5283,7 +5283,7 @@
         "Nivel": 1,
         "Escola": "evocação",
         "classes": [
-            "clérigo"
+            "Clerigo"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 120 pés",
@@ -5295,7 +5295,7 @@
         "Nivel": 2,
         "Escola": "evocação",
         "classes": [
-            "druida"
+            "Druida"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 120 pés",
@@ -5307,9 +5307,9 @@
         "Nivel": 6,
         "Escola": "evocação",
         "classes": [
-            "druida",
-            "feiticeiro",
-            "mago"
+            "Druida",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " pessoal",
@@ -5321,11 +5321,11 @@
         "Nivel": 0,
         "Escola": "conjuração",
         "classes": [
-            "artífice",
-            "bruxo",
-            "druida",
-            "feiticeiro",
-            "mago"
+            "Artifice",
+            "Warlock",
+            "Druida",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 10 pés",
@@ -5337,7 +5337,7 @@
         "Nivel": 0,
         "Escola": "evocação",
         "classes": [
-            "bruxo"
+            "Warlock"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 120 pés",
@@ -5349,8 +5349,8 @@
         "Nivel": 7,
         "Escola": "evocação",
         "classes": [
-            "feiticeiro",
-            "mago"
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " pessoal",
@@ -5362,7 +5362,7 @@
         "Nivel": 6,
         "Escola": "necromancia",
         "classes": [
-            "mago"
+            "Mago"
         ],
         "TempoConjuracao": "1 minutos",
         "Alcance": " pessoal",
@@ -5374,10 +5374,10 @@
         "Nivel": 1,
         "Escola": "transmutação",
         "classes": [
-            "artífice",
-            "bruxo",
-            "feiticeiro",
-            "mago"
+            "Artifice",
+            "Warlock",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação bonus",
         "Alcance": " pessoal",
@@ -5389,7 +5389,7 @@
         "Nivel": 5,
         "Escola": "evocação",
         "classes": [
-            "druida"
+            "Druida"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 120 pés",
@@ -5401,7 +5401,7 @@
         "Nivel": 5,
         "Escola": "transmutação",
         "classes": [
-            "druida"
+            "Druida"
         ],
         "TempoConjuracao": "1 horas",
         "Alcance": " toque",
@@ -5413,9 +5413,9 @@
         "Nivel": 2,
         "Escola": "ilusão",
         "classes": [
-            "bruxo",
-            "feiticeiro",
-            "mago"
+            "Warlock",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " pessoal",
@@ -5427,9 +5427,9 @@
         "Nivel": 7,
         "Escola": "transmutação",
         "classes": [
-            "bardo",
-            "clérigo",
-            "druida"
+            "Bardo",
+            "Clerigo",
+            "Druida"
         ],
         "TempoConjuracao": "1 minutos",
         "Alcance": " toque",
@@ -5441,8 +5441,8 @@
         "Nivel": 3,
         "Escola": "evocação",
         "classes": [
-            "feiticeiro",
-            "mago"
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " pessoal",
@@ -5454,10 +5454,10 @@
         "Nivel": 3,
         "Escola": "abjuração",
         "classes": [
-            "bruxo",
-            "clérigo",
-            "mago",
-            "paladino"
+            "Warlock",
+            "Clerigo",
+            "Mago",
+            "Paladino"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " toque",
@@ -5469,8 +5469,8 @@
         "Nivel": 2,
         "Escola": "necromancia (ritual)",
         "classes": [
-            "clérigo",
-            "mago"
+            "Clerigo",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " toque",
@@ -5482,7 +5482,7 @@
         "Nivel": 1,
         "Escola": "evocação",
         "classes": [
-            "bruxo"
+            "Warlock"
         ],
         "TempoConjuracao": "1 reação, que você faz em resposta ao sofre dano de uma criatura a até 18 metros [60 feet] de você e que você possa ver",
         "Alcance": " 60 pés",
@@ -5494,9 +5494,9 @@
         "Nivel": 0,
         "Escola": "abjuração",
         "classes": [
-            "artífice",
-            "clérigo",
-            "druida"
+            "Artifice",
+            "Clerigo",
+            "Druida"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " toque",
@@ -5508,11 +5508,11 @@
         "Nivel": 3,
         "Escola": "transmutação (ritual)",
         "classes": [
-            "artífice",
-            "druida",
-            "feiticeiro",
-            "mago",
-            "patrulheiro"
+            "Artifice",
+            "Druida",
+            "Feiticeiro",
+            "Mago",
+            "Ranger"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 30 pés",
@@ -5524,9 +5524,9 @@
         "Nivel": 4,
         "Escola": "evocação",
         "classes": [
-            "bruxo",
-            "feiticeiro",
-            "mago"
+            "Warlock",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 120 pés",
@@ -5538,8 +5538,8 @@
         "Nivel": 7,
         "Escola": "necromancia",
         "classes": [
-            "bardo",
-            "clérigo"
+            "Bardo",
+            "Clerigo"
         ],
         "TempoConjuracao": "1 horas",
         "Alcance": " toque",
@@ -5551,8 +5551,8 @@
         "Nivel": 9,
         "Escola": "necromancia",
         "classes": [
-            "clérigo",
-            "druida"
+            "Clerigo",
+            "Druida"
         ],
         "TempoConjuracao": "1 horas",
         "Alcance": " toque",
@@ -5564,10 +5564,10 @@
         "Nivel": 5,
         "Escola": "abjuração",
         "classes": [
-            "artífice",
-            "bardo",
-            "clérigo",
-            "druida"
+            "Artifice",
+            "Bardo",
+            "Clerigo",
+            "Druida"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " toque",
@@ -5579,12 +5579,12 @@
         "Nivel": 2,
         "Escola": "abjuração",
         "classes": [
-            "artífice",
-            "bardo",
-            "clérigo",
-            "druida",
-            "paladino",
-            "patrulheiro"
+            "Artifice",
+            "Bardo",
+            "Clerigo",
+            "Druida",
+            "Paladino",
+            "Ranger"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " toque",
@@ -5596,9 +5596,9 @@
         "Nivel": 5,
         "Escola": "necromancia",
         "classes": [
-            "bardo",
-            "clérigo",
-            "paladino"
+            "Bardo",
+            "Clerigo",
+            "Paladino"
         ],
         "TempoConjuracao": "1 horas",
         "Alcance": " toque",
@@ -5610,9 +5610,9 @@
         "Nivel": 3,
         "Escola": "necromancia",
         "classes": [
-            "artífice",
-            "clérigo",
-            "paladino"
+            "Artifice",
+            "Clerigo",
+            "Paladino"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " toque",
@@ -5624,8 +5624,8 @@
         "Nivel": 1,
         "Escola": "encantamento",
         "classes": [
-            "bardo",
-            "mago"
+            "Bardo",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 30 pés",
@@ -5637,9 +5637,9 @@
         "Nivel": 3,
         "Escola": "necromancia",
         "classes": [
-            "bardo",
-            "clérigo",
-            "mago"
+            "Bardo",
+            "Clerigo",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " toque",
@@ -5651,9 +5651,9 @@
         "Nivel": 0,
         "Escola": "conjuração",
         "classes": [
-            "bruxo",
-            "feiticeiro",
-            "mago"
+            "Warlock",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 5 pés",
@@ -5665,11 +5665,11 @@
         "Nivel": 1,
         "Escola": "transmutação",
         "classes": [
-            "artífice",
-            "druida",
-            "feiticeiro",
-            "mago",
-            "patrulheiro"
+            "Artifice",
+            "Druida",
+            "Feiticeiro",
+            "Mago",
+            "Ranger"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " toque",
@@ -5681,8 +5681,8 @@
         "Nivel": 1,
         "Escola": "abjuração",
         "classes": [
-            "artífice",
-            "clérigo"
+            "Artifice",
+            "Clerigo"
         ],
         "TempoConjuracao": "1 ação bonus",
         "Alcance": " 30 pés",
@@ -5694,8 +5694,8 @@
         "Nivel": 4,
         "Escola": "abjuração",
         "classes": [
-            "artífice",
-            "mago"
+            "Artifice",
+            "Mago"
         ],
         "TempoConjuracao": "10 minutos",
         "Alcance": " 120 pés",
@@ -5707,7 +5707,7 @@
         "Nivel": 1,
         "Escola": "conjuração",
         "classes": [
-            "patrulheiro"
+            "Ranger"
         ],
         "TempoConjuracao": "1 ação bonus",
         "Alcance": " pessoal",
@@ -5719,7 +5719,7 @@
         "Nivel": 0,
         "Escola": "transmutação",
         "classes": [
-            "druida"
+            "Druida"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " pessoal",
@@ -5731,8 +5731,8 @@
         "Nivel": 8,
         "Escola": "conjuração",
         "classes": [
-            "bruxo",
-            "mago"
+            "Warlock",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 60 pés",
@@ -5744,8 +5744,8 @@
         "Nivel": 2,
         "Escola": "adivinhação (ritual)",
         "classes": [
-            "druida",
-            "patrulheiro"
+            "Druida",
+            "Ranger"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " toque",
@@ -5757,9 +5757,9 @@
         "Nivel": 1,
         "Escola": "conjuração (ritual)",
         "classes": [
-            "bardo",
-            "bruxo",
-            "mago"
+            "Bardo",
+            "Warlock",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 60 pés",
@@ -5771,10 +5771,10 @@
         "Nivel": 9,
         "Escola": "adivinhação",
         "classes": [
-            "bardo",
-            "bruxo",
-            "druida",
-            "mago"
+            "Bardo",
+            "Warlock",
+            "Druida",
+            "Mago"
         ],
         "TempoConjuracao": "1 minutos",
         "Alcance": " toque",
@@ -5786,9 +5786,9 @@
         "Nivel": 2,
         "Escola": "ilusão (ritual)",
         "classes": [
-            "bardo",
-            "clérigo",
-            "patrulheiro"
+            "Bardo",
+            "Clerigo",
+            "Ranger"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 120 pés",
@@ -5800,9 +5800,9 @@
         "Nivel": 7,
         "Escola": "abjuração",
         "classes": [
-            "bardo",
-            "clérigo",
-            "mago"
+            "Bardo",
+            "Clerigo",
+            "Mago"
         ],
         "TempoConjuracao": "1 minutos",
         "Alcance": " toque",
@@ -5814,9 +5814,9 @@
         "Nivel": 5,
         "Escola": "ilusão",
         "classes": [
-            "bardo",
-            "feiticeiro",
-            "mago"
+            "Bardo",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 30 pés",
@@ -5828,7 +5828,7 @@
         "Nivel": 7,
         "Escola": "ilusão",
         "classes": [
-            "mago"
+            "Mago"
         ],
         "TempoConjuracao": "12 horas",
         "Alcance": " toque",
@@ -5840,7 +5840,7 @@
         "Nivel": 3,
         "Escola": "abjuração",
         "classes": [
-            "clérigo"
+            "Clerigo"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 30 pés",
@@ -5852,9 +5852,9 @@
         "Nivel": 0,
         "Escola": "necromancia",
         "classes": [
-            "bruxo",
-            "clérigo",
-            "mago"
+            "Warlock",
+            "Clerigo",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 60 pés",
@@ -5866,7 +5866,7 @@
         "Nivel": 4,
         "Escola": "necromancia",
         "classes": [
-            "bruxo"
+            "Warlock"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " pessoal",
@@ -5878,10 +5878,10 @@
         "Nivel": 3,
         "Escola": "encantamento",
         "classes": [
-            "artífice",
-            "bardo",
-            "feiticeiro",
-            "mago"
+            "Artifice",
+            "Bardo",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 30 pés",
@@ -5893,9 +5893,9 @@
         "Nivel": 5,
         "Escola": "ilusão",
         "classes": [
-            "bardo",
-            "bruxo",
-            "mago"
+            "Bardo",
+            "Warlock",
+            "Mago"
         ],
         "TempoConjuracao": "1 minutos",
         "Alcance": " especial",
@@ -5907,9 +5907,9 @@
         "Nivel": 1,
         "Escola": "encantamento",
         "classes": [
-            "bardo",
-            "feiticeiro",
-            "mago"
+            "Bardo",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 90 pés",
@@ -5921,10 +5921,10 @@
         "Nivel": 2,
         "Escola": "encantamento",
         "classes": [
-            "bardo",
-            "bruxo",
-            "feiticeiro",
-            "mago"
+            "Bardo",
+            "Warlock",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 30 pés",
@@ -5936,10 +5936,10 @@
         "Nivel": 6,
         "Escola": "encantamento",
         "classes": [
-            "bardo",
-            "bruxo",
-            "feiticeiro",
-            "mago"
+            "Bardo",
+            "Warlock",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 60 pés",
@@ -5951,7 +5951,7 @@
         "Nivel": 1,
         "Escola": "encantamento",
         "classes": [
-            "bardo"
+            "Bardo"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 60 pés",
@@ -5963,7 +5963,7 @@
         "Nivel": 0,
         "Escola": "transmutação",
         "classes": [
-            "clérigo"
+            "Clerigo"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 30 pés",
@@ -5975,9 +5975,9 @@
         "Nivel": 2,
         "Escola": "conjuração",
         "classes": [
-            "artífice",
-            "feiticeiro",
-            "mago"
+            "Artifice",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 60 pés",
@@ -5989,8 +5989,8 @@
         "Nivel": 5,
         "Escola": "transmutação",
         "classes": [
-            "feiticeiro",
-            "mago"
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 60 pés",
@@ -6002,7 +6002,7 @@
         "Nivel": 8,
         "Escola": "evocação",
         "classes": [
-            "mago"
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " especial",
@@ -6014,21 +6014,21 @@
         "Nivel": 7,
         "Escola": "conjuração",
         "classes": [
-            "bardo",
-            "feiticeiro",
-            "mago"
+            "Bardo",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 10 pés",
         "Componentes": "V",
         "Duração": "instantâneo",
-        "Descrição": "\nEssa magia, instantaneamente, transporta você e até oito criaturas voluntárias, à sua escolha, que você possa ver dentro do alcance ou um único objeto que você possa ver no alcance, para um destino que você selecionou. Se você for afetar um objeto, ele deve ser capaz de caber inteiro dentro de um cubo de 3 metros [10-foot cube] e não pode estar sendo empunhado ou carregado por uma criatura involuntária.\n\nO destino que você escolher deve ser conhecido por você e deve ser no mesmo plano de existência que você está. Sua familiaridade com o destino determina se você chegará nele com sucesso. O Mestre rola um d100 e consulta a tabela.\n\nFamiliaridade\n \n\nFiasco\n \n\nÁrea Similar\n \n\nFora do Alvo\n \n\nNo Alvo\n\nCírculo permanente\n \n\n—\n \n\n—\n \n\n—\n \n\n01—100\n\nObjeto associado\n \n\n—\n \n\n—\n \n\n—\n \n\n01—100\n\nMuito familiar\n \n\n01—05\n \n\n06—13\n \n\n14—24\n \n\n25—100\n\nVisto casualmente\n \n\n01—33\n \n\n34—43\n \n\n44—53\n \n\n54—100\n\nVisto uma vez\n \n\n01—43\n \n\n44—53\n \n\n54—73\n \n\n74—100\n\nDescrição\n \n\n01—43\n \n\n44—53\n \n\n54—73\n \n\n74—100\n\nDescrição falsa\n \n\n01—50\n \n\n51—100\n \n\n—\n \n\n—\n\nFamiliaridade. “Círculo permanente” significa um círculo de teletransporte permanente o qual você conhece a sequência de selos. “Objeto associado” significa que você possui um objeto retirado do destino desejado nos últimos seis meses, como um livro da biblioteca do mago, roupa de cama de uma suíte real ou um pedaço de mármore da tumba secreta do lich.\n\n“Muito familiar” é um lugar que você já tenha ido muitas vezes, um lugar que você estudou cuidadosamente ou um local que você possa ver enquanto conjura a magia. “Visto casualmente” é algum lugar que você tenha visto mais de uma vez, mas que não seja muito familiar. “Visto uma vez” é um lugar que você só viu uma vez, possivelmente através de magia. “Descrição” é um lugar cuja localização e aparência você conhece através da descrição de outrem, talvez através de um mapa.\n\n“Destino falso” é um local que não existe. Talvez você tenha tentado espionar o santuário de um inimigo, mas, ao invés, viu uma ilusão ou você está tentando se teletransportar para um local familiar que não existe mais.\n\nNo Alvo. Você e seu grupo (ou objeto alvo) aparecem onde você queria.\n\nFora do Alvo. Você e seu grupo (ou objeto alvo) aparecem a uma distância aleatória fora do destino em uma direção aleatória. A distância do alvo é 1d10 x 1d10 por cento da distância que você viajou. Por exemplo, se você tentou viajar 180 quilômetros [120 miles], mas apareceu fora do alvo e rolou um 5 e um 3 nos dois d10s, então você saiu do alvo 15 por cento ou 27 quilômetros [18 miles]. O Mestre determina a direção de fora do alvo aleatoriamente rolando um d8 e designando 1 como norte, 2 como nordeste, 3 como leste e assim por diante ao redor dos pontos cardeais. Se você seria teletransportado para uma cidade costeira, podendo cair a 27 quilômetros [18 miles] dela, no mar, você poderia ter problemas.\n\nÁrea Similar. Você e seu grupo (ou objeto alvo) aparecem em uma área diferente que, visualmente ou tematicamente, é similar a área alvo. Se você estava indo para o laboratório na sua casa, por exemplo, você pode parar em outro laboratório de mago ou em uma loja de suprimentos alquímicos que terá muitas ferramentas iguais às encontradas no seu laboratório. Geralmente, você aparecerá no local similar mais próximo, mas já que a magia não tem limite de alcance, você pode, concebivelmente, viajar para qualquer lugar no plano.\n\nFiasco. A mágica imprevisível da magia resulta em uma jornada difícil. Cada criatura teletransportada (ou o objeto alvo) sofrem 3d10 de dano de energia e o Mestre rola novamente a tabela para ver onde você foi parar (fiascos múltiplos podem ocorrer, causando dano a cada vez).\n\n"
+        "Descrição": "\nEssa magia, instantaneamente, transporta você e até oito criaturas voluntárias, à sua escolha, que você possa ver dentro do alcance ou um único objeto que você possa ver no alcance, para um destino que você selecionou. Se você for afetar um objeto, ele deve ser capaz de caber inteiro dentro de um cubo de 3 metros [10-foot cube] e não pode estar sendo empunhado ou carregado por uma criatura involuntária.\n\nO destino que você escolher deve ser conhecido por você e deve ser no mesmo plano de existência que você está. Sua familiaridade com o destino determina se você chegará nele com sucesso. O Mestre rola um d100 e consulta a tabela.\n\nFamiliaridade\n \n\nFiasco\n \n\nÁrea Similar\n \n\nFora do Alvo\n \n\nNo Alvo\n\nCírculo permanente\n \n\n—\n \n\n—\n \n\n—\n \n\n01—100\n\nObjeto associado\n \n\n—\n \n\n—\n \n\n—\n \n\n01—100\n\nMuito familiar\n \n\n01—05\n \n\n06—13\n \n\n14—24\n \n\n25—100\n\nVisto casualmente\n \n\n01—33\n \n\n34—43\n \n\n44—53\n \n\n54—100\n\nVisto uma vez\n \n\n01—43\n \n\n44—53\n \n\n54—73\n \n\n74—100\n\nDescrição\n \n\n01—43\n \n\n44—53\n \n\n54—73\n \n\n74—100\n\nDescrição falsa\n \n\n01—50\n \n\n51—100\n \n\n—\n \n\n—\n\nFamiliaridade. “Círculo permanente” significa um círculo de teletransporte permanente o qual você conhece a sequência de selos. “Objeto associado” significa que você possui um objeto retirado do destino desejado nos últimos seis meses, como um livro da biblioteca do Mago, roupa de cama de uma suíte real ou um pedaço de mármore da tumba secreta do lich.\n\n“Muito familiar” é um lugar que você já tenha ido muitas vezes, um lugar que você estudou cuidadosamente ou um local que você possa ver enquanto conjura a magia. “Visto casualmente” é algum lugar que você tenha visto mais de uma vez, mas que não seja muito familiar. “Visto uma vez” é um lugar que você só viu uma vez, possivelmente através de magia. “Descrição” é um lugar cuja localização e aparência você conhece através da descrição de outrem, talvez através de um mapa.\n\n“Destino falso” é um local que não existe. Talvez você tenha tentado espionar o santuário de um inimigo, mas, ao invés, viu uma ilusão ou você está tentando se teletransportar para um local familiar que não existe mais.\n\nNo Alvo. Você e seu grupo (ou objeto alvo) aparecem onde você queria.\n\nFora do Alvo. Você e seu grupo (ou objeto alvo) aparecem a uma distância aleatória fora do destino em uma direção aleatória. A distância do alvo é 1d10 x 1d10 por cento da distância que você viajou. Por exemplo, se você tentou viajar 180 quilômetros [120 miles], mas apareceu fora do alvo e rolou um 5 e um 3 nos dois d10s, então você saiu do alvo 15 por cento ou 27 quilômetros [18 miles]. O Mestre determina a direção de fora do alvo aleatoriamente rolando um d8 e designando 1 como norte, 2 como nordeste, 3 como leste e assim por diante ao redor dos pontos cardeais. Se você seria teletransportado para uma cidade costeira, podendo cair a 27 quilômetros [18 miles] dela, no mar, você poderia ter problemas.\n\nÁrea Similar. Você e seu grupo (ou objeto alvo) aparecem em uma área diferente que, visualmente ou tematicamente, é similar a área alvo. Se você estava indo para o laboratório na sua casa, por exemplo, você pode parar em outro laboratório de Mago ou em uma loja de suprimentos alquímicos que terá muitas ferramentas iguais às encontradas no seu laboratório. Geralmente, você aparecerá no local similar mais próximo, mas já que a magia não tem limite de alcance, você pode, concebivelmente, viajar para qualquer lugar no plano.\n\nFiasco. A mágica imprevisível da magia resulta em uma jornada difícil. Cada criatura teletransportada (ou o objeto alvo) sofrem 3d10 de dano de energia e o Mestre rola novamente a tabela para ver onde você foi parar (fiascos múltiplos podem ocorrer, causando dano a cada vez).\n\n"
     },
     "Teletransporte Por Árvores": {
         "Nivel": 6,
         "Escola": "conjuração",
         "classes": [
-            "druida"
+            "Druida"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 10 pés",
@@ -6040,7 +6040,7 @@
         "Nivel": 9,
         "Escola": "conjuração",
         "classes": [
-            "druida"
+            "Druida"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " linha de visão",
@@ -6052,8 +6052,8 @@
         "Nivel": 7,
         "Escola": "evocação",
         "classes": [
-            "clérigo",
-            "druida"
+            "Clerigo",
+            "Druida"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 150 pés",
@@ -6065,9 +6065,9 @@
         "Nivel": 4,
         "Escola": "evocação",
         "classes": [
-            "druida",
-            "feiticeiro",
-            "mago"
+            "Druida",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 300 pés",
@@ -6079,7 +6079,7 @@
         "Nivel": 7,
         "Escola": "conjuração",
         "classes": [
-            "clérigo"
+            "Clerigo"
         ],
         "TempoConjuracao": "1 horas",
         "Alcance": " 120 pés",
@@ -6091,7 +6091,7 @@
         "Nivel": 4,
         "Escola": "conjuração",
         "classes": [
-            "mago"
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 90 pés",
@@ -6103,9 +6103,9 @@
         "Nivel": 8,
         "Escola": "evocação",
         "classes": [
-            "clérigo",
-            "druida",
-            "feiticeiro"
+            "Clerigo",
+            "Druida",
+            "Feiticeiro"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 500 pés",
@@ -6117,10 +6117,10 @@
         "Nivel": 4,
         "Escola": "ilusão",
         "classes": [
-            "bardo",
-            "bruxo",
-            "druida",
-            "mago"
+            "Bardo",
+            "Warlock",
+            "Druida",
+            "Mago"
         ],
         "TempoConjuracao": "10 minutos",
         "Alcance": " 300 pés",
@@ -6132,9 +6132,9 @@
         "Nivel": 0,
         "Escola": "necromancia",
         "classes": [
-            "bruxo",
-            "feiticeiro",
-            "mago"
+            "Warlock",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 120 pés",
@@ -6146,9 +6146,9 @@
         "Nivel": 0,
         "Escola": "evocação",
         "classes": [
-            "artífice",
-            "feiticeiro",
-            "mago"
+            "Artifice",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " toque",
@@ -6160,8 +6160,8 @@
         "Nivel": 3,
         "Escola": "necromancia",
         "classes": [
-            "bruxo",
-            "mago"
+            "Warlock",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " pessoal",
@@ -6173,8 +6173,8 @@
         "Nivel": 2,
         "Escola": "abjuração",
         "classes": [
-            "artífice",
-            "mago"
+            "Artifice",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " toque",
@@ -6186,8 +6186,8 @@
         "Nivel": 3,
         "Escola": "necromancia",
         "classes": [
-            "clérigo",
-            "mago"
+            "Clerigo",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 30 pés",
@@ -6199,7 +6199,7 @@
         "Nivel": 6,
         "Escola": "transmutação",
         "classes": [
-            "mago"
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " pessoal",
@@ -6211,9 +6211,9 @@
         "Nivel": 5,
         "Escola": "transmutação",
         "classes": [
-            "artífice",
-            "druida",
-            "mago"
+            "Artifice",
+            "Druida",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 120 pés",
@@ -6225,10 +6225,10 @@
         "Nivel": 1,
         "Escola": "evocação",
         "classes": [
-            "bardo",
-            "druida",
-            "feiticeiro",
-            "mago"
+            "Bardo",
+            "Druida",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " pessoal",
@@ -6240,8 +6240,8 @@
         "Nivel": 2,
         "Escola": "transmutação",
         "classes": [
-            "artífice",
-            "mago"
+            "Artifice",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " toque",
@@ -6253,7 +6253,7 @@
         "Nivel": 8,
         "Escola": "conjuração",
         "classes": [
-            "druida"
+            "Druida"
         ],
         "TempoConjuracao": "1 minutos",
         "Alcance": " linha de visão",
@@ -6277,9 +6277,9 @@
         "Nivel": 3,
         "Escola": "transmutação",
         "classes": [
-            "artífice",
-            "feiticeiro",
-            "mago"
+            "Artifice",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 30 pés",
@@ -6291,9 +6291,9 @@
         "Nivel": 7,
         "Escola": "evocação",
         "classes": [
-            "druida",
-            "feiticeiro",
-            "mago"
+            "Druida",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 300 pés",
@@ -6305,10 +6305,10 @@
         "Nivel": 2,
         "Escola": "evocação",
         "classes": [
-            "bardo",
-            "druida",
-            "feiticeiro",
-            "mago"
+            "Bardo",
+            "Druida",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " pessoal",
@@ -6320,10 +6320,10 @@
         "Nivel": 2,
         "Escola": "adivinhação",
         "classes": [
-            "artífice",
-            "bardo",
-            "feiticeiro",
-            "mago"
+            "Artifice",
+            "Bardo",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " pessoal",
@@ -6335,11 +6335,11 @@
         "Nivel": 7,
         "Escola": "conjuração",
         "classes": [
-            "bruxo",
-            "clérigo",
-            "druida",
-            "feiticeiro",
-            "mago"
+            "Warlock",
+            "Clerigo",
+            "Druida",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " toque",
@@ -6351,11 +6351,11 @@
         "Nivel": 5,
         "Escola": "adivinhação",
         "classes": [
-            "bardo",
-            "bruxo",
-            "clérigo",
-            "druida",
-            "mago"
+            "Bardo",
+            "Warlock",
+            "Clerigo",
+            "Druida",
+            "Mago"
         ],
         "TempoConjuracao": "10 minutos",
         "Alcance": " pessoal",
@@ -6367,8 +6367,8 @@
         "Nivel": 1,
         "Escola": "adivinhação",
         "classes": [
-            "druida",
-            "patrulheiro"
+            "Druida",
+            "Ranger"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " toque",
@@ -6380,7 +6380,7 @@
         "Nivel": 2,
         "Escola": "abjuração",
         "classes": [
-            "clérigo"
+            "Clerigo"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " toque",
@@ -6392,8 +6392,8 @@
         "Nivel": 4,
         "Escola": "conjuração",
         "classes": [
-            "druida",
-            "patrulheiro"
+            "Druida",
+            "Ranger"
         ],
         "TempoConjuracao": "1 ação bonus",
         "Alcance": " 30 pés",
@@ -6405,11 +6405,11 @@
         "Nivel": 6,
         "Escola": "adivinhação",
         "classes": [
-            "bardo",
-            "bruxo",
-            "clérigo",
-            "feiticeiro",
-            "mago"
+            "Bardo",
+            "Warlock",
+            "Clerigo",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " toque",
@@ -6421,11 +6421,11 @@
         "Nivel": 2,
         "Escola": "transmutação",
         "classes": [
-            "artífice",
-            "druida",
-            "feiticeiro",
-            "mago",
-            "patrulheiro"
+            "Artifice",
+            "Druida",
+            "Feiticeiro",
+            "Mago",
+            "Ranger"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " toque",
@@ -6437,8 +6437,8 @@
         "Nivel": 1,
         "Escola": "necromancia",
         "classes": [
-            "feiticeiro",
-            "mago"
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " pessoal",
@@ -6450,10 +6450,10 @@
         "Nivel": 3,
         "Escola": "transmutação",
         "classes": [
-            "artífice",
-            "bruxo",
-            "feiticeiro",
-            "mago"
+            "Artifice",
+            "Warlock",
+            "Feiticeiro",
+            "Mago"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " toque",
@@ -6465,7 +6465,7 @@
         "Nivel": 0,
         "Escola": "encantamento",
         "classes": [
-            "bardo"
+            "Bardo"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 60 pés",
@@ -6477,9 +6477,9 @@
         "Nivel": 2,
         "Escola": "encantamento",
         "classes": [
-            "bardo",
-            "clérigo",
-            "paladino"
+            "Bardo",
+            "Clerigo",
+            "Paladino"
         ],
         "TempoConjuracao": "1 ação",
         "Alcance": " 60 pés",

@@ -5,20 +5,30 @@ const variables = require("../modules/variables.js");
 module.exports.run = async (bot, message, comando, personagemDoJogador) => {
 
     var alvo;
-    note = `${comando.slice(1, comando.lenght).join(" ")}`;
+    var item_escolhido = `${comando.slice(1, comando.length).join(" ")}`;
+    var buscas = item_escolhido.split("$");
+    switch (buscas[1].slice(0, 4)) {
+        case "arma":
+            if(variables.weapons[buscas[1].slice(5, buscas[1].length)]){
+                alvo = personagemDoJogador.Armas;
+            }else{
+                message.channel.send("Esta arma não está cadastrada")
+                return;
+            }
+            break;
+        case "item":
+            alvo = personagemDoJogador.Itens;
+            break;
+        default:
+            message.channel.send("Não foi encontrado nenhum comando")
+            return;
+    } 
 
-    if (variables.weapons[note]) {
-        alvo = personagemDoJogador.Armas;
-    } else {
-        alvo = personagemDoJogador.Itens;
-    }
-
-    console.log(note);
-    console.log(typeof alvo);
-    alvo.push(note);
+    buscas = buscas[1].slice(5, buscas[1].length)
+    alvo.push(buscas);
 
     if (alvo = personagemDoJogador.Armas && personagemDoJogador.ArmaSelecionada == "") {
-        personagemDoJogador.ArmaSelecionada = note;
+        personagemDoJogador.ArmaSelecionada = buscas;
     }
 
     functions.SaveJson(variables.chars, variables.fileSave);

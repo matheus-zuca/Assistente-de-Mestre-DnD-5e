@@ -76,7 +76,7 @@ function onCollect(emoji, message) {
 }
 
 function filter(reaction, user) {
-    return (!user.bot) && (reactionArrow.includes(reaction.emoji.name)); // check if the emoji is inside the list of emojis, and if the user is not a bot
+    return (!user.bot) && (reactionArrow.includes(reaction.emoji.name));
 }
 
 function createCollectorMessage(message) {

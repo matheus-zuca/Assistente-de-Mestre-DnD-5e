@@ -127,9 +127,6 @@ que a classe é proficiente e outras questões semelhantes também são automati
 //O programa calcula automaticamente se o personagem subiu de nivel e faz as alterações para tal
 ~~~
 
-## ⚙️ Implementações Futuras
-
-[ ] Atualizar ficha 
 
 ## 🛠 Tecnologias
 
