@@ -66,7 +66,7 @@ module.exports.run = async (bot, message, comando, personagemDoJogador) => {
 module.exports.help = {
     name: "XP",
     code: "xp",
-    description: "[A PROGRAMAR] Calcula e atualiza o nível de proficiência do seu personagem baseado na sua subida de nivel."
+    description: "Adiciona uma quantidade de XP ao seu personagem. Caso seja o suficiente para subir de nível, o processo é automatizado."
 }
 
 Object.prototype.getKeyByValue = function (value) {

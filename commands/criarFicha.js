@@ -313,7 +313,7 @@ async function DefinirProficiencias(message, filter) {
 module.exports.help = {
     name: "Criar Ficha",
     code: "m",
-    description: "[EM TESTES] Cria a ficha de personagem do zero."
+    description: "Cria a ficha de personagem do zero"
 }
 
 Object.prototype.getKeyByValue = function (value) {

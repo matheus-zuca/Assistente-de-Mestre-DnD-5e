@@ -68,5 +68,5 @@ module.exports.run = async (bot, message, comando, personagemDoJogador) => {
 module.exports.help = {
     name: "Atualizar ficha",
     code: "a",
-    description: "Atualiza partes da sua ficha."
+    description: "Atualiza partes da sua ficha, como nome, inspiração, raça ou alinhamento"
 } 
