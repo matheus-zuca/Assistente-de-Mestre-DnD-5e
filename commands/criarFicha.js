@@ -6,10 +6,10 @@ var PersonagemNovo = {};
 var nomeClasse;
 
 module.exports.run = async (bot, message, comando, personagemDoJogador) => {
-    if (personagemDoJogador) {
+    /*if (personagemDoJogador) {
         message.channel.send(`Sua ficha já está feita. Digite ${variables.prefix}c se quiser consulta-la ou ${variables.prefix}a se quiser altera-la. Se quiser exclui-la, digite e`)
         return;
-    }
+    }*/
 
 
     var filter = m => m.author.id === message.author.id;
@@ -104,7 +104,7 @@ module.exports.run = async (bot, message, comando, personagemDoJogador) => {
 }
 
 async function DefinirAtributos(message, filter) {
-    message.channel.send("Ok, " + nomePersonagem + ". \n Vamos aos atributos");
+    message.channel.send("Ok, " + nomePersonagem + ". \nVamos aos atributos");
 
     var atribs = [];
     var atribOrdem = [];
@@ -136,7 +136,7 @@ async function DefinirAtributos(message, filter) {
 }
 
 async function DefinirRaca(message, filter) {
-    var raca = `As Raças disponíveis são: \n ${variables.racas().join("\n")}`;
+    var raca = `As Raças disponíveis são: \n${variables.racas().join("\n")}`;
     message.channel.send(raca)
     while (!variables.racas().includes(raca)) {
         message.channel.send("Agora diga sua raça. Essa mensagem irá aparecer novamente se escolher uma raça não disponivel:");
@@ -183,7 +183,7 @@ async function DefinirRaca(message, filter) {
 }
 
 async function DefinirTendencia(message, filter) {
-    var Tendencia = `As tendências disponíveis são: \n ${variables.Alinhamentos.join("\n")}`;
+    var Tendencia = `As tendências disponíveis são: \n${variables.Alinhamentos.join("\n")}`;
     message.channel.send(Tendencia)
     while (!variables.Alinhamentos.includes(Tendencia)) {
         message.channel.send("Agora escolha seu alinhamento. Essa mensagem irá aparecer novamente se escolher uma classe não disponivel:");
@@ -195,7 +195,7 @@ async function DefinirTendencia(message, filter) {
 }
 
 async function DefinirClasse(message, filter) {
-    var classe = `As Classes disponíveis são: \n ${variables.classes().join("\n")}`;
+    var classe = `As Classes disponíveis são: \n${variables.classes().join("\n")}`;
     message.channel.send(classe)
     while (!variables.classes().includes(classe)) {
         message.channel.send("Agora escolha sua classe. Essa mensagem irá aparecer novamente se escolher uma classe não disponivel:");
@@ -251,7 +251,7 @@ async function DefinirAntecedentes(message, filter) {
     var profEsc = [];
     message.channel.send("Ok, " + nomePersonagem + ". \n Agora vamos escolher seu antecedente. Isso é o que define o que seu personagem era antes de se tornar um aventureiro");
 
-    mensagem = `As opções são:\n ${variables.antecedentes().join("\n")}`
+    mensagem = `As opções são:\n${variables.antecedentes().join("\n")}`
 
     resposta = "";
     while (!variables.antecedentes().includes(resposta)) {

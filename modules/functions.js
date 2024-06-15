@@ -56,19 +56,15 @@ module.exports = {
     },
 
     EscolhaAtributos: async function (arrayResult, a, mensagem, resposta, arrayHabilidades) {
-        resposta += `Os números disponíveis são: \n\n ${arrayResult.join("\n")} \n Qual valor quer para  ${arrayHabilidades[a]}?`
-        mensagem.channel.send(resposta);
-        temp = [];
-        var filter = m => m.author.id === mensagem.author.id;
-        temp = await mensagem.channel.awaitMessages(filter, { time: 10000, max: 1 });
-        var tempN = parseInt(temp.first().content);
-        if (arrayResult.includes(tempN)) {
-            return tempN;
+        while (!arrayResult.includes(tempN)) {
+            mensagem.channel.send(`Os números disponíveis são: \n\n${arrayResult.join("\n")} \n Qual valor quer para  ${arrayHabilidades[a]}?`)
+            let temp = [];
+            var filter = m => m.author.id === mensagem.author.id;
+            temp = await mensagem.channel.awaitMessages(filter, { time: 10000, max: 1 });
+            var tempN = parseInt(temp.first().content);
+
         }
-        else {
-            resposta = "Digite um número disponível: \n";
-            await EscolhaAtributos(arrayResult, a, mensagem, resposta, arrayHabilidades);
-        }
+        return tempN;
     },
 
     SaveJson: function (chars, fileSave) {
@@ -162,12 +158,12 @@ module.exports = {
         return texto;
     },
 
-    GetHabilidadeConjuradora: function(Personagem, classe){
+    GetHabilidadeConjuradora: function (Personagem, classe) {
         habilidades = variables.rel_class_habConju();
 
-        
+
         for (var key in habilidades) {
-            if(typeof(habilidades[key]) === 'function'){
+            if (typeof (habilidades[key]) === 'function') {
                 continue;
             }
             if (habilidades[key].includes(classe)) {
