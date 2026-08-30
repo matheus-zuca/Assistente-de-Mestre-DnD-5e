@@ -81,7 +81,7 @@ module.exports.help = {
 
 Object.prototype.getKeyByValue = function (value) {
     for (var key in this) {
-        if (this[key].includes(value)) {
+        if (this.values(key).includes(value)) {
             return key;
         }
     }

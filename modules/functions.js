@@ -69,7 +69,7 @@ module.exports = {
 
     SaveJson: function (chars, fileSave) {
         var dictString = JSON.stringify(chars);
-        fileSave.writeFile("chars.json", dictString, function (err) {
+        fileSave.writeFile("chars-ss.json", dictString, function (err) {
             if (err) throw err;
             console.log('Foi salvo!');
         });
@@ -188,7 +188,7 @@ function TemProficiencia(NomeHab, Jogador) {
 
 function SaveJson(chars, fileSave) {
     var dictString = JSON.stringify(chars);
-    fileSave.writeFile("chars.json", dictString, function (err) {
+    fileSave.writeFile("chars-ss.json", dictString, function (err) {
         if (err) throw err;
         console.log('Foi salvo!');
     });

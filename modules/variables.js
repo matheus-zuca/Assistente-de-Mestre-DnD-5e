@@ -14,7 +14,7 @@ module.exports = {
 
     Classes_Prep_Magia:["Clerigo", "Druida", "Paladino", "Mago"],
 
-    prefix: "/",
+    prefix: "!",
 
     ajuda: {
 
@@ -58,7 +58,7 @@ module.exports = {
 
     Alinhamentos: ["Leal e Bom", "Leal e Neutro", "Leal e Mau", "Neutro e Bom", "Neutro", "Neutro e Mau", "Caótico e Bom", "Caótico e Neutro", "Caótico e Mau"],
 
-    chars: require('../chars.json'),
+    chars: require('../chars-ss.json'),
 
     weapons: require('../weaponsinfo.json'),
 

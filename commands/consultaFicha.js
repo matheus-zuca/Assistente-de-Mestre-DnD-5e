@@ -14,7 +14,7 @@ module.exports.run = async (bot, message, comando, personagemDoJogador) => {
 						{ name: 'Nome:', value: personagemDoJogador.Nome, inline: true },
 						{ name: "Raça", value: personagemDoJogador.Raça, inline: true },
 						{ name: "Classe e Nivel", value: functions.GetClass(personagemDoJogador), inline: true },
-						{ name: "Tendência", value: "Alguma", inline: true },
+						{ name: "Tendência", value: personagemDoJogador.Alinhamento, inline: true },
 						{ name: "HP", value: personagemDoJogador.HP + " (" + personagemDoJogador.HPMax + ")", inline: true },
 						{ name: "CA", value: personagemDoJogador.CA, inline: true }
 					)
@@ -29,13 +29,13 @@ module.exports.run = async (bot, message, comando, personagemDoJogador) => {
 					)
 					.addField("Proficiências", "```" + personagemDoJogador.Proficiencias.join(", ") + "```")
 					.addField("Valor da Proficiência", personagemDoJogador.ValorProficiencia)
-					.addField("Armas", "```" + GetArrayArmas() + "```")
+					.addField("Armas", "```" + GetArrayArmas(personagemDoJogador) + "```")
 					.addField("Arma Atual", personagemDoJogador.ArmaSelecionada);
 	
 	message.channel.send(ficha_embed);
 }
 
-function GetArrayArmas(){
+function GetArrayArmas(personagemDoJogador){
 	var armas = ""
 
 	ArmasArray = personagemDoJogador.Armas.sort().reduce(function (acc, curr) {
